@@ -25,7 +25,6 @@
 sudo apt-get install stacer -y
 ```
 
-
 ### ubuntu 18.04
 ```
 wget -O - http://apt.hamonikr.org/hamonikr.key| sudo apt-key add -
@@ -33,19 +32,23 @@ sudo bash -c "echo 'deb https://apt.hamonikr.org sun main upstream' > /etc/apt/s
 sudo apt update
 sudo apt-get install stacer -y
 ```
-
 ### Debian x64
 
 1. Download `stacer_1.1.0_amd64.deb` from the [releases page](https://github.com/chaeya/Stacer/releases/tag/1.1.0hamonikr1).
 2. Run `sudo dpkg -i stacer*.deb` on the downloaded package.
 3. Launch Stacer using the installed `stacer` command.
 
-
 ### Build from source with CMake (HamoniKR 3.0)
 
-1. sudo apt insall qt5-default -y
+1. sudo apt insall build-essential dh-make qt5-default libqt5charts5-dev libqt5svg5-dev qttools5-dev ccache
 2. mkdir build && cd build
 3. cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=/usr/lib/x86_64-linux-gnu/qt5/bin ..
 4. make -j $(nproc)
 5. output/bin/stacer
 
+### Build from APT source Repository (HamoniKR 3.0)
+1. apt source stacer
+2. cd stacer-1.1.0hamonikr1
+3. edit sometings...
+4. sudo apt-get build-dep stacer
+5. dpkg-buildpackage -rfakeroot -uc -b
