@@ -1,0 +1,9 @@
+./stacer/AppRun
+./stacer/doc
+./stacer/lib
+./stacer/plugins
+./stacer/qt.conf
+./stacer/stacer
+./stacer/translations
+./applications/stacer.desktop
+./icons/hicolor

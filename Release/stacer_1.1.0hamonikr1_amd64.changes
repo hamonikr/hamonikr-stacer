@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Sat, 22 Aug 2020 12:29:08 +0900
+Source: stacer
+Binary: stacer
+Architecture: source all
+Version: 1.1.0hamonikr1
+Distribution: stable
+Urgency: medium
+Maintainer: HamoniKR Team <hamonikr-packages@googlegroups.com>
+Changed-By: HamoniKR Team <hamonikr-packages@googlegroups.com>
+Description:
+ stacer     - Linux System Optimizer and Monitoring
+Changes:
+ stacer (1.1.0hamonikr1) stable; urgency=medium
+ .
+   * removed feedback
+   * removed search page
+   * change link url to hamonikr team
+   * add korean language translation
+   * changed release script
+   * changed default font
+Checksums-Sha1:
+ cde53e8650059d41fc287d388d1efff920b4f6d3 935 stacer_1.1.0hamonikr1.dsc
+ 62c3a4bb141d2a3d4697c7b259e4df707f5ed8d2 28295168 stacer_1.1.0hamonikr1.orig.tar.xz
+ 319cacc95250219b2afb19a361b5be04eaf7fa05 12372 stacer_1.1.0hamonikr1.debian.tar.xz
+ 586162b18c0305336b8c344f311c305e81061133 28747496 stacer_1.1.0hamonikr1_all.deb
+ 1a5e380f6807a0b431da8695320ca1161cae1936 13493 stacer_1.1.0hamonikr1_amd64.buildinfo
+Checksums-Sha256:
+ 14584e2a365c03c91a337b8d7ad2f07f8262094311f978594dae8286c863cd58 935 stacer_1.1.0hamonikr1.dsc
+ e64b642802e083ad030961adae0c9c5e114670b728d51c795b16b5c9cf05fcda 28295168 stacer_1.1.0hamonikr1.orig.tar.xz
+ f5c77a12ac03302fc5c586130ba9023e467466fca5bb1e01dccb84601ab7e39e 12372 stacer_1.1.0hamonikr1.debian.tar.xz
+ 42d210520a42109800f99ac41dc0de79176a47de59ed691ea6ea9d1a2dae1dd1 28747496 stacer_1.1.0hamonikr1_all.deb
+ 8773582614ef2c5a5a714949a286c781bd2c01029a4f1b384812a4329af71ad5 13493 stacer_1.1.0hamonikr1_amd64.buildinfo
+Files:
+ 582f46827aaa8fc966bc5faa19469901 935 utils optional stacer_1.1.0hamonikr1.dsc
+ c00ed3389d372e2954f83f126d4407cb 28295168 utils optional stacer_1.1.0hamonikr1.orig.tar.xz
+ ef571fbf18073e0a462ab0835103a8ee 12372 utils optional stacer_1.1.0hamonikr1.debian.tar.xz
+ 0143c67c1323723c4c59381bd55d6acb 28747496 utils optional stacer_1.1.0hamonikr1_all.deb
+ 0ccf975ee49968d8d2add5ffd5da1a1b 13493 utils optional stacer_1.1.0hamonikr1_amd64.buildinfo
