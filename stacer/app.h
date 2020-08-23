@@ -43,18 +43,17 @@ private slots:
     void clickSidebarButton(QString pageTitle, bool isShow = false);
 
     void on_btnDash_clicked();
-    void on_btnSystemCleaner_clicked();
     void on_btnStartupApps_clicked();
-    void on_btnServices_clicked();
+    void on_btnSystemCleaner_clicked();    
+    void on_btnServices_clicked();    
     // void on_btnSearch_clicked();
+    void on_btnProcesses_clicked();    
     void on_btnUninstaller_clicked();
+    void on_btnResources_clicked();    
     void on_btnHelpers_clicked();
-    void on_btnResources_clicked();
-    void on_btnProcesses_clicked();
-    void on_btnSettings_clicked();
+    void on_btnAptSourceManager_clicked();    
     void on_btnGnomeSettings_clicked();
-    void on_btnAptSourceManager_clicked();
-
+    void on_btnSettings_clicked();
     // void on_btnFeedback_clicked();
 
 private:
@@ -75,15 +74,15 @@ private:
     DashboardPage *dashboardPage;
     StartupAppsPage *startupAppsPage;
     SystemCleanerPage *systemCleanerPage;
-    SearchPage *searchPage;
+    // SearchPage *searchPage;
     ServicesPage *servicesPage;
     ProcessesPage *processPage;
     UninstallerPage *uninstallerPage;
     ResourcesPage *resourcesPage;
     APTSourceManagerPage *aptSourceManagerPage;
+    HelpersPage *helpersPage;    
     GnomeSettingsPage *gnomeSettingsPage;
     SettingsPage *settingsPage;
-    HelpersPage *helpersPage;
 
     QSharedPointer<Feedback> feedback;
 

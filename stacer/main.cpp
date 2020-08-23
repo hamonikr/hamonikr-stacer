@@ -65,7 +65,7 @@ int main(int argc, char *argv[])
         parser.process(app);
     }
 
-    QFontDatabase::addApplicationFont(":/static/font/NanumBarunGothic.ttf");
+    QFontDatabase::addApplicationFont(":/static/font/NanumGothic.ttf");
 
     QPixmap pixSplash(":/static/splashscreen.png");
 

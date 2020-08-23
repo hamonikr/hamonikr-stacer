@@ -34,7 +34,7 @@ void App::init()
 
     dashboardPage = new DashboardPage(mSlidingStacked);
     startupAppsPage = new StartupAppsPage(mSlidingStacked);
-    searchPage = new SearchPage(mSlidingStacked);
+    // searchPage = new SearchPage(mSlidingStacked);
     systemCleanerPage = new SystemCleanerPage(mSlidingStacked);
     servicesPage = new ServicesPage(mSlidingStacked);
     processPage = new ProcessesPage(mSlidingStacked);
@@ -46,8 +46,8 @@ void App::init()
     ui->pageContentLayout->addWidget(mSlidingStacked);
 
     mListPages = {
-        dashboardPage, startupAppsPage, systemCleanerPage, searchPage, servicesPage,
-        processPage, uninstallerPage, resourcesPage, helpersPage, settingsPage
+        dashboardPage, startupAppsPage, systemCleanerPage, /*searchPage,*/ servicesPage,
+        processPage, helpersPage, uninstallerPage, resourcesPage, settingsPage
     };
 
     mListSidebarButtons = {
