@@ -161,7 +161,7 @@
     <message>
         <location filename="../stacer/app.ui" line="306"/>
         <source>Helpers</source>
-        <translation type="unfinished">도움말</translation>
+        <translation type="unfinished">호스트 설정</translation>
     </message>
     <message>
         <location filename="../stacer/app.ui" line="334"/>
@@ -530,12 +530,12 @@
     <message>
         <location filename="../stacer/Pages/Helpers/helpers_page.ui" line="14"/>
         <source>Helpers</source>
-        <translation type="unfinished">도움말</translation>
+        <translation type="unfinished">호스트 설정</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Helpers/helpers_page.ui" line="62"/>
         <source>Host Manage</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">호스트 관리</translation>
     </message>
 </context>
 <context>
