@@ -1,18 +1,18 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'app.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.5)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.12.8)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../../stacer/app.h"
+#include "app.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'app.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.9.5. It"
+#error "This file was generated using the moc from 5.12.8. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -42,35 +42,36 @@ QT_MOC_LITERAL(7, 42, 18), // "clickSidebarButton"
 QT_MOC_LITERAL(8, 61, 9), // "pageTitle"
 QT_MOC_LITERAL(9, 71, 6), // "isShow"
 QT_MOC_LITERAL(10, 78, 18), // "on_btnDash_clicked"
-QT_MOC_LITERAL(11, 97, 27), // "on_btnSystemCleaner_clicked"
-QT_MOC_LITERAL(12, 125, 25), // "on_btnStartupApps_clicked"
+QT_MOC_LITERAL(11, 97, 25), // "on_btnStartupApps_clicked"
+QT_MOC_LITERAL(12, 123, 27), // "on_btnSystemCleaner_clicked"
 QT_MOC_LITERAL(13, 151, 22), // "on_btnServices_clicked"
-QT_MOC_LITERAL(14, 174, 25), // "on_btnUninstaller_clicked"
-QT_MOC_LITERAL(15, 200, 21), // "on_btnHelpers_clicked"
-QT_MOC_LITERAL(16, 222, 23), // "on_btnResources_clicked"
-QT_MOC_LITERAL(17, 246, 23), // "on_btnProcesses_clicked"
-QT_MOC_LITERAL(18, 270, 22), // "on_btnSettings_clicked"
-QT_MOC_LITERAL(19, 293, 27), // "on_btnGnomeSettings_clicked"
-QT_MOC_LITERAL(20, 321, 30) // "on_btnAptSourceManager_clicked"
+QT_MOC_LITERAL(14, 174, 23), // "on_btnProcesses_clicked"
+QT_MOC_LITERAL(15, 198, 25), // "on_btnUninstaller_clicked"
+QT_MOC_LITERAL(16, 224, 23), // "on_btnResources_clicked"
+QT_MOC_LITERAL(17, 248, 21), // "on_btnHelpers_clicked"
+QT_MOC_LITERAL(18, 270, 30), // "on_btnAptSourceManager_clicked"
+QT_MOC_LITERAL(19, 301, 27), // "on_btnGnomeSettings_clicked"
+QT_MOC_LITERAL(20, 329, 22) // "on_btnSettings_clicked"
 
     },
     "App\0init\0\0pageClick\0QWidget*\0widget\0"
     "slide\0clickSidebarButton\0pageTitle\0"
     "isShow\0on_btnDash_clicked\0"
-    "on_btnSystemCleaner_clicked\0"
     "on_btnStartupApps_clicked\0"
-    "on_btnServices_clicked\0on_btnUninstaller_clicked\0"
-    "on_btnHelpers_clicked\0on_btnResources_clicked\0"
-    "on_btnProcesses_clicked\0on_btnSettings_clicked\0"
+    "on_btnSystemCleaner_clicked\0"
+    "on_btnServices_clicked\0on_btnProcesses_clicked\0"
+    "on_btnUninstaller_clicked\0"
+    "on_btnResources_clicked\0on_btnHelpers_clicked\0"
+    "on_btnAptSourceManager_clicked\0"
     "on_btnGnomeSettings_clicked\0"
-    "on_btnAptSourceManager_clicked"
+    "on_btnSettings_clicked"
 };
 #undef QT_MOC_LITERAL
 
 static const uint qt_meta_data_App[] = {
 
  // content:
-       7,       // revision
+       8,       // revision
        0,       // classname
        0,    0, // classinfo
       16,   14, // methods
@@ -122,7 +123,7 @@ static const uint qt_meta_data_App[] = {
 void App::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
-        App *_t = static_cast<App *>(_o);
+        auto *_t = static_cast<App *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->init(); break;
@@ -131,16 +132,16 @@ void App::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **
         case 3: _t->clickSidebarButton((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< bool(*)>(_a[2]))); break;
         case 4: _t->clickSidebarButton((*reinterpret_cast< QString(*)>(_a[1]))); break;
         case 5: _t->on_btnDash_clicked(); break;
-        case 6: _t->on_btnSystemCleaner_clicked(); break;
-        case 7: _t->on_btnStartupApps_clicked(); break;
+        case 6: _t->on_btnStartupApps_clicked(); break;
+        case 7: _t->on_btnSystemCleaner_clicked(); break;
         case 8: _t->on_btnServices_clicked(); break;
-        case 9: _t->on_btnUninstaller_clicked(); break;
-        case 10: _t->on_btnHelpers_clicked(); break;
+        case 9: _t->on_btnProcesses_clicked(); break;
+        case 10: _t->on_btnUninstaller_clicked(); break;
         case 11: _t->on_btnResources_clicked(); break;
-        case 12: _t->on_btnProcesses_clicked(); break;
-        case 13: _t->on_btnSettings_clicked(); break;
+        case 12: _t->on_btnHelpers_clicked(); break;
+        case 13: _t->on_btnAptSourceManager_clicked(); break;
         case 14: _t->on_btnGnomeSettings_clicked(); break;
-        case 15: _t->on_btnAptSourceManager_clicked(); break;
+        case 15: _t->on_btnSettings_clicked(); break;
         default: ;
         }
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
@@ -164,10 +165,14 @@ void App::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **
     }
 }
 
-const QMetaObject App::staticMetaObject = {
-    { &QMainWindow::staticMetaObject, qt_meta_stringdata_App.data,
-      qt_meta_data_App,  qt_static_metacall, nullptr, nullptr}
-};
+QT_INIT_METAOBJECT const QMetaObject App::staticMetaObject = { {
+    &QMainWindow::staticMetaObject,
+    qt_meta_stringdata_App.data,
+    qt_meta_data_App,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
 
 
 const QMetaObject *App::metaObject() const

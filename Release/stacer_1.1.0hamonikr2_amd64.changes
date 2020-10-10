@@ -1,0 +1,53 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 10 Oct 2020 11:01:55 +0900
+Source: stacer
+Binary: stacer
+Architecture: source all
+Version: 1.1.0hamonikr2
+Distribution: jin
+Urgency: medium
+Maintainer: HamoniKR Team <hamonikr-packages@googlegroups.com>
+Changed-By: HamoniKR <pkg@hamonikr.org>
+Description:
+ stacer     - Linux System Optimizer and Monitoring
+Changes:
+ stacer (1.1.0hamonikr2) jin; urgency=medium
+ .
+   * rebuild for hamonikr 4.0
+   * changed stacer.desktop file
+Checksums-Sha1:
+ c70edff1b1cba351d99034dc84b09b9210705a80 1668 stacer_1.1.0hamonikr2.dsc
+ 073909ddd2423cce16726c999aa5fafb2d141b6b 28462408 stacer_1.1.0hamonikr2.orig.tar.xz
+ 12989c4e3affddb073ae3f741415b9a97e861711 12424 stacer_1.1.0hamonikr2.debian.tar.xz
+ f87dda3830aaab8e636eeb0693b3deae590a45cc 28750932 stacer_1.1.0hamonikr2_all.deb
+ 1f476b7e1ed6ccb75e2b3bd7aa8841ef3fcc3a58 13687 stacer_1.1.0hamonikr2_amd64.buildinfo
+Checksums-Sha256:
+ eed2a3130c9b7e1a2c398d21aa92dbacc21fd1592b85ad9c3c29716cf4fb0ca0 1668 stacer_1.1.0hamonikr2.dsc
+ 20cd5e8a44b729509f2274ed62f612df73cea83aba0759e43a06c6934192e3e3 28462408 stacer_1.1.0hamonikr2.orig.tar.xz
+ ac67d29421a4e7fe7e6016a757f917311b84472624fee714ed05b759ca364bb1 12424 stacer_1.1.0hamonikr2.debian.tar.xz
+ f34e061f86827d56c83a5317e4d28477bb1023f8af152ab0cebc0a55f4dff583 28750932 stacer_1.1.0hamonikr2_all.deb
+ 17d8f76ff44bd66fe6b9d68da0b20f544dd7943cb76fd90957d4614d2e2f11b9 13687 stacer_1.1.0hamonikr2_amd64.buildinfo
+Files:
+ 2c38543409fd4a1d99caa9f0c8272a76 1668 utils optional stacer_1.1.0hamonikr2.dsc
+ 92e1c0c13e397f89f0c7ffcd965c1157 28462408 utils optional stacer_1.1.0hamonikr2.orig.tar.xz
+ d1a7c8295bd217b16bed2a011059623d 12424 utils optional stacer_1.1.0hamonikr2.debian.tar.xz
+ d89d02fa32fe835a37369d340b0dc4fc 28750932 utils optional stacer_1.1.0hamonikr2_all.deb
+ 1d237c333e73deac2925257ef7db86a9 13687 utils optional stacer_1.1.0hamonikr2_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHFBAEBCgAvFiEEBddK8XPCFPeFt5nhlVFZFYlQgcYFAl+BHbwRHHBrZ0BoYW1v
+bmlrci5vcmcACgkQlVFZFYlQgcbaiQv/QrWmEkIBQrIeLnsfUg4pKA0+qsRJT8/x
+vDglYpcJX3syjC56987aOxwu5Y5mqPD4vvQQ7udQm4YoBc+KkVR0863iei8qBTIc
+urLrrRK6w81VD4HcV/CuCHSuDtW7tNVsXbndpBdwyGLJWnG4l8sHRvx1dUsNoeko
+pey+LXgpy0uJlBGhk/eoopg1DsRrdTXuolWG2nU0cm5SedtdXWd8oMOYQnev2j8h
+v+0GONPWdDeX83Yh721FW+B5Fbwv+736ftuodPx3QiTBTSazGmkPLLwfme6FXN1m
+YlE7L1hFv5QX2oda8WsLJy9l7NUr6307kPgQj45jdokl84+t+n/cySfq4apSG5m4
+tDXlG+55YUrDDcgm4fbyLyeHlD/3PTqQFp6F8MTQS8SPysxAyZNrb5Clw4q5gH1B
+6l3OstztMGQg6okCVPSvcZuBu5Afd+QOZ5OKVcdzM8RuCHP+BX3/dRZ3e1/U3kIQ
+dMkpyYwyDvJYiYjVZ6Ze9M1P8PmBJGql
+=ZIPJ
+-----END PGP SIGNATURE-----

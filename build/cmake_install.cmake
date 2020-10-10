@@ -1,4 +1,4 @@
-# Install script for directory: /home/hamonikr/work/Stacer
+# Install script for directory: /home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/hamonikr/work/Stacer/build/stacer-core/cmake_install.cmake")
-  include("/home/hamonikr/work/Stacer/build/stacer/cmake_install.cmake")
+  include("/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/build/stacer-core/cmake_install.cmake")
+  include("/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/build/stacer/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hamonikr/work/Stacer/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

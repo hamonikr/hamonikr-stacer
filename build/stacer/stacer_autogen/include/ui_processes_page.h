@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'processes_page.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.5
+** Created by: Qt User Interface Compiler version 5.12.8
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,9 +10,7 @@
 #define UI_PROCESSES_PAGE_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QCheckBox>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QHBoxLayout>
@@ -47,29 +45,29 @@ public:
     void setupUi(QWidget *ProcessesPage)
     {
         if (ProcessesPage->objectName().isEmpty())
-            ProcessesPage->setObjectName(QStringLiteral("ProcessesPage"));
+            ProcessesPage->setObjectName(QString::fromUtf8("ProcessesPage"));
         ProcessesPage->resize(835, 612);
-        ProcessesPage->setStyleSheet(QStringLiteral(""));
+        ProcessesPage->setStyleSheet(QString::fromUtf8(""));
         gridLayout = new QGridLayout(ProcessesPage);
-        gridLayout->setObjectName(QStringLiteral("gridLayout"));
+        gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         gridLayout->setHorizontalSpacing(0);
         gridLayout->setVerticalSpacing(5);
         gridLayout->setContentsMargins(20, 5, 20, 20);
         topLayout = new QHBoxLayout();
         topLayout->setSpacing(10);
-        topLayout->setObjectName(QStringLiteral("topLayout"));
+        topLayout->setObjectName(QString::fromUtf8("topLayout"));
         topLayout->setContentsMargins(5, 0, 10, -1);
         lblProcessTitle = new QLabel(ProcessesPage);
-        lblProcessTitle->setObjectName(QStringLiteral("lblProcessTitle"));
+        lblProcessTitle->setObjectName(QString::fromUtf8("lblProcessTitle"));
 
         topLayout->addWidget(lblProcessTitle);
 
         checkAllProcesses = new QCheckBox(ProcessesPage);
-        checkAllProcesses->setObjectName(QStringLiteral("checkAllProcesses"));
+        checkAllProcesses->setObjectName(QString::fromUtf8("checkAllProcesses"));
         checkAllProcesses->setCursor(QCursor(Qt::PointingHandCursor));
         checkAllProcesses->setFocusPolicy(Qt::NoFocus);
 #ifndef QT_NO_ACCESSIBILITY
-        checkAllProcesses->setAccessibleName(QStringLiteral("circle"));
+        checkAllProcesses->setAccessibleName(QString::fromUtf8("circle"));
 #endif // QT_NO_ACCESSIBILITY
 
         topLayout->addWidget(checkAllProcesses);
@@ -79,7 +77,7 @@ public:
         topLayout->addItem(horizontalSpacer);
 
         txtProcessSearch = new QLineEdit(ProcessesPage);
-        txtProcessSearch->setObjectName(QStringLiteral("txtProcessSearch"));
+        txtProcessSearch->setObjectName(QString::fromUtf8("txtProcessSearch"));
         QFont font;
         font.setPointSize(10);
         txtProcessSearch->setFont(font);
@@ -90,7 +88,7 @@ public:
         gridLayout->addLayout(topLayout, 1, 0, 1, 1);
 
         tableProcess = new QTableView(ProcessesPage);
-        tableProcess->setObjectName(QStringLiteral("tableProcess"));
+        tableProcess->setObjectName(QString::fromUtf8("tableProcess"));
         tableProcess->setFocusPolicy(Qt::NoFocus);
         tableProcess->setFrameShape(QFrame::NoFrame);
         tableProcess->setFrameShadow(QFrame::Sunken);
@@ -110,22 +108,22 @@ public:
         gridLayout->addWidget(tableProcess, 3, 0, 1, 1);
 
         bottomWidget = new QWidget(ProcessesPage);
-        bottomWidget->setObjectName(QStringLiteral("bottomWidget"));
+        bottomWidget->setObjectName(QString::fromUtf8("bottomWidget"));
         bottomLayout = new QHBoxLayout(bottomWidget);
         bottomLayout->setSpacing(10);
-        bottomLayout->setObjectName(QStringLiteral("bottomLayout"));
+        bottomLayout->setObjectName(QString::fromUtf8("bottomLayout"));
         bottomLayout->setContentsMargins(0, 5, 0, 0);
         lblRefresh = new QLabel(bottomWidget);
-        lblRefresh->setObjectName(QStringLiteral("lblRefresh"));
-        lblRefresh->setText(QStringLiteral("Refresh (1)"));
+        lblRefresh->setObjectName(QString::fromUtf8("lblRefresh"));
+        lblRefresh->setText(QString::fromUtf8("Refresh (1)"));
 
         bottomLayout->addWidget(lblRefresh, 0, Qt::AlignLeft|Qt::AlignVCenter);
 
         sliderRefresh = new QSlider(bottomWidget);
-        sliderRefresh->setObjectName(QStringLiteral("sliderRefresh"));
+        sliderRefresh->setObjectName(QString::fromUtf8("sliderRefresh"));
         sliderRefresh->setCursor(QCursor(Qt::PointingHandCursor));
         sliderRefresh->setFocusPolicy(Qt::NoFocus);
-        sliderRefresh->setStyleSheet(QStringLiteral(""));
+        sliderRefresh->setStyleSheet(QString::fromUtf8(""));
         sliderRefresh->setOrientation(Qt::Horizontal);
 
         bottomLayout->addWidget(sliderRefresh, 0, Qt::AlignLeft|Qt::AlignVCenter);
@@ -135,11 +133,11 @@ public:
         bottomLayout->addItem(horizontalSpacer_2);
 
         btnEndProcess = new QPushButton(bottomWidget);
-        btnEndProcess->setObjectName(QStringLiteral("btnEndProcess"));
+        btnEndProcess->setObjectName(QString::fromUtf8("btnEndProcess"));
         btnEndProcess->setCursor(QCursor(Qt::PointingHandCursor));
         btnEndProcess->setFocusPolicy(Qt::NoFocus);
 #ifndef QT_NO_ACCESSIBILITY
-        btnEndProcess->setAccessibleName(QStringLiteral("primary"));
+        btnEndProcess->setAccessibleName(QString::fromUtf8("primary"));
 #endif // QT_NO_ACCESSIBILITY
 
         bottomLayout->addWidget(btnEndProcess);
@@ -155,11 +153,11 @@ public:
 
     void retranslateUi(QWidget *ProcessesPage)
     {
-        ProcessesPage->setWindowTitle(QApplication::translate("ProcessesPage", "Processes", Q_NULLPTR));
-        lblProcessTitle->setText(QApplication::translate("ProcessesPage", "Processes", Q_NULLPTR));
-        checkAllProcesses->setText(QApplication::translate("ProcessesPage", "All Processes", Q_NULLPTR));
-        txtProcessSearch->setPlaceholderText(QApplication::translate("ProcessesPage", "Search...", Q_NULLPTR));
-        btnEndProcess->setText(QApplication::translate("ProcessesPage", "End Process", Q_NULLPTR));
+        ProcessesPage->setWindowTitle(QApplication::translate("ProcessesPage", "Processes", nullptr));
+        lblProcessTitle->setText(QApplication::translate("ProcessesPage", "Processes", nullptr));
+        checkAllProcesses->setText(QApplication::translate("ProcessesPage", "All Processes", nullptr));
+        txtProcessSearch->setPlaceholderText(QApplication::translate("ProcessesPage", "Search...", nullptr));
+        btnEndProcess->setText(QApplication::translate("ProcessesPage", "End Process", nullptr));
     } // retranslateUi
 
 };

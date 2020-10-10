@@ -103,7 +103,7 @@
         <translation>റദ്ദാക്കുക</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="419"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="418"/>
         <source>Select to delete or edit.</source>
         <translation>തിരുത്താനോ ഇല്ലാതാക്കാനോ തിരഞ്ഞെടുക്കുക.</translation>
     </message>
@@ -1074,17 +1074,17 @@
         <translation>സര്‍വീസുകള്‍</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.ui" line="137"/>
+        <location filename="../stacer/Pages/Services/services_page.ui" line="135"/>
         <source>Startup at boot ?</source>
         <translation>ബൂട്ടിങ്  സമയത്ത് ആരംഭിക്കുന്നു ?</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.ui" line="190"/>
+        <location filename="../stacer/Pages/Services/services_page.ui" line="187"/>
         <source>Running Now ?</source>
         <translation>ഇപ്പോൾ പ്രവർത്തിക്കുന്നുണ്ടോ ?</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.ui" line="244"/>
+        <location filename="../stacer/Pages/Services/services_page.ui" line="241"/>
         <source>Not Found System Service</source>
         <translation>സിസ്റ്റം സർവീസുകൾ കണ്ടെത്താനായില്ല</translation>
     </message>
@@ -1280,7 +1280,7 @@
 <context>
     <name>StartupAppsPage</name>
     <message>
-        <location filename="../stacer/Pages/StartupApps/startup_apps_page.ui" line="201"/>
+        <location filename="../stacer/Pages/StartupApps/startup_apps_page.ui" line="200"/>
         <source>Not Found Startup Apps</source>
         <translatorcomment>ഇത് വരെ പ്രയോഗങ്ങളൊന്നും ചേർക്കപ്പെട്ടിട്ടില്ല</translatorcomment>
         <translation>ഒന്നും തന്നെ കാണുന്നില്ല</translation>
@@ -1398,33 +1398,33 @@
     </message>
     <message>
         <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="78"/>
-        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="201"/>
+        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="200"/>
         <source>notFoundWidget</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="371"/>
+        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="369"/>
         <source>System Packages</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="393"/>
+        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="391"/>
         <source>Snap Packages</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="442"/>
+        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="440"/>
         <source>Search...</source>
         <translation>തിരയുക...</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="108"/>
-        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="231"/>
+        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="230"/>
         <source>Not Found Installed Packages</source>
         <translation>ചേർത്തിട്ടുള്ള പ്രയോഗങ്ങളൊന്നും കണ്ടെത്താനായില്ല</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="340"/>
+        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="338"/>
         <source>Uninstall Selected</source>
         <translation>തെരഞ്ഞെടുത്തവ ഒഴിവാക്കാകുക</translation>
     </message>

@@ -1,18 +1,18 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'uninstaller_page.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.5)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.12.8)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../../stacer/Pages/Uninstaller/uninstaller_page.h"
+#include "Pages/Uninstaller/uninstaller_page.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'uninstaller_page.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.9.5. It"
+#error "This file was generated using the moc from 5.12.8. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -66,7 +66,7 @@ QT_MOC_LITERAL(16, 296, 33) // "on_listWidgetPackages_itemCli..."
 static const uint qt_meta_data_UninstallerPage[] = {
 
  // content:
-       7,       // revision
+       8,       // revision
        0,       // classname
        0,    0, // classinfo
       12,   14, // methods
@@ -110,7 +110,7 @@ static const uint qt_meta_data_UninstallerPage[] = {
 void UninstallerPage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
-        UninstallerPage *_t = static_cast<UninstallerPage *>(_o);
+        auto *_t = static_cast<UninstallerPage *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->uninstallStarted(); break;
@@ -132,10 +132,14 @@ void UninstallerPage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int 
     }
 }
 
-const QMetaObject UninstallerPage::staticMetaObject = {
-    { &QWidget::staticMetaObject, qt_meta_stringdata_UninstallerPage.data,
-      qt_meta_data_UninstallerPage,  qt_static_metacall, nullptr, nullptr}
-};
+QT_INIT_METAOBJECT const QMetaObject UninstallerPage::staticMetaObject = { {
+    &QWidget::staticMetaObject,
+    qt_meta_stringdata_UninstallerPage.data,
+    qt_meta_data_UninstallerPage,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
 
 
 const QMetaObject *UninstallerPage::metaObject() const

@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'host_manage.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.5
+** Created by: Qt User Interface Compiler version 5.12.8
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,9 +10,7 @@
 #define UI_HOST_MANAGE_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QHeaderView>
@@ -48,14 +46,14 @@ public:
     void setupUi(QWidget *HostManage)
     {
         if (HostManage->objectName().isEmpty())
-            HostManage->setObjectName(QStringLiteral("HostManage"));
+            HostManage->setObjectName(QString::fromUtf8("HostManage"));
         HostManage->resize(804, 534);
         gridLayout = new QGridLayout(HostManage);
         gridLayout->setSpacing(10);
-        gridLayout->setObjectName(QStringLiteral("gridLayout"));
+        gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         gridLayout->setContentsMargins(5, 0, 5, 10);
         lblErrorMsg = new QLabel(HostManage);
-        lblErrorMsg->setObjectName(QStringLiteral("lblErrorMsg"));
+        lblErrorMsg->setObjectName(QString::fromUtf8("lblErrorMsg"));
         QFont font;
         font.setPointSize(10);
         lblErrorMsg->setFont(font);
@@ -63,12 +61,12 @@ public:
         gridLayout->addWidget(lblErrorMsg, 2, 0, 1, 1);
 
         lblChangesMsg = new QLabel(HostManage);
-        lblChangesMsg->setObjectName(QStringLiteral("lblChangesMsg"));
+        lblChangesMsg->setObjectName(QString::fromUtf8("lblChangesMsg"));
 
         gridLayout->addWidget(lblChangesMsg, 5, 0, 1, 1);
 
         btnSaveChanges = new QPushButton(HostManage);
-        btnSaveChanges->setObjectName(QStringLiteral("btnSaveChanges"));
+        btnSaveChanges->setObjectName(QString::fromUtf8("btnSaveChanges"));
         btnSaveChanges->setCursor(QCursor(Qt::PointingHandCursor));
         btnSaveChanges->setFocusPolicy(Qt::NoFocus);
 
@@ -76,10 +74,10 @@ public:
 
         horizontalLayout_2 = new QHBoxLayout();
         horizontalLayout_2->setSpacing(10);
-        horizontalLayout_2->setObjectName(QStringLiteral("horizontalLayout_2"));
+        horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
         horizontalLayout_2->setContentsMargins(0, 0, -1, -1);
         lblHostTitle = new QLabel(HostManage);
-        lblHostTitle->setObjectName(QStringLiteral("lblHostTitle"));
+        lblHostTitle->setObjectName(QString::fromUtf8("lblHostTitle"));
 
         horizontalLayout_2->addWidget(lblHostTitle, 0, Qt::AlignLeft);
 
@@ -88,7 +86,7 @@ public:
         horizontalLayout_2->addItem(horizontalSpacer);
 
         btnNewHost = new QPushButton(HostManage);
-        btnNewHost->setObjectName(QStringLiteral("btnNewHost"));
+        btnNewHost->setObjectName(QString::fromUtf8("btnNewHost"));
         btnNewHost->setCursor(QCursor(Qt::PointingHandCursor));
         btnNewHost->setFocusPolicy(Qt::NoFocus);
         btnNewHost->setCheckable(true);
@@ -100,36 +98,36 @@ public:
         gridLayout->addLayout(horizontalLayout_2, 0, 0, 1, 2);
 
         widgetAddEditHost = new QWidget(HostManage);
-        widgetAddEditHost->setObjectName(QStringLiteral("widgetAddEditHost"));
+        widgetAddEditHost->setObjectName(QString::fromUtf8("widgetAddEditHost"));
         horizontalLayout = new QHBoxLayout(widgetAddEditHost);
         horizontalLayout->setSpacing(8);
-        horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
+        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
         txtIP = new QLineEdit(widgetAddEditHost);
-        txtIP->setObjectName(QStringLiteral("txtIP"));
+        txtIP->setObjectName(QString::fromUtf8("txtIP"));
         txtIP->setFocusPolicy(Qt::StrongFocus);
 
         horizontalLayout->addWidget(txtIP);
 
         txtFullyQualified = new QLineEdit(widgetAddEditHost);
-        txtFullyQualified->setObjectName(QStringLiteral("txtFullyQualified"));
+        txtFullyQualified->setObjectName(QString::fromUtf8("txtFullyQualified"));
 
         horizontalLayout->addWidget(txtFullyQualified);
 
         txtAliases = new QLineEdit(widgetAddEditHost);
-        txtAliases->setObjectName(QStringLiteral("txtAliases"));
+        txtAliases->setObjectName(QString::fromUtf8("txtAliases"));
 
         horizontalLayout->addWidget(txtAliases);
 
         btnSave = new QPushButton(widgetAddEditHost);
-        btnSave->setObjectName(QStringLiteral("btnSave"));
+        btnSave->setObjectName(QString::fromUtf8("btnSave"));
         btnSave->setCursor(QCursor(Qt::PointingHandCursor));
         btnSave->setFocusPolicy(Qt::NoFocus);
 
         horizontalLayout->addWidget(btnSave);
 
         btnCancel = new QPushButton(widgetAddEditHost);
-        btnCancel->setObjectName(QStringLiteral("btnCancel"));
+        btnCancel->setObjectName(QString::fromUtf8("btnCancel"));
         btnCancel->setCursor(QCursor(Qt::PointingHandCursor));
         btnCancel->setFocusPolicy(Qt::NoFocus);
 
@@ -139,7 +137,7 @@ public:
         gridLayout->addWidget(widgetAddEditHost, 1, 0, 1, 2);
 
         tableViewHosts = new QTableView(HostManage);
-        tableViewHosts->setObjectName(QStringLiteral("tableViewHosts"));
+        tableViewHosts->setObjectName(QString::fromUtf8("tableViewHosts"));
         tableViewHosts->setFocusPolicy(Qt::NoFocus);
         tableViewHosts->setFrameShape(QFrame::NoFrame);
         tableViewHosts->setEditTriggers(QAbstractItemView::NoEditTriggers);
@@ -160,29 +158,29 @@ public:
 
     void retranslateUi(QWidget *HostManage)
     {
-        HostManage->setWindowTitle(QApplication::translate("HostManage", "Form", Q_NULLPTR));
+        HostManage->setWindowTitle(QApplication::translate("HostManage", "Form", nullptr));
         lblErrorMsg->setText(QString());
         lblChangesMsg->setText(QString());
 #ifndef QT_NO_ACCESSIBILITY
-        btnSaveChanges->setAccessibleName(QApplication::translate("HostManage", "primary", Q_NULLPTR));
+        btnSaveChanges->setAccessibleName(QApplication::translate("HostManage", "primary", nullptr));
 #endif // QT_NO_ACCESSIBILITY
-        btnSaveChanges->setText(QApplication::translate("HostManage", "Save Changes", Q_NULLPTR));
+        btnSaveChanges->setText(QApplication::translate("HostManage", "Save Changes", nullptr));
         lblHostTitle->setText(QString());
 #ifndef QT_NO_ACCESSIBILITY
         btnNewHost->setAccessibleName(QString());
 #endif // QT_NO_ACCESSIBILITY
-        btnNewHost->setText(QApplication::translate("HostManage", "New Host", Q_NULLPTR));
-        txtIP->setPlaceholderText(QApplication::translate("HostManage", "IP Address *", Q_NULLPTR));
-        txtFullyQualified->setPlaceholderText(QApplication::translate("HostManage", "Fully Qualified Name *", Q_NULLPTR));
-        txtAliases->setPlaceholderText(QApplication::translate("HostManage", "Aliases", Q_NULLPTR));
+        btnNewHost->setText(QApplication::translate("HostManage", "New Host", nullptr));
+        txtIP->setPlaceholderText(QApplication::translate("HostManage", "IP Address *", nullptr));
+        txtFullyQualified->setPlaceholderText(QApplication::translate("HostManage", "Fully Qualified Name *", nullptr));
+        txtAliases->setPlaceholderText(QApplication::translate("HostManage", "Aliases", nullptr));
 #ifndef QT_NO_ACCESSIBILITY
-        btnSave->setAccessibleName(QApplication::translate("HostManage", "primary", Q_NULLPTR));
+        btnSave->setAccessibleName(QApplication::translate("HostManage", "primary", nullptr));
 #endif // QT_NO_ACCESSIBILITY
-        btnSave->setText(QApplication::translate("HostManage", "Save", Q_NULLPTR));
+        btnSave->setText(QApplication::translate("HostManage", "Save", nullptr));
 #ifndef QT_NO_ACCESSIBILITY
-        btnCancel->setAccessibleName(QApplication::translate("HostManage", "danger", Q_NULLPTR));
+        btnCancel->setAccessibleName(QApplication::translate("HostManage", "danger", nullptr));
 #endif // QT_NO_ACCESSIBILITY
-        btnCancel->setText(QApplication::translate("HostManage", "Cancel", Q_NULLPTR));
+        btnCancel->setText(QApplication::translate("HostManage", "Cancel", nullptr));
     } // retranslateUi
 
 };

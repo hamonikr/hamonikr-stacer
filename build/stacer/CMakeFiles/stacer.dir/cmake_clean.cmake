@@ -1,6 +1,9 @@
 file(REMOVE_RECURSE
+  "../output/stacer"
+  "../output/stacer.pdb"
+  "CMakeFiles/stacer_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/stacer_autogen.dir/ParseCache.txt"
   "stacer_autogen"
-  "CMakeFiles/stacer_autogen.dir/AutogenOldSettings.cmake"
   "CMakeFiles/stacer.dir/Managers/app_manager.cpp.o"
   "CMakeFiles/stacer.dir/Managers/info_manager.cpp.o"
   "CMakeFiles/stacer.dir/Managers/setting_manager.cpp.o"
@@ -35,10 +38,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/stacer.dir/main.cpp.o"
   "CMakeFiles/stacer.dir/signal_mapper.cpp.o"
   "CMakeFiles/stacer.dir/sliding_stacked_widget.cpp.o"
-  "CMakeFiles/stacer.dir/stacer_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/stacer.dir/stacer_autogen/EWIEGA46WW/qrc_static.cpp.o"
-  "../output/stacer.pdb"
-  "../output/stacer"
+  "CMakeFiles/stacer.dir/stacer_autogen/mocs_compilation.cpp.o"
+  "stacer_autogen/EWIEGA46WW/qrc_static.cpp"
 )
 
 # Per-language clean rules from dependency scanning.

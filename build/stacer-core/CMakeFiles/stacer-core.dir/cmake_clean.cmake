@@ -1,6 +1,9 @@
 file(REMOVE_RECURSE
+  "../output/lib/libstacer-core.a"
+  "../output/lib/libstacer-core.pdb"
+  "CMakeFiles/stacer-core_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/stacer-core_autogen.dir/ParseCache.txt"
   "stacer-core_autogen"
-  "CMakeFiles/stacer-core_autogen.dir/AutogenOldSettings.cmake"
   "CMakeFiles/stacer-core.dir/Info/cpu_info.cpp.o"
   "CMakeFiles/stacer-core.dir/Info/disk_info.cpp.o"
   "CMakeFiles/stacer-core.dir/Info/memory_info.cpp.o"
@@ -16,8 +19,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/stacer-core.dir/Utils/file_util.cpp.o"
   "CMakeFiles/stacer-core.dir/Utils/format_util.cpp.o"
   "CMakeFiles/stacer-core.dir/stacer-core_autogen/mocs_compilation.cpp.o"
-  "../output/lib/libstacer-core.pdb"
-  "../output/lib/libstacer-core.a"
 )
 
 # Per-language clean rules from dependency scanning.

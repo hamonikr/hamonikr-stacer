@@ -103,7 +103,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="419"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="418"/>
         <source>Select to delete or edit.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -354,37 +354,37 @@
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="114"/>
         <source>Hostname: %1</source>
-        <translation>Nom d’Òste : %1</translation>
+        <translation>Nom d’Òste&#x202f;:&#x202f;%1</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="115"/>
         <source>Platform: %1</source>
-        <translation>Plataforma : %1</translation>
+        <translation>Plataforma&#x202f;:&#x202f;%1</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="116"/>
         <source>Distribution: %1</source>
-        <translation> Distribucion : %1</translation>
+        <translation>&#x202f;Distribucion&#x202f;:&#x202f;%1</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="117"/>
         <source>Kernel Release: %1</source>
-        <translation>Version del nucli : %1</translation>
+        <translation>Version del nucli&#x202f;:&#x202f;%1</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="118"/>
         <source>CPU Model: %1</source>
-        <translation>Modèl del Processor : %1</translation>
+        <translation>Modèl del Processor&#x202f;:&#x202f;%1</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="120"/>
         <source>CPU Speed: %1</source>
-        <translation>Velocitat : %1</translation>
+        <translation>Velocitat&#x202f;:&#x202f;%1</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="119"/>
         <source>CPU Core: %1</source>
-        <translation>Nombre de còrs : %1</translation>
+        <translation>Nombre de còrs&#x202f;:&#x202f;%1</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="138"/>
@@ -420,7 +420,7 @@
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="250"/>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="254"/>
         <source>Total: %1</source>
-        <translation>Total : %1</translation>
+        <translation>Total&#x202f;:&#x202f;%1</translation>
     </message>
 </context>
 <context>
@@ -1074,17 +1074,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.ui" line="137"/>
+        <location filename="../stacer/Pages/Services/services_page.ui" line="135"/>
         <source>Startup at boot ?</source>
-        <translation>Lançar a l’aviada ?</translation>
+        <translation>Lançar a l’aviada&#x202f;?</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.ui" line="190"/>
+        <location filename="../stacer/Pages/Services/services_page.ui" line="187"/>
         <source>Running Now ?</source>
-        <translation>En execution ara ?</translation>
+        <translation>En execution ara&#x202f;?</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.ui" line="244"/>
+        <location filename="../stacer/Pages/Services/services_page.ui" line="241"/>
         <source>Not Found System Service</source>
         <translation>Servici sistèma pas trobat</translation>
     </message>
@@ -1276,7 +1276,7 @@
 <context>
     <name>StartupAppsPage</name>
     <message>
-        <location filename="../stacer/Pages/StartupApps/startup_apps_page.ui" line="201"/>
+        <location filename="../stacer/Pages/StartupApps/startup_apps_page.ui" line="200"/>
         <source>Not Found Startup Apps</source>
         <translation>Aplicacions a l’aviada pas trobadas</translation>
     </message>
@@ -1393,33 +1393,33 @@
     </message>
     <message>
         <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="78"/>
-        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="201"/>
+        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="200"/>
         <source>notFoundWidget</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="371"/>
+        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="369"/>
         <source>System Packages</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="393"/>
+        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="391"/>
         <source>Snap Packages</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="442"/>
+        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="440"/>
         <source>Search...</source>
         <translation>Cèrca...</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="108"/>
-        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="231"/>
+        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="230"/>
         <source>Not Found Installed Packages</source>
         <translation>Paquets installats pas trobats</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="340"/>
+        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="338"/>
         <source>Uninstall Selected</source>
         <translation>Desinstallar la seleccion</translation>
     </message>

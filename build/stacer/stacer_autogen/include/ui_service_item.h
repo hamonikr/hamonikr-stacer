@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'service_item.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.5
+** Created by: Qt User Interface Compiler version 5.12.8
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,12 +10,9 @@
 #define UI_SERVICE_ITEM_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QCheckBox>
 #include <QtWidgets/QGridLayout>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QWidget>
@@ -39,7 +36,7 @@ public:
     void setupUi(QWidget *ServiceItem)
     {
         if (ServiceItem->objectName().isEmpty())
-            ServiceItem->setObjectName(QStringLiteral("ServiceItem"));
+            ServiceItem->setObjectName(QString::fromUtf8("ServiceItem"));
         ServiceItem->resize(713, 45);
         QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Expanding);
         sizePolicy.setHorizontalStretch(0);
@@ -48,22 +45,22 @@ public:
         ServiceItem->setSizePolicy(sizePolicy);
         ServiceItem->setMinimumSize(QSize(0, 45));
         ServiceItem->setMaximumSize(QSize(16777215, 45));
-        ServiceItem->setWindowTitle(QStringLiteral(""));
+        ServiceItem->setWindowTitle(QString::fromUtf8(""));
         gridLayout = new QGridLayout(ServiceItem);
         gridLayout->setSpacing(0);
-        gridLayout->setObjectName(QStringLiteral("gridLayout"));
+        gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         gridLayout->setContentsMargins(0, 0, 0, 0);
         serviceItemWidget = new QWidget(ServiceItem);
-        serviceItemWidget->setObjectName(QStringLiteral("serviceItemWidget"));
+        serviceItemWidget->setObjectName(QString::fromUtf8("serviceItemWidget"));
         serviceItemWidget->setMinimumSize(QSize(0, 45));
         serviceItemWidget->setMaximumSize(QSize(16777215, 45));
         serviceItemLayout = new QGridLayout(serviceItemWidget);
-        serviceItemLayout->setObjectName(QStringLiteral("serviceItemLayout"));
+        serviceItemLayout->setObjectName(QString::fromUtf8("serviceItemLayout"));
         serviceItemLayout->setHorizontalSpacing(10);
         serviceItemLayout->setVerticalSpacing(0);
         serviceItemLayout->setContentsMargins(15, -1, 10, -1);
         lblServiceIcon = new QLabel(serviceItemWidget);
-        lblServiceIcon->setObjectName(QStringLiteral("lblServiceIcon"));
+        lblServiceIcon->setObjectName(QString::fromUtf8("lblServiceIcon"));
         lblServiceIcon->setMinimumSize(QSize(25, 25));
         lblServiceIcon->setMaximumSize(QSize(25, 25));
         lblServiceIcon->setScaledContents(true);
@@ -71,9 +68,9 @@ public:
         serviceItemLayout->addWidget(lblServiceIcon, 0, 0, 1, 1);
 
         lblServiceName = new QLabel(serviceItemWidget);
-        lblServiceName->setObjectName(QStringLiteral("lblServiceName"));
-        lblServiceName->setStyleSheet(QStringLiteral(""));
-        lblServiceName->setText(QStringLiteral("Service Name"));
+        lblServiceName->setObjectName(QString::fromUtf8("lblServiceName"));
+        lblServiceName->setStyleSheet(QString::fromUtf8(""));
+        lblServiceName->setText(QString::fromUtf8("Service Name"));
 
         serviceItemLayout->addWidget(lblServiceName, 0, 1, 1, 1);
 
@@ -86,22 +83,22 @@ public:
         serviceItemLayout->addItem(horizontalSpacer, 0, 3, 1, 1);
 
         checkServiceRunning = new QCheckBox(serviceItemWidget);
-        checkServiceRunning->setObjectName(QStringLiteral("checkServiceRunning"));
+        checkServiceRunning->setObjectName(QString::fromUtf8("checkServiceRunning"));
         checkServiceRunning->setCursor(QCursor(Qt::PointingHandCursor));
         checkServiceRunning->setFocusPolicy(Qt::NoFocus);
 
         serviceItemLayout->addWidget(checkServiceRunning, 0, 6, 1, 1, Qt::AlignVCenter);
 
         checkServiceStartup = new QCheckBox(serviceItemWidget);
-        checkServiceStartup->setObjectName(QStringLiteral("checkServiceStartup"));
+        checkServiceStartup->setObjectName(QString::fromUtf8("checkServiceStartup"));
         checkServiceStartup->setCursor(QCursor(Qt::PointingHandCursor));
         checkServiceStartup->setFocusPolicy(Qt::NoFocus);
 
         serviceItemLayout->addWidget(checkServiceStartup, 0, 4, 1, 1, Qt::AlignVCenter);
 
         lblServiceDescription = new QLabel(serviceItemWidget);
-        lblServiceDescription->setObjectName(QStringLiteral("lblServiceDescription"));
-        lblServiceDescription->setText(QStringLiteral("Description"));
+        lblServiceDescription->setObjectName(QString::fromUtf8("lblServiceDescription"));
+        lblServiceDescription->setText(QString::fromUtf8("Description"));
 
         serviceItemLayout->addWidget(lblServiceDescription, 0, 2, 1, 1);
 

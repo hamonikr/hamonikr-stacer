@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
-  "stacer_autogen"
-  "CMakeFiles/stacer_autogen.dir/AutogenOldSettings.cmake"
   "CMakeFiles/stacer_autogen"
+  "stacer_autogen/mocs_compilation.cpp"
 )
 
 # Per-language clean rules from dependency scanning.

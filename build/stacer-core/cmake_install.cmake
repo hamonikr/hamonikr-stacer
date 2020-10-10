@@ -1,4 +1,4 @@
-# Install script for directory: /home/hamonikr/work/Stacer/stacer-core
+# Install script for directory: /home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

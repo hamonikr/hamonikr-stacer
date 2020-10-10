@@ -16,6 +16,24 @@ Utils/file_util.h
 stacer-core_global.h
 ../stacer-core/Info/stacer-core_global.h
 
+../stacer-core/Info/process.h
+Utils/file_util.h
+../stacer-core/Info/Utils/file_util.h
+stacer-core_global.h
+../stacer-core/Info/stacer-core_global.h
+
+../stacer-core/Info/process_info.h
+QObject
+-
+Utils/file_util.h
+-
+Utils/command_util.h
+-
+process.h
+../stacer-core/Info/process.h
+stacer-core_global.h
+../stacer-core/Info/stacer-core_global.h
+
 ../stacer-core/Utils/command_util.h
 QStringList
 -
@@ -48,97 +66,97 @@ stacer-core_global.h
 QtCore/qglobal.h
 -
 
-/home/hamonikr/work/Stacer/build/stacer-core/stacer-core_autogen/ANA6DEWBKY/moc_process_info.cpp
-../../../../stacer-core/Info/process_info.h
-/home/hamonikr/work/Stacer/stacer-core/Info/process_info.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/build/stacer-core/stacer-core_autogen/ANA6DEWBKY/moc_process_info.cpp
+Info/process_info.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/build/stacer-core/stacer-core_autogen/ANA6DEWBKY/Info/process_info.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/hamonikr/work/Stacer/build/stacer-core/stacer-core_autogen/mocs_compilation.cpp
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/build/stacer-core/stacer-core_autogen/mocs_compilation.cpp
 ANA6DEWBKY/moc_process_info.cpp
-/home/hamonikr/work/Stacer/build/stacer-core/stacer-core_autogen/ANA6DEWBKY/moc_process_info.cpp
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/build/stacer-core/stacer-core_autogen/ANA6DEWBKY/moc_process_info.cpp
 
-/home/hamonikr/work/Stacer/stacer-core/Info/cpu_info.cpp
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/cpu_info.cpp
 cpu_info.h
-/home/hamonikr/work/Stacer/stacer-core/Info/cpu_info.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/cpu_info.h
 command_util.h
-/home/hamonikr/work/Stacer/stacer-core/Info/command_util.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/command_util.h
 
-/home/hamonikr/work/Stacer/stacer-core/Info/cpu_info.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/cpu_info.h
 QDebug
 -
 QVector
 -
 Utils/file_util.h
-/home/hamonikr/work/Stacer/stacer-core/Info/Utils/file_util.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/Utils/file_util.h
 stacer-core_global.h
-/home/hamonikr/work/Stacer/stacer-core/Info/stacer-core_global.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/stacer-core_global.h
 
-/home/hamonikr/work/Stacer/stacer-core/Info/disk_info.cpp
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/disk_info.cpp
 disk_info.h
-/home/hamonikr/work/Stacer/stacer-core/Info/disk_info.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/disk_info.h
 QDebug
 -
 
-/home/hamonikr/work/Stacer/stacer-core/Info/disk_info.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/disk_info.h
 Utils/command_util.h
-/home/hamonikr/work/Stacer/stacer-core/Info/Utils/command_util.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/Utils/command_util.h
 Utils/file_util.h
-/home/hamonikr/work/Stacer/stacer-core/Info/Utils/file_util.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/Utils/file_util.h
 QStorageInfo
 -
 QSet
 -
 stacer-core_global.h
-/home/hamonikr/work/Stacer/stacer-core/Info/stacer-core_global.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/stacer-core_global.h
 
-/home/hamonikr/work/Stacer/stacer-core/Info/memory_info.cpp
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/memory_info.cpp
 memory_info.h
-/home/hamonikr/work/Stacer/stacer-core/Info/memory_info.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/memory_info.h
 QDebug
 -
 
-/home/hamonikr/work/Stacer/stacer-core/Info/memory_info.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/memory_info.h
 Utils/file_util.h
-/home/hamonikr/work/Stacer/stacer-core/Info/Utils/file_util.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/Utils/file_util.h
 stacer-core_global.h
-/home/hamonikr/work/Stacer/stacer-core/Info/stacer-core_global.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/stacer-core_global.h
 
-/home/hamonikr/work/Stacer/stacer-core/Info/network_info.cpp
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/network_info.cpp
 network_info.h
-/home/hamonikr/work/Stacer/stacer-core/Info/network_info.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/network_info.h
 QDebug
 -
 
-/home/hamonikr/work/Stacer/stacer-core/Info/network_info.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/network_info.h
 QtNetwork/QNetworkInterface
 -
 Utils/file_util.h
-/home/hamonikr/work/Stacer/stacer-core/Info/Utils/file_util.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/Utils/file_util.h
 Utils/command_util.h
-/home/hamonikr/work/Stacer/stacer-core/Info/Utils/command_util.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/Utils/command_util.h
 stacer-core_global.h
-/home/hamonikr/work/Stacer/stacer-core/Info/stacer-core_global.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/stacer-core_global.h
 
-/home/hamonikr/work/Stacer/stacer-core/Info/process.cpp
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/process.cpp
 process.h
-/home/hamonikr/work/Stacer/stacer-core/Info/process.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/process.h
 
-/home/hamonikr/work/Stacer/stacer-core/Info/process.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/process.h
 Utils/file_util.h
-/home/hamonikr/work/Stacer/stacer-core/Info/Utils/file_util.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/Utils/file_util.h
 stacer-core_global.h
-/home/hamonikr/work/Stacer/stacer-core/Info/stacer-core_global.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/stacer-core_global.h
 
-/home/hamonikr/work/Stacer/stacer-core/Info/process_info.cpp
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/process_info.cpp
 process_info.h
-/home/hamonikr/work/Stacer/stacer-core/Info/process_info.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/process_info.h
 QDebug
 -
 
-/home/hamonikr/work/Stacer/stacer-core/Info/process_info.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/process_info.h
 QObject
 -
 Utils/file_util.h
@@ -146,97 +164,97 @@ Utils/file_util.h
 Utils/command_util.h
 -
 process.h
-/home/hamonikr/work/Stacer/stacer-core/Info/process.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/process.h
 stacer-core_global.h
-/home/hamonikr/work/Stacer/stacer-core/Info/stacer-core_global.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/stacer-core_global.h
 
-/home/hamonikr/work/Stacer/stacer-core/Info/system_info.cpp
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/system_info.cpp
 system_info.h
-/home/hamonikr/work/Stacer/stacer-core/Info/system_info.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/system_info.h
 QObject
 -
 iostream
 -
 
-/home/hamonikr/work/Stacer/stacer-core/Info/system_info.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/system_info.h
 Utils/file_util.h
-/home/hamonikr/work/Stacer/stacer-core/Info/Utils/file_util.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/Utils/file_util.h
 Utils/format_util.h
-/home/hamonikr/work/Stacer/stacer-core/Info/Utils/format_util.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/Utils/format_util.h
 Utils/command_util.h
-/home/hamonikr/work/Stacer/stacer-core/Info/Utils/command_util.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/Utils/command_util.h
 Info/cpu_info.h
-/home/hamonikr/work/Stacer/stacer-core/Info/Info/cpu_info.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/Info/cpu_info.h
 stacer-core_global.h
-/home/hamonikr/work/Stacer/stacer-core/Info/stacer-core_global.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Info/stacer-core_global.h
 
-/home/hamonikr/work/Stacer/stacer-core/Tools/apt_source_tool.cpp
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Tools/apt_source_tool.cpp
 apt_source_tool.h
-/home/hamonikr/work/Stacer/stacer-core/Tools/apt_source_tool.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Tools/apt_source_tool.h
 Utils/command_util.h
-/home/hamonikr/work/Stacer/stacer-core/Tools/Utils/command_util.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Tools/Utils/command_util.h
 Utils/file_util.h
-/home/hamonikr/work/Stacer/stacer-core/Tools/Utils/file_util.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Tools/Utils/file_util.h
 QDebug
 -
 
-/home/hamonikr/work/Stacer/stacer-core/Tools/apt_source_tool.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Tools/apt_source_tool.h
 Utils/command_util.h
-/home/hamonikr/work/Stacer/stacer-core/Tools/Utils/command_util.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Tools/Utils/command_util.h
 Utils/file_util.h
-/home/hamonikr/work/Stacer/stacer-core/Tools/Utils/file_util.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Tools/Utils/file_util.h
 QSharedPointer
 -
 
-/home/hamonikr/work/Stacer/stacer-core/Tools/gnome_schema.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Tools/gnome_schema.h
 
-/home/hamonikr/work/Stacer/stacer-core/Tools/gnome_settings_tool.cpp
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Tools/gnome_settings_tool.cpp
 gnome_settings_tool.h
-/home/hamonikr/work/Stacer/stacer-core/Tools/gnome_settings_tool.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Tools/gnome_settings_tool.h
 Utils/command_util.h
-/home/hamonikr/work/Stacer/stacer-core/Tools/Utils/command_util.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Tools/Utils/command_util.h
 QDebug
 -
 
-/home/hamonikr/work/Stacer/stacer-core/Tools/gnome_settings_tool.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Tools/gnome_settings_tool.h
 QVariant
 -
 gnome_schema.h
-/home/hamonikr/work/Stacer/stacer-core/Tools/gnome_schema.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Tools/gnome_schema.h
 stacer-core_global.h
-/home/hamonikr/work/Stacer/stacer-core/Tools/stacer-core_global.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Tools/stacer-core_global.h
 
-/home/hamonikr/work/Stacer/stacer-core/Tools/package_tool.cpp
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Tools/package_tool.cpp
 package_tool.h
-/home/hamonikr/work/Stacer/stacer-core/Tools/package_tool.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Tools/package_tool.h
 QDebug
 -
 
-/home/hamonikr/work/Stacer/stacer-core/Tools/package_tool.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Tools/package_tool.h
 thread
 -
 Utils/command_util.h
-/home/hamonikr/work/Stacer/stacer-core/Tools/Utils/command_util.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Tools/Utils/command_util.h
 Utils/file_util.h
-/home/hamonikr/work/Stacer/stacer-core/Tools/Utils/file_util.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Tools/Utils/file_util.h
 stacer-core_global.h
-/home/hamonikr/work/Stacer/stacer-core/Tools/stacer-core_global.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Tools/stacer-core_global.h
 
-/home/hamonikr/work/Stacer/stacer-core/Tools/service_tool.cpp
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Tools/service_tool.cpp
 service_tool.h
-/home/hamonikr/work/Stacer/stacer-core/Tools/service_tool.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Tools/service_tool.h
 QDebug
 -
 
-/home/hamonikr/work/Stacer/stacer-core/Tools/service_tool.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Tools/service_tool.h
 Utils/command_util.h
 -
 stacer-core_global.h
-/home/hamonikr/work/Stacer/stacer-core/Tools/stacer-core_global.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Tools/stacer-core_global.h
 
-/home/hamonikr/work/Stacer/stacer-core/Utils/command_util.cpp
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Utils/command_util.cpp
 command_util.h
-/home/hamonikr/work/Stacer/stacer-core/Utils/command_util.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Utils/command_util.h
 QProcess
 -
 QTextStream
@@ -248,17 +266,17 @@ QDebug
 memory
 -
 
-/home/hamonikr/work/Stacer/stacer-core/Utils/command_util.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Utils/command_util.h
 QStringList
 -
 stacer-core_global.h
-/home/hamonikr/work/Stacer/stacer-core/Utils/stacer-core_global.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Utils/stacer-core_global.h
 
-/home/hamonikr/work/Stacer/stacer-core/Utils/file_util.cpp
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Utils/file_util.cpp
 file_util.h
-/home/hamonikr/work/Stacer/stacer-core/Utils/file_util.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Utils/file_util.h
 
-/home/hamonikr/work/Stacer/stacer-core/Utils/file_util.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Utils/file_util.h
 QFile
 -
 QDir
@@ -274,17 +292,17 @@ QStandardPaths
 QSharedPointer
 -
 stacer-core_global.h
-/home/hamonikr/work/Stacer/stacer-core/Utils/stacer-core_global.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Utils/stacer-core_global.h
 
-/home/hamonikr/work/Stacer/stacer-core/Utils/format_util.cpp
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Utils/format_util.cpp
 format_util.h
-/home/hamonikr/work/Stacer/stacer-core/Utils/format_util.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Utils/format_util.h
 QString
 -
 
-/home/hamonikr/work/Stacer/stacer-core/Utils/format_util.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Utils/format_util.h
 stacer-core_global.h
-/home/hamonikr/work/Stacer/stacer-core/Utils/stacer-core_global.h
+/home/hamonikr/hamonikr-4.0-work/18-sracer/hamonikr-stacer/stacer-core/Utils/stacer-core_global.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
 qdebug.h
@@ -379,7 +397,7 @@ QtCore/qgenericatomic.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h
-QtCore/qatomic.h
+QtCore/qglobal.h
 -
 QtCore/qatomic_bootstrap.h
 -
@@ -404,8 +422,6 @@ stdarg.h
 string
 -
 iterator
--
-QtCore/qstring.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h
@@ -537,6 +553,8 @@ cstddef
 -
 utility
 -
+assert.h
+-
 stddef.h
 -
 QtCore/qconfig-bootstrapped.h
@@ -595,7 +613,7 @@ algorithm
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h
-QtCore/qchar.h
+QtCore/qstring.h
 -
 QtCore/qpair.h
 -
@@ -863,6 +881,12 @@ QtCore/qrefcount.h
 -
 QtCore/qnamespace.h
 -
+QtCore/qstringliteral.h
+-
+QtCore/qstringalgorithms.h
+-
+QtCore/qstringview.h
+-
 string
 -
 iterator
@@ -870,6 +894,10 @@ iterator
 stdarg.h
 -
 QtCore/qstringbuilder.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h
+QtCore/qnamespace.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringbuilder.h
@@ -892,8 +920,24 @@ QtCore/qstring.h
 QtCore/qstringmatcher.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h
+QtCore/qarraydata.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h
 QtCore/qstring.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h
+QtCore/qchar.h
+-
+QtCore/qbytearray.h
+-
+QtCore/qstringliteral.h
+-
+QtCore/qstringalgorithms.h
+-
+string
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h
@@ -950,6 +994,8 @@ QtCore/qstringlist.h
 QtCore/qobject.h
 -
 QtCore/qbytearraylist.h
+-
+variant
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h

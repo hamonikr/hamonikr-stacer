@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'gnome_settings_page.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.5
+** Created by: Qt User Interface Compiler version 5.12.8
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,12 +10,11 @@
 #define UI_GNOME_SETTINGS_PAGE_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
+#include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QHBoxLayout>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QWidget>
 
@@ -34,25 +33,25 @@ public:
     void setupUi(QWidget *GnomeSettingsPage)
     {
         if (GnomeSettingsPage->objectName().isEmpty())
-            GnomeSettingsPage->setObjectName(QStringLiteral("GnomeSettingsPage"));
+            GnomeSettingsPage->setObjectName(QString::fromUtf8("GnomeSettingsPage"));
         GnomeSettingsPage->resize(788, 601);
         contentGridLayout = new QGridLayout(GnomeSettingsPage);
-        contentGridLayout->setObjectName(QStringLiteral("contentGridLayout"));
+        contentGridLayout->setObjectName(QString::fromUtf8("contentGridLayout"));
         contentGridLayout->setHorizontalSpacing(20);
         contentGridLayout->setVerticalSpacing(15);
         contentGridLayout->setContentsMargins(15, 10, 15, 20);
         menuLayout = new QHBoxLayout();
         menuLayout->setSpacing(20);
-        menuLayout->setObjectName(QStringLiteral("menuLayout"));
+        menuLayout->setObjectName(QString::fromUtf8("menuLayout"));
         btnUnitySettings = new QPushButton(GnomeSettingsPage);
         settingsTopButtonGroup = new QButtonGroup(GnomeSettingsPage);
-        settingsTopButtonGroup->setObjectName(QStringLiteral("settingsTopButtonGroup"));
+        settingsTopButtonGroup->setObjectName(QString::fromUtf8("settingsTopButtonGroup"));
         settingsTopButtonGroup->addButton(btnUnitySettings);
-        btnUnitySettings->setObjectName(QStringLiteral("btnUnitySettings"));
+        btnUnitySettings->setObjectName(QString::fromUtf8("btnUnitySettings"));
         btnUnitySettings->setCursor(QCursor(Qt::PointingHandCursor));
         btnUnitySettings->setFocusPolicy(Qt::NoFocus);
         QIcon icon;
-        icon.addFile(QStringLiteral(":/static/themes/common/img/ubuntu.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon.addFile(QString::fromUtf8(":/static/themes/common/img/ubuntu.png"), QSize(), QIcon::Normal, QIcon::Off);
         btnUnitySettings->setIcon(icon);
         btnUnitySettings->setIconSize(QSize(20, 20));
         btnUnitySettings->setCheckable(true);
@@ -62,11 +61,11 @@ public:
 
         btnWindowManager = new QPushButton(GnomeSettingsPage);
         settingsTopButtonGroup->addButton(btnWindowManager);
-        btnWindowManager->setObjectName(QStringLiteral("btnWindowManager"));
+        btnWindowManager->setObjectName(QString::fromUtf8("btnWindowManager"));
         btnWindowManager->setCursor(QCursor(Qt::PointingHandCursor));
         btnWindowManager->setFocusPolicy(Qt::NoFocus);
         QIcon icon1;
-        icon1.addFile(QStringLiteral(":/static/themes/common/img/window.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon1.addFile(QString::fromUtf8(":/static/themes/common/img/window.png"), QSize(), QIcon::Normal, QIcon::Off);
         btnWindowManager->setIcon(icon1);
         btnWindowManager->setIconSize(QSize(20, 20));
         btnWindowManager->setCheckable(true);
@@ -75,11 +74,11 @@ public:
 
         btnAppearance = new QPushButton(GnomeSettingsPage);
         settingsTopButtonGroup->addButton(btnAppearance);
-        btnAppearance->setObjectName(QStringLiteral("btnAppearance"));
+        btnAppearance->setObjectName(QString::fromUtf8("btnAppearance"));
         btnAppearance->setCursor(QCursor(Qt::PointingHandCursor));
         btnAppearance->setFocusPolicy(Qt::NoFocus);
         QIcon icon2;
-        icon2.addFile(QStringLiteral(":/static/themes/common/img/appearance.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon2.addFile(QString::fromUtf8(":/static/themes/common/img/appearance.png"), QSize(), QIcon::Normal, QIcon::Off);
         btnAppearance->setIcon(icon2);
         btnAppearance->setIconSize(QSize(20, 20));
         btnAppearance->setCheckable(true);
@@ -97,10 +96,10 @@ public:
 
     void retranslateUi(QWidget *GnomeSettingsPage)
     {
-        GnomeSettingsPage->setWindowTitle(QApplication::translate("GnomeSettingsPage", "Gnome Settings", Q_NULLPTR));
-        btnUnitySettings->setText(QApplication::translate("GnomeSettingsPage", "Unity Settings", Q_NULLPTR));
-        btnWindowManager->setText(QApplication::translate("GnomeSettingsPage", "Window Manager", Q_NULLPTR));
-        btnAppearance->setText(QApplication::translate("GnomeSettingsPage", "Appearance", Q_NULLPTR));
+        GnomeSettingsPage->setWindowTitle(QApplication::translate("GnomeSettingsPage", "Gnome Settings", nullptr));
+        btnUnitySettings->setText(QApplication::translate("GnomeSettingsPage", "Unity Settings", nullptr));
+        btnWindowManager->setText(QApplication::translate("GnomeSettingsPage", "Window Manager", nullptr));
+        btnAppearance->setText(QApplication::translate("GnomeSettingsPage", "Appearance", nullptr));
     } // retranslateUi
 
 };

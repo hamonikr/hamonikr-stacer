@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'history_chart.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.5
+** Created by: Qt User Interface Compiler version 5.12.8
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,12 +10,9 @@
 #define UI_HISTORY_CHART_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QCheckBox>
 #include <QtWidgets/QGridLayout>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QWidget>
@@ -33,7 +30,7 @@ public:
     void setupUi(QWidget *HistoryChart)
     {
         if (HistoryChart->objectName().isEmpty())
-            HistoryChart->setObjectName(QStringLiteral("HistoryChart"));
+            HistoryChart->setObjectName(QString::fromUtf8("HistoryChart"));
         HistoryChart->resize(759, 275);
         QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Expanding);
         sizePolicy.setHorizontalStretch(0);
@@ -41,33 +38,33 @@ public:
         sizePolicy.setHeightForWidth(HistoryChart->sizePolicy().hasHeightForWidth());
         HistoryChart->setSizePolicy(sizePolicy);
         HistoryChart->setMinimumSize(QSize(0, 200));
-        HistoryChart->setWindowTitle(QStringLiteral(""));
+        HistoryChart->setWindowTitle(QString::fromUtf8(""));
         layoutHistoryChart = new QGridLayout(HistoryChart);
-        layoutHistoryChart->setObjectName(QStringLiteral("layoutHistoryChart"));
+        layoutHistoryChart->setObjectName(QString::fromUtf8("layoutHistoryChart"));
         layoutHistoryChart->setHorizontalSpacing(10);
         layoutHistoryChart->setVerticalSpacing(0);
         layoutHistoryChart->setContentsMargins(0, 0, 0, 0);
         checkHistoryTitle = new QCheckBox(HistoryChart);
-        checkHistoryTitle->setObjectName(QStringLiteral("checkHistoryTitle"));
+        checkHistoryTitle->setObjectName(QString::fromUtf8("checkHistoryTitle"));
         checkHistoryTitle->setCursor(QCursor(Qt::PointingHandCursor));
         checkHistoryTitle->setFocusPolicy(Qt::NoFocus);
         checkHistoryTitle->setLayoutDirection(Qt::LeftToRight);
-        checkHistoryTitle->setStyleSheet(QStringLiteral(""));
-        checkHistoryTitle->setText(QStringLiteral(""));
+        checkHistoryTitle->setStyleSheet(QString::fromUtf8(""));
+        checkHistoryTitle->setText(QString::fromUtf8(""));
 
         layoutHistoryChart->addWidget(checkHistoryTitle, 0, 1, 1, 1);
 
         lblHistoryTitle = new QLabel(HistoryChart);
-        lblHistoryTitle->setObjectName(QStringLiteral("lblHistoryTitle"));
+        lblHistoryTitle->setObjectName(QString::fromUtf8("lblHistoryTitle"));
         QSizePolicy sizePolicy1(QSizePolicy::Expanding, QSizePolicy::Preferred);
         sizePolicy1.setHorizontalStretch(0);
         sizePolicy1.setVerticalStretch(0);
         sizePolicy1.setHeightForWidth(lblHistoryTitle->sizePolicy().hasHeightForWidth());
         lblHistoryTitle->setSizePolicy(sizePolicy1);
 #ifndef QT_NO_ACCESSIBILITY
-        lblHistoryTitle->setAccessibleName(QStringLiteral(""));
+        lblHistoryTitle->setAccessibleName(QString::fromUtf8(""));
 #endif // QT_NO_ACCESSIBILITY
-        lblHistoryTitle->setText(QStringLiteral("Chart Title"));
+        lblHistoryTitle->setText(QString::fromUtf8("Chart Title"));
 
         layoutHistoryChart->addWidget(lblHistoryTitle, 0, 0, 1, 1, Qt::AlignLeft|Qt::AlignTop);
 

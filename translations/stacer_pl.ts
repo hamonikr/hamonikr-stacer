@@ -103,7 +103,7 @@
         <translation>Anuluj</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="419"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="418"/>
         <source>Select to delete or edit.</source>
         <translation>Zaznacz aby usunąć lub edytować</translation>
     </message>
@@ -1074,17 +1074,17 @@
         <translation>Usługi</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.ui" line="137"/>
+        <location filename="../stacer/Pages/Services/services_page.ui" line="135"/>
         <source>Startup at boot ?</source>
         <translation>Startuje podczas uruchomienia systemu?</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.ui" line="190"/>
+        <location filename="../stacer/Pages/Services/services_page.ui" line="187"/>
         <source>Running Now ?</source>
         <translation>Działa teraz?</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.ui" line="244"/>
+        <location filename="../stacer/Pages/Services/services_page.ui" line="241"/>
         <source>Not Found System Service</source>
         <translation>Nie znaleziono systemowej usługi</translation>
     </message>
@@ -1276,7 +1276,7 @@
 <context>
     <name>StartupAppsPage</name>
     <message>
-        <location filename="../stacer/Pages/StartupApps/startup_apps_page.ui" line="201"/>
+        <location filename="../stacer/Pages/StartupApps/startup_apps_page.ui" line="200"/>
         <source>Not Found Startup Apps</source>
         <translation>Nie znaleziono aplikacji startowych</translation>
     </message>
@@ -1393,33 +1393,33 @@
     </message>
     <message>
         <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="78"/>
-        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="201"/>
+        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="200"/>
         <source>notFoundWidget</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="371"/>
+        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="369"/>
         <source>System Packages</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="393"/>
+        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="391"/>
         <source>Snap Packages</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="442"/>
+        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="440"/>
         <source>Search...</source>
         <translation>Szukaj...</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="108"/>
-        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="231"/>
+        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="230"/>
         <source>Not Found Installed Packages</source>
         <translation>Nie znaleziono zainstalowanych aplikacji</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="340"/>
+        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="338"/>
         <source>Uninstall Selected</source>
         <translation>Usuń zaznaczone</translation>
     </message>

@@ -1,18 +1,18 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'host_manage.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.5)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.12.8)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../../stacer/Pages/Helpers/host_manage.h"
+#include "Pages/Helpers/host_manage.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'host_manage.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.9.5. It"
+#error "This file was generated using the moc from 5.12.8. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -63,7 +63,7 @@ QT_MOC_LITERAL(15, 252, 3) // "pos"
 static const uint qt_meta_data_HostManage[] = {
 
  // content:
-       7,       // revision
+       8,       // revision
        0,       // classname
        0,    0, // classinfo
       10,   14, // methods
@@ -103,7 +103,7 @@ static const uint qt_meta_data_HostManage[] = {
 void HostManage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
-        HostManage *_t = static_cast<HostManage *>(_o);
+        auto *_t = static_cast<HostManage *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->init(); break;
@@ -122,10 +122,14 @@ void HostManage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
     }
 }
 
-const QMetaObject HostManage::staticMetaObject = {
-    { &QWidget::staticMetaObject, qt_meta_stringdata_HostManage.data,
-      qt_meta_data_HostManage,  qt_static_metacall, nullptr, nullptr}
-};
+QT_INIT_METAOBJECT const QMetaObject HostManage::staticMetaObject = { {
+    &QWidget::staticMetaObject,
+    qt_meta_stringdata_HostManage.data,
+    qt_meta_data_HostManage,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
 
 
 const QMetaObject *HostManage::metaObject() const

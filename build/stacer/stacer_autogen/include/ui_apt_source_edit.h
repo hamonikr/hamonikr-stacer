@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'apt_source_edit.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.5
+** Created by: Qt User Interface Compiler version 5.12.8
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,12 +10,10 @@
 #define UI_APT_SOURCE_EDIT_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QGridLayout>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
@@ -45,43 +43,43 @@ public:
     void setupUi(QDialog *APTSourceEdit)
     {
         if (APTSourceEdit->objectName().isEmpty())
-            APTSourceEdit->setObjectName(QStringLiteral("APTSourceEdit"));
+            APTSourceEdit->setObjectName(QString::fromUtf8("APTSourceEdit"));
         APTSourceEdit->resize(452, 295);
         gridLayout = new QGridLayout(APTSourceEdit);
         gridLayout->setSpacing(15);
-        gridLayout->setObjectName(QStringLiteral("gridLayout"));
+        gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         gridLayout->setContentsMargins(30, 10, 30, 15);
         lblTitle = new QLabel(APTSourceEdit);
-        lblTitle->setObjectName(QStringLiteral("lblTitle"));
+        lblTitle->setObjectName(QString::fromUtf8("lblTitle"));
 #ifndef QT_NO_ACCESSIBILITY
-        lblTitle->setAccessibleName(QStringLiteral("dialog-title"));
+        lblTitle->setAccessibleName(QString::fromUtf8("dialog-title"));
 #endif // QT_NO_ACCESSIBILITY
         lblTitle->setAlignment(Qt::AlignCenter);
 
         gridLayout->addWidget(lblTitle, 0, 0, 1, 4);
 
         txtComponents = new QLineEdit(APTSourceEdit);
-        txtComponents->setObjectName(QStringLiteral("txtComponents"));
+        txtComponents->setObjectName(QString::fromUtf8("txtComponents"));
 
         gridLayout->addWidget(txtComponents, 6, 0, 1, 4);
 
         txtOptions = new QLineEdit(APTSourceEdit);
-        txtOptions->setObjectName(QStringLiteral("txtOptions"));
+        txtOptions->setObjectName(QString::fromUtf8("txtOptions"));
 
         gridLayout->addWidget(txtOptions, 3, 0, 1, 4);
 
         btnCancel = new QPushButton(APTSourceEdit);
-        btnCancel->setObjectName(QStringLiteral("btnCancel"));
+        btnCancel->setObjectName(QString::fromUtf8("btnCancel"));
         btnCancel->setCursor(QCursor(Qt::PointingHandCursor));
         btnCancel->setFocusPolicy(Qt::NoFocus);
 #ifndef QT_NO_ACCESSIBILITY
-        btnCancel->setAccessibleName(QStringLiteral("danger"));
+        btnCancel->setAccessibleName(QString::fromUtf8("danger"));
 #endif // QT_NO_ACCESSIBILITY
 
         gridLayout->addWidget(btnCancel, 7, 2, 1, 1, Qt::AlignRight);
 
         lblErrorMsg = new QLabel(APTSourceEdit);
-        lblErrorMsg->setObjectName(QStringLiteral("lblErrorMsg"));
+        lblErrorMsg->setObjectName(QString::fromUtf8("lblErrorMsg"));
         QSizePolicy sizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
@@ -91,16 +89,16 @@ public:
         gridLayout->addWidget(lblErrorMsg, 7, 0, 1, 1);
 
         txtUri = new QLineEdit(APTSourceEdit);
-        txtUri->setObjectName(QStringLiteral("txtUri"));
+        txtUri->setObjectName(QString::fromUtf8("txtUri"));
 
         gridLayout->addWidget(txtUri, 4, 0, 1, 4);
 
         btnSave = new QPushButton(APTSourceEdit);
-        btnSave->setObjectName(QStringLiteral("btnSave"));
+        btnSave->setObjectName(QString::fromUtf8("btnSave"));
         btnSave->setCursor(QCursor(Qt::PointingHandCursor));
         btnSave->setFocusPolicy(Qt::NoFocus);
 #ifndef QT_NO_ACCESSIBILITY
-        btnSave->setAccessibleName(QStringLiteral("primary"));
+        btnSave->setAccessibleName(QString::fromUtf8("primary"));
 #endif // QT_NO_ACCESSIBILITY
 
         gridLayout->addWidget(btnSave, 7, 3, 1, 1, Qt::AlignRight);
@@ -110,15 +108,15 @@ public:
         gridLayout->addItem(verticalSpacer, 8, 0, 1, 4);
 
         txtDistribution = new QLineEdit(APTSourceEdit);
-        txtDistribution->setObjectName(QStringLiteral("txtDistribution"));
+        txtDistribution->setObjectName(QString::fromUtf8("txtDistribution"));
 
         gridLayout->addWidget(txtDistribution, 5, 0, 1, 4);
 
         radioSource = new QRadioButton(APTSourceEdit);
         debTypeGroup = new QButtonGroup(APTSourceEdit);
-        debTypeGroup->setObjectName(QStringLiteral("debTypeGroup"));
+        debTypeGroup->setObjectName(QString::fromUtf8("debTypeGroup"));
         debTypeGroup->addButton(radioSource);
-        radioSource->setObjectName(QStringLiteral("radioSource"));
+        radioSource->setObjectName(QString::fromUtf8("radioSource"));
         QSizePolicy sizePolicy1(QSizePolicy::Expanding, QSizePolicy::Fixed);
         sizePolicy1.setHorizontalStretch(0);
         sizePolicy1.setVerticalStretch(0);
@@ -132,7 +130,7 @@ public:
 
         radioBinary = new QRadioButton(APTSourceEdit);
         debTypeGroup->addButton(radioBinary);
-        radioBinary->setObjectName(QStringLiteral("radioBinary"));
+        radioBinary->setObjectName(QString::fromUtf8("radioBinary"));
         sizePolicy1.setHeightForWidth(radioBinary->sizePolicy().hasHeightForWidth());
         radioBinary->setSizePolicy(sizePolicy1);
         radioBinary->setCursor(QCursor(Qt::PointingHandCursor));
@@ -159,17 +157,17 @@ public:
 
     void retranslateUi(QDialog *APTSourceEdit)
     {
-        APTSourceEdit->setWindowTitle(QApplication::translate("APTSourceEdit", "APT Repository Edit", Q_NULLPTR));
-        lblTitle->setText(QApplication::translate("APTSourceEdit", "APT Repository", Q_NULLPTR));
-        txtComponents->setPlaceholderText(QApplication::translate("APTSourceEdit", "Components", Q_NULLPTR));
-        txtOptions->setPlaceholderText(QApplication::translate("APTSourceEdit", "Options", Q_NULLPTR));
-        btnCancel->setText(QApplication::translate("APTSourceEdit", "Cancel", Q_NULLPTR));
-        lblErrorMsg->setText(QApplication::translate("APTSourceEdit", "Fields cannot be left blank. ", Q_NULLPTR));
-        txtUri->setPlaceholderText(QApplication::translate("APTSourceEdit", "URI", Q_NULLPTR));
-        btnSave->setText(QApplication::translate("APTSourceEdit", "Save", Q_NULLPTR));
-        txtDistribution->setPlaceholderText(QApplication::translate("APTSourceEdit", "Distribution", Q_NULLPTR));
-        radioSource->setText(QApplication::translate("APTSourceEdit", "Source", Q_NULLPTR));
-        radioBinary->setText(QApplication::translate("APTSourceEdit", "Binary", Q_NULLPTR));
+        APTSourceEdit->setWindowTitle(QApplication::translate("APTSourceEdit", "APT Repository Edit", nullptr));
+        lblTitle->setText(QApplication::translate("APTSourceEdit", "APT Repository", nullptr));
+        txtComponents->setPlaceholderText(QApplication::translate("APTSourceEdit", "Components", nullptr));
+        txtOptions->setPlaceholderText(QApplication::translate("APTSourceEdit", "Options", nullptr));
+        btnCancel->setText(QApplication::translate("APTSourceEdit", "Cancel", nullptr));
+        lblErrorMsg->setText(QApplication::translate("APTSourceEdit", "Fields cannot be left blank. ", nullptr));
+        txtUri->setPlaceholderText(QApplication::translate("APTSourceEdit", "URI", nullptr));
+        btnSave->setText(QApplication::translate("APTSourceEdit", "Save", nullptr));
+        txtDistribution->setPlaceholderText(QApplication::translate("APTSourceEdit", "Distribution", nullptr));
+        radioSource->setText(QApplication::translate("APTSourceEdit", "Source", nullptr));
+        radioBinary->setText(QApplication::translate("APTSourceEdit", "Binary", nullptr));
     } // retranslateUi
 
 };

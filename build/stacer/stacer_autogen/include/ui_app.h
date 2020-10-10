@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'app.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.5
+** Created by: Qt User Interface Compiler version 5.12.8
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,11 +10,10 @@
 #define UI_APP_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
+#include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QHBoxLayout>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QPushButton>
@@ -52,21 +51,21 @@ public:
     void setupUi(QMainWindow *App)
     {
         if (App->objectName().isEmpty())
-            App->setObjectName(QStringLiteral("App"));
+            App->setObjectName(QString::fromUtf8("App"));
         App->setWindowModality(Qt::NonModal);
         App->resize(850, 570);
-        App->setWindowTitle(QStringLiteral("Stacer"));
+        App->setWindowTitle(QString::fromUtf8("Stacer"));
         QIcon icon;
-        icon.addFile(QStringLiteral(":/static/icons/icon256x256.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon.addFile(QString::fromUtf8(":/static/icons/icon256x256.png"), QSize(), QIcon::Normal, QIcon::Off);
         App->setWindowIcon(icon);
         centralwidget = new QWidget(App);
-        centralwidget->setObjectName(QStringLiteral("centralwidget"));
+        centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         horizontalLayout = new QHBoxLayout(centralwidget);
         horizontalLayout->setSpacing(0);
-        horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
+        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
         sidebar = new QWidget(centralwidget);
-        sidebar->setObjectName(QStringLiteral("sidebar"));
+        sidebar->setObjectName(QString::fromUtf8("sidebar"));
         QSizePolicy sizePolicy(QSizePolicy::Fixed, QSizePolicy::Expanding);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
@@ -74,10 +73,10 @@ public:
         sidebar->setSizePolicy(sizePolicy);
         sidebar->setMinimumSize(QSize(60, 0));
         sidebar->setMaximumSize(QSize(60, 16777215));
-        sidebar->setStyleSheet(QStringLiteral(""));
+        sidebar->setStyleSheet(QString::fromUtf8(""));
         sidebarLayout = new QVBoxLayout(sidebar);
         sidebarLayout->setSpacing(0);
-        sidebarLayout->setObjectName(QStringLiteral("sidebarLayout"));
+        sidebarLayout->setObjectName(QString::fromUtf8("sidebarLayout"));
         sidebarLayout->setContentsMargins(0, 5, 0, 5);
         verticalSpacer_2 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
@@ -85,12 +84,12 @@ public:
 
         btnDash = new QPushButton(sidebar);
         sidebarBtnGroup = new QButtonGroup(App);
-        sidebarBtnGroup->setObjectName(QStringLiteral("sidebarBtnGroup"));
+        sidebarBtnGroup->setObjectName(QString::fromUtf8("sidebarBtnGroup"));
         sidebarBtnGroup->addButton(btnDash);
-        btnDash->setObjectName(QStringLiteral("btnDash"));
+        btnDash->setObjectName(QString::fromUtf8("btnDash"));
         btnDash->setCursor(QCursor(Qt::PointingHandCursor));
         btnDash->setFocusPolicy(Qt::NoFocus);
-        btnDash->setStyleSheet(QStringLiteral(""));
+        btnDash->setStyleSheet(QString::fromUtf8(""));
         btnDash->setIconSize(QSize(28, 28));
         btnDash->setCheckable(true);
         btnDash->setChecked(true);
@@ -99,7 +98,7 @@ public:
 
         btnStartupApps = new QPushButton(sidebar);
         sidebarBtnGroup->addButton(btnStartupApps);
-        btnStartupApps->setObjectName(QStringLiteral("btnStartupApps"));
+        btnStartupApps->setObjectName(QString::fromUtf8("btnStartupApps"));
         btnStartupApps->setCursor(QCursor(Qt::PointingHandCursor));
         btnStartupApps->setFocusPolicy(Qt::NoFocus);
         btnStartupApps->setIconSize(QSize(28, 28));
@@ -109,10 +108,10 @@ public:
 
         btnSystemCleaner = new QPushButton(sidebar);
         sidebarBtnGroup->addButton(btnSystemCleaner);
-        btnSystemCleaner->setObjectName(QStringLiteral("btnSystemCleaner"));
+        btnSystemCleaner->setObjectName(QString::fromUtf8("btnSystemCleaner"));
         btnSystemCleaner->setCursor(QCursor(Qt::PointingHandCursor));
         btnSystemCleaner->setFocusPolicy(Qt::NoFocus);
-        btnSystemCleaner->setStyleSheet(QStringLiteral(""));
+        btnSystemCleaner->setStyleSheet(QString::fromUtf8(""));
         btnSystemCleaner->setIconSize(QSize(28, 28));
         btnSystemCleaner->setCheckable(true);
 
@@ -120,7 +119,7 @@ public:
 
         btnServices = new QPushButton(sidebar);
         sidebarBtnGroup->addButton(btnServices);
-        btnServices->setObjectName(QStringLiteral("btnServices"));
+        btnServices->setObjectName(QString::fromUtf8("btnServices"));
         btnServices->setCursor(QCursor(Qt::PointingHandCursor));
         btnServices->setFocusPolicy(Qt::NoFocus);
         btnServices->setIconSize(QSize(28, 28));
@@ -130,7 +129,7 @@ public:
 
         btnProcesses = new QPushButton(sidebar);
         sidebarBtnGroup->addButton(btnProcesses);
-        btnProcesses->setObjectName(QStringLiteral("btnProcesses"));
+        btnProcesses->setObjectName(QString::fromUtf8("btnProcesses"));
         btnProcesses->setCursor(QCursor(Qt::PointingHandCursor));
         btnProcesses->setFocusPolicy(Qt::NoFocus);
         btnProcesses->setIconSize(QSize(28, 28));
@@ -140,7 +139,7 @@ public:
 
         btnUninstaller = new QPushButton(sidebar);
         sidebarBtnGroup->addButton(btnUninstaller);
-        btnUninstaller->setObjectName(QStringLiteral("btnUninstaller"));
+        btnUninstaller->setObjectName(QString::fromUtf8("btnUninstaller"));
         btnUninstaller->setCursor(QCursor(Qt::PointingHandCursor));
         btnUninstaller->setFocusPolicy(Qt::NoFocus);
         btnUninstaller->setIconSize(QSize(28, 28));
@@ -150,7 +149,7 @@ public:
 
         btnResources = new QPushButton(sidebar);
         sidebarBtnGroup->addButton(btnResources);
-        btnResources->setObjectName(QStringLiteral("btnResources"));
+        btnResources->setObjectName(QString::fromUtf8("btnResources"));
         btnResources->setCursor(QCursor(Qt::PointingHandCursor));
         btnResources->setFocusPolicy(Qt::NoFocus);
         btnResources->setIconSize(QSize(28, 28));
@@ -160,7 +159,7 @@ public:
 
         btnHelpers = new QPushButton(sidebar);
         sidebarBtnGroup->addButton(btnHelpers);
-        btnHelpers->setObjectName(QStringLiteral("btnHelpers"));
+        btnHelpers->setObjectName(QString::fromUtf8("btnHelpers"));
         btnHelpers->setCursor(QCursor(Qt::PointingHandCursor));
         btnHelpers->setFocusPolicy(Qt::NoFocus);
         btnHelpers->setIconSize(QSize(28, 28));
@@ -170,7 +169,7 @@ public:
 
         btnAptSourceManager = new QPushButton(sidebar);
         sidebarBtnGroup->addButton(btnAptSourceManager);
-        btnAptSourceManager->setObjectName(QStringLiteral("btnAptSourceManager"));
+        btnAptSourceManager->setObjectName(QString::fromUtf8("btnAptSourceManager"));
         btnAptSourceManager->setCursor(QCursor(Qt::PointingHandCursor));
         btnAptSourceManager->setFocusPolicy(Qt::NoFocus);
         btnAptSourceManager->setIconSize(QSize(28, 28));
@@ -180,7 +179,7 @@ public:
 
         btnGnomeSettings = new QPushButton(sidebar);
         sidebarBtnGroup->addButton(btnGnomeSettings);
-        btnGnomeSettings->setObjectName(QStringLiteral("btnGnomeSettings"));
+        btnGnomeSettings->setObjectName(QString::fromUtf8("btnGnomeSettings"));
         btnGnomeSettings->setCursor(QCursor(Qt::PointingHandCursor));
         btnGnomeSettings->setFocusPolicy(Qt::NoFocus);
         btnGnomeSettings->setIconSize(QSize(28, 28));
@@ -190,7 +189,7 @@ public:
 
         btnSettings = new QPushButton(sidebar);
         sidebarBtnGroup->addButton(btnSettings);
-        btnSettings->setObjectName(QStringLiteral("btnSettings"));
+        btnSettings->setObjectName(QString::fromUtf8("btnSettings"));
         btnSettings->setCursor(QCursor(Qt::PointingHandCursor));
         btnSettings->setFocusPolicy(Qt::NoFocus);
         btnSettings->setIconSize(QSize(28, 28));
@@ -203,44 +202,43 @@ public:
         sidebarLayout->addItem(verticalSpacer);
 
         btnDash->raise();
-        btnServices->raise();
-        btnUninstaller->raise();
         btnStartupApps->raise();
-        btnResources->raise();
         btnSystemCleaner->raise();
+        btnServices->raise();
         btnProcesses->raise();
-        btnSettings->raise();
-        btnGnomeSettings->raise();
-        btnAptSourceManager->raise();
+        btnUninstaller->raise();
+        btnResources->raise();
         btnHelpers->raise();
+        btnAptSourceManager->raise();
+        btnGnomeSettings->raise();
+        btnSettings->raise();
 
         horizontalLayout->addWidget(sidebar, 0, Qt::AlignHCenter);
 
         pageContent = new QWidget(centralwidget);
-        pageContent->setObjectName(QStringLiteral("pageContent"));
+        pageContent->setObjectName(QString::fromUtf8("pageContent"));
         QSizePolicy sizePolicy1(QSizePolicy::Expanding, QSizePolicy::Expanding);
         sizePolicy1.setHorizontalStretch(0);
         sizePolicy1.setVerticalStretch(0);
         sizePolicy1.setHeightForWidth(pageContent->sizePolicy().hasHeightForWidth());
         pageContent->setSizePolicy(sizePolicy1);
-        pageContent->setStyleSheet(QStringLiteral(""));
+        pageContent->setStyleSheet(QString::fromUtf8(""));
         pageContentLayout = new QVBoxLayout(pageContent);
         pageContentLayout->setSpacing(0);
-        pageContentLayout->setObjectName(QStringLiteral("pageContentLayout"));
+        pageContentLayout->setObjectName(QString::fromUtf8("pageContentLayout"));
         pageContentLayout->setContentsMargins(0, 0, 0, 0);
         pageTitle = new QLabel(pageContent);
-        pageTitle->setObjectName(QStringLiteral("pageTitle"));
+        pageTitle->setObjectName(QString::fromUtf8("pageTitle"));
         QSizePolicy sizePolicy2(QSizePolicy::Expanding, QSizePolicy::Preferred);
         sizePolicy2.setHorizontalStretch(0);
         sizePolicy2.setVerticalStretch(0);
         sizePolicy2.setHeightForWidth(pageTitle->sizePolicy().hasHeightForWidth());
         pageTitle->setSizePolicy(sizePolicy2);
         QFont font;
-        font.setFamily(QStringLiteral("NanumBarunGothic"));
-        font.setPointSize(12);
+        font.setPointSize(10);
         pageTitle->setFont(font);
-        pageTitle->setStyleSheet(QStringLiteral(""));
-        pageTitle->setText(QStringLiteral("Title"));
+        pageTitle->setStyleSheet(QString::fromUtf8(""));
+        pageTitle->setText(QString::fromUtf8("Title"));
         pageTitle->setAlignment(Qt::AlignCenter);
 
         pageContentLayout->addWidget(pageTitle);
@@ -260,47 +258,47 @@ public:
     void retranslateUi(QMainWindow *App)
     {
 #ifndef QT_NO_TOOLTIP
-        btnDash->setToolTip(QApplication::translate("App", "Dashboard", Q_NULLPTR));
+        btnDash->setToolTip(QApplication::translate("App", "Dashboard", nullptr));
 #endif // QT_NO_TOOLTIP
         btnDash->setText(QString());
 #ifndef QT_NO_TOOLTIP
-        btnStartupApps->setToolTip(QApplication::translate("App", "Startup Apps", Q_NULLPTR));
+        btnStartupApps->setToolTip(QApplication::translate("App", "Startup Apps", nullptr));
 #endif // QT_NO_TOOLTIP
         btnStartupApps->setText(QString());
 #ifndef QT_NO_TOOLTIP
-        btnSystemCleaner->setToolTip(QApplication::translate("App", "System Cleaner", Q_NULLPTR));
+        btnSystemCleaner->setToolTip(QApplication::translate("App", "System Cleaner", nullptr));
 #endif // QT_NO_TOOLTIP
         btnSystemCleaner->setText(QString());
 #ifndef QT_NO_TOOLTIP
-        btnServices->setToolTip(QApplication::translate("App", "Services", Q_NULLPTR));
+        btnServices->setToolTip(QApplication::translate("App", "Services", nullptr));
 #endif // QT_NO_TOOLTIP
         btnServices->setText(QString());
 #ifndef QT_NO_TOOLTIP
-        btnProcesses->setToolTip(QApplication::translate("App", "Processes", Q_NULLPTR));
+        btnProcesses->setToolTip(QApplication::translate("App", "Processes", nullptr));
 #endif // QT_NO_TOOLTIP
         btnProcesses->setText(QString());
 #ifndef QT_NO_TOOLTIP
-        btnUninstaller->setToolTip(QApplication::translate("App", "Uninstaller", Q_NULLPTR));
+        btnUninstaller->setToolTip(QApplication::translate("App", "Uninstaller", nullptr));
 #endif // QT_NO_TOOLTIP
         btnUninstaller->setText(QString());
 #ifndef QT_NO_TOOLTIP
-        btnResources->setToolTip(QApplication::translate("App", "Resources", Q_NULLPTR));
+        btnResources->setToolTip(QApplication::translate("App", "Resources", nullptr));
 #endif // QT_NO_TOOLTIP
         btnResources->setText(QString());
 #ifndef QT_NO_TOOLTIP
-        btnHelpers->setToolTip(QApplication::translate("App", "Helpers", Q_NULLPTR));
+        btnHelpers->setToolTip(QApplication::translate("App", "Helpers", nullptr));
 #endif // QT_NO_TOOLTIP
         btnHelpers->setText(QString());
 #ifndef QT_NO_TOOLTIP
-        btnAptSourceManager->setToolTip(QApplication::translate("App", "APT Repository Manager", Q_NULLPTR));
+        btnAptSourceManager->setToolTip(QApplication::translate("App", "APT Repository Manager", nullptr));
 #endif // QT_NO_TOOLTIP
         btnAptSourceManager->setText(QString());
 #ifndef QT_NO_TOOLTIP
-        btnGnomeSettings->setToolTip(QApplication::translate("App", "Gnome Settings", Q_NULLPTR));
+        btnGnomeSettings->setToolTip(QApplication::translate("App", "Gnome Settings", nullptr));
 #endif // QT_NO_TOOLTIP
         btnGnomeSettings->setText(QString());
 #ifndef QT_NO_TOOLTIP
-        btnSettings->setToolTip(QApplication::translate("App", "Settings", Q_NULLPTR));
+        btnSettings->setToolTip(QApplication::translate("App", "Settings", nullptr));
 #endif // QT_NO_TOOLTIP
         btnSettings->setText(QString());
         Q_UNUSED(App);

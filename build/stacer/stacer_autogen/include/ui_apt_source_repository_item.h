@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'apt_source_repository_item.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.5
+** Created by: Qt User Interface Compiler version 5.12.8
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,12 +10,9 @@
 #define UI_APT_SOURCE_REPOSITORY_ITEM_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QCheckBox>
 #include <QtWidgets/QHBoxLayout>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QVBoxLayout>
@@ -37,7 +34,7 @@ public:
     void setupUi(QWidget *APTSourceRepositoryItem)
     {
         if (APTSourceRepositoryItem->objectName().isEmpty())
-            APTSourceRepositoryItem->setObjectName(QStringLiteral("APTSourceRepositoryItem"));
+            APTSourceRepositoryItem->setObjectName(QString::fromUtf8("APTSourceRepositoryItem"));
         APTSourceRepositoryItem->resize(727, 45);
         QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Expanding);
         sizePolicy.setHorizontalStretch(0);
@@ -48,10 +45,10 @@ public:
         APTSourceRepositoryItem->setMaximumSize(QSize(16777215, 45));
         verticalLayout = new QVBoxLayout(APTSourceRepositoryItem);
         verticalLayout->setSpacing(0);
-        verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
+        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         verticalLayout->setContentsMargins(0, 0, 0, 0);
         aptSourceRepositoryItemWidget = new QWidget(APTSourceRepositoryItem);
-        aptSourceRepositoryItemWidget->setObjectName(QStringLiteral("aptSourceRepositoryItemWidget"));
+        aptSourceRepositoryItemWidget->setObjectName(QString::fromUtf8("aptSourceRepositoryItemWidget"));
         QSizePolicy sizePolicy1(QSizePolicy::Expanding, QSizePolicy::Expanding);
         sizePolicy1.setHorizontalStretch(0);
         sizePolicy1.setVerticalStretch(0);
@@ -60,10 +57,10 @@ public:
         aptSourceRepositoryItemWidget->setCursor(QCursor(Qt::PointingHandCursor));
         startupAppLayout = new QHBoxLayout(aptSourceRepositoryItemWidget);
         startupAppLayout->setSpacing(15);
-        startupAppLayout->setObjectName(QStringLiteral("startupAppLayout"));
+        startupAppLayout->setObjectName(QString::fromUtf8("startupAppLayout"));
         startupAppLayout->setContentsMargins(15, 10, 10, 10);
         lblAptSourceIcon = new QLabel(aptSourceRepositoryItemWidget);
-        lblAptSourceIcon->setObjectName(QStringLiteral("lblAptSourceIcon"));
+        lblAptSourceIcon->setObjectName(QString::fromUtf8("lblAptSourceIcon"));
         lblAptSourceIcon->setMinimumSize(QSize(26, 26));
         lblAptSourceIcon->setMaximumSize(QSize(26, 26));
         lblAptSourceIcon->setScaledContents(true);
@@ -71,11 +68,11 @@ public:
         startupAppLayout->addWidget(lblAptSourceIcon);
 
         lblAptSourceName = new QLabel(aptSourceRepositoryItemWidget);
-        lblAptSourceName->setObjectName(QStringLiteral("lblAptSourceName"));
+        lblAptSourceName->setObjectName(QString::fromUtf8("lblAptSourceName"));
 #ifndef QT_NO_ACCESSIBILITY
-        lblAptSourceName->setAccessibleName(QStringLiteral(""));
+        lblAptSourceName->setAccessibleName(QString::fromUtf8(""));
 #endif // QT_NO_ACCESSIBILITY
-        lblAptSourceName->setText(QStringLiteral("APT Source Repository"));
+        lblAptSourceName->setText(QString::fromUtf8("APT Source Repository"));
 
         startupAppLayout->addWidget(lblAptSourceName);
 
@@ -84,10 +81,10 @@ public:
         startupAppLayout->addItem(horizontalSpacer);
 
         checkAptSource = new QCheckBox(aptSourceRepositoryItemWidget);
-        checkAptSource->setObjectName(QStringLiteral("checkAptSource"));
+        checkAptSource->setObjectName(QString::fromUtf8("checkAptSource"));
         checkAptSource->setCursor(QCursor(Qt::PointingHandCursor));
         checkAptSource->setFocusPolicy(Qt::NoFocus);
-        checkAptSource->setStyleSheet(QStringLiteral(""));
+        checkAptSource->setStyleSheet(QString::fromUtf8(""));
         checkAptSource->setIconSize(QSize(45, 23));
 
         startupAppLayout->addWidget(checkAptSource);

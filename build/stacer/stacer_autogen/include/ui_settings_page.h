@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'settings_page.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.5
+** Created by: Qt User Interface Compiler version 5.12.8
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,13 +10,10 @@
 #define UI_SETTINGS_PAGE_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QCheckBox>
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QGridLayout>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QSpinBox>
@@ -54,21 +51,21 @@ public:
     void setupUi(QWidget *SettingsPage)
     {
         if (SettingsPage->objectName().isEmpty())
-            SettingsPage->setObjectName(QStringLiteral("SettingsPage"));
+            SettingsPage->setObjectName(QString::fromUtf8("SettingsPage"));
         SettingsPage->resize(811, 479);
         QSizePolicy sizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(SettingsPage->sizePolicy().hasHeightForWidth());
         SettingsPage->setSizePolicy(sizePolicy);
-        SettingsPage->setStyleSheet(QStringLiteral(""));
+        SettingsPage->setStyleSheet(QString::fromUtf8(""));
         gridLayout = new QGridLayout(SettingsPage);
-        gridLayout->setObjectName(QStringLiteral("gridLayout"));
+        gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         gridLayout->setHorizontalSpacing(20);
         gridLayout->setVerticalSpacing(10);
         gridLayout->setContentsMargins(15, 15, 15, 15);
         cmbLanguages = new QComboBox(SettingsPage);
-        cmbLanguages->setObjectName(QStringLiteral("cmbLanguages"));
+        cmbLanguages->setObjectName(QString::fromUtf8("cmbLanguages"));
         QSizePolicy sizePolicy1(QSizePolicy::Expanding, QSizePolicy::Fixed);
         sizePolicy1.setHorizontalStretch(0);
         sizePolicy1.setVerticalStretch(0);
@@ -83,14 +80,14 @@ public:
         gridLayout->addWidget(cmbLanguages, 1, 0, 1, 1, Qt::AlignLeft);
 
         checkAutostart = new QCheckBox(SettingsPage);
-        checkAutostart->setObjectName(QStringLiteral("checkAutostart"));
+        checkAutostart->setObjectName(QString::fromUtf8("checkAutostart"));
         checkAutostart->setCursor(QCursor(Qt::PointingHandCursor));
         checkAutostart->setFocusPolicy(Qt::NoFocus);
 
         gridLayout->addWidget(checkAutostart, 8, 0, 1, 1, Qt::AlignLeft);
 
         lblMemoryPercent = new QLabel(SettingsPage);
-        lblMemoryPercent->setObjectName(QStringLiteral("lblMemoryPercent"));
+        lblMemoryPercent->setObjectName(QString::fromUtf8("lblMemoryPercent"));
         QSizePolicy sizePolicy2(QSizePolicy::Expanding, QSizePolicy::Preferred);
         sizePolicy2.setHorizontalStretch(0);
         sizePolicy2.setVerticalStretch(0);
@@ -100,40 +97,40 @@ public:
         gridLayout->addWidget(lblMemoryPercent, 4, 1, 1, 1, Qt::AlignLeft);
 
         spinMemoryPercent = new QSpinBox(SettingsPage);
-        spinMemoryPercent->setObjectName(QStringLiteral("spinMemoryPercent"));
+        spinMemoryPercent->setObjectName(QString::fromUtf8("spinMemoryPercent"));
         spinMemoryPercent->setFocusPolicy(Qt::ClickFocus);
         spinMemoryPercent->setKeyboardTracking(false);
-        spinMemoryPercent->setSuffix(QStringLiteral(" %"));
+        spinMemoryPercent->setSuffix(QString::fromUtf8(" %"));
         spinMemoryPercent->setMinimum(0);
         spinMemoryPercent->setMaximum(100);
 
         gridLayout->addWidget(spinMemoryPercent, 5, 1, 1, 1, Qt::AlignLeft);
 
         lblDiskPercent = new QLabel(SettingsPage);
-        lblDiskPercent->setObjectName(QStringLiteral("lblDiskPercent"));
+        lblDiskPercent->setObjectName(QString::fromUtf8("lblDiskPercent"));
         sizePolicy2.setHeightForWidth(lblDiskPercent->sizePolicy().hasHeightForWidth());
         lblDiskPercent->setSizePolicy(sizePolicy2);
 
         gridLayout->addWidget(lblDiskPercent, 4, 2, 1, 1, Qt::AlignLeft);
 
         spinCpuPercent = new QSpinBox(SettingsPage);
-        spinCpuPercent->setObjectName(QStringLiteral("spinCpuPercent"));
+        spinCpuPercent->setObjectName(QString::fromUtf8("spinCpuPercent"));
         spinCpuPercent->setFocusPolicy(Qt::ClickFocus);
-        spinCpuPercent->setSuffix(QStringLiteral(" %"));
+        spinCpuPercent->setSuffix(QString::fromUtf8(" %"));
         spinCpuPercent->setMinimum(0);
         spinCpuPercent->setMaximum(100);
 
         gridLayout->addWidget(spinCpuPercent, 5, 0, 1, 1, Qt::AlignLeft);
 
         lblLanguage = new QLabel(SettingsPage);
-        lblLanguage->setObjectName(QStringLiteral("lblLanguage"));
+        lblLanguage->setObjectName(QString::fromUtf8("lblLanguage"));
         sizePolicy2.setHeightForWidth(lblLanguage->sizePolicy().hasHeightForWidth());
         lblLanguage->setSizePolicy(sizePolicy2);
 
         gridLayout->addWidget(lblLanguage, 0, 0, 1, 1, Qt::AlignLeft);
 
         lblStartOnBoot = new QLabel(SettingsPage);
-        lblStartOnBoot->setObjectName(QStringLiteral("lblStartOnBoot"));
+        lblStartOnBoot->setObjectName(QString::fromUtf8("lblStartOnBoot"));
         sizePolicy2.setHeightForWidth(lblStartOnBoot->sizePolicy().hasHeightForWidth());
         lblStartOnBoot->setSizePolicy(sizePolicy2);
 
@@ -144,34 +141,34 @@ public:
         gridLayout->addItem(verticalSpacer, 9, 0, 1, 1);
 
         spinDiskPercent = new QSpinBox(SettingsPage);
-        spinDiskPercent->setObjectName(QStringLiteral("spinDiskPercent"));
+        spinDiskPercent->setObjectName(QString::fromUtf8("spinDiskPercent"));
         spinDiskPercent->setFocusPolicy(Qt::ClickFocus);
-        spinDiskPercent->setSuffix(QStringLiteral(" %"));
+        spinDiskPercent->setSuffix(QString::fromUtf8(" %"));
         spinDiskPercent->setMinimum(0);
         spinDiskPercent->setMaximum(100);
 
         gridLayout->addWidget(spinDiskPercent, 5, 2, 1, 1, Qt::AlignLeft);
 
         lblCpuPercent = new QLabel(SettingsPage);
-        lblCpuPercent->setObjectName(QStringLiteral("lblCpuPercent"));
+        lblCpuPercent->setObjectName(QString::fromUtf8("lblCpuPercent"));
         sizePolicy2.setHeightForWidth(lblCpuPercent->sizePolicy().hasHeightForWidth());
         lblCpuPercent->setSizePolicy(sizePolicy2);
 
         gridLayout->addWidget(lblCpuPercent, 4, 0, 1, 1, Qt::AlignLeft);
 
         lblAlertMessages = new QLabel(SettingsPage);
-        lblAlertMessages->setObjectName(QStringLiteral("lblAlertMessages"));
+        lblAlertMessages->setObjectName(QString::fromUtf8("lblAlertMessages"));
         sizePolicy2.setHeightForWidth(lblAlertMessages->sizePolicy().hasHeightForWidth());
         lblAlertMessages->setSizePolicy(sizePolicy2);
 #ifndef QT_NO_ACCESSIBILITY
-        lblAlertMessages->setAccessibleName(QStringLiteral("title"));
+        lblAlertMessages->setAccessibleName(QString::fromUtf8("title"));
 #endif // QT_NO_ACCESSIBILITY
 
         gridLayout->addWidget(lblAlertMessages, 3, 0, 1, 5);
 
         lblCreatedBy = new QLabel(SettingsPage);
-        lblCreatedBy->setObjectName(QStringLiteral("lblCreatedBy"));
-        lblCreatedBy->setText(QStringLiteral("<html><head/><body><p>Stacer v1.1.0hamonikr <a href=\"https://github.com/hamonikr\"><span style=\" text-decoration: underline; color:#007af4;\">HamoniKR Team</span></a></p></body></html>"));
+        lblCreatedBy->setObjectName(QString::fromUtf8("lblCreatedBy"));
+        lblCreatedBy->setText(QString::fromUtf8("<html><head/><body><p>Stacer v1.1.0hamonikr <a href=\"https://github.com/hamonikr\"><span style=\" text-decoration: underline; color:#007af4;\">HamoniKR Team</span></a></p></body></html>"));
         lblCreatedBy->setTextFormat(Qt::RichText);
         lblCreatedBy->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         lblCreatedBy->setOpenExternalLinks(true);
@@ -191,22 +188,22 @@ public:
         gridLayout->addItem(verticalSpacer_2, 2, 0, 1, 5);
 
         label = new QLabel(SettingsPage);
-        label->setObjectName(QStringLiteral("label"));
+        label->setObjectName(QString::fromUtf8("label"));
 
         gridLayout->addWidget(label, 7, 1, 1, 1);
 
         checkAppQuitDontAsk = new QCheckBox(SettingsPage);
-        checkAppQuitDontAsk->setObjectName(QStringLiteral("checkAppQuitDontAsk"));
+        checkAppQuitDontAsk->setObjectName(QString::fromUtf8("checkAppQuitDontAsk"));
         checkAppQuitDontAsk->setCursor(QCursor(Qt::PointingHandCursor));
         checkAppQuitDontAsk->setFocusPolicy(Qt::NoFocus);
 #ifndef QT_NO_ACCESSIBILITY
-        checkAppQuitDontAsk->setAccessibleName(QStringLiteral(""));
+        checkAppQuitDontAsk->setAccessibleName(QString::fromUtf8(""));
 #endif // QT_NO_ACCESSIBILITY
 
         gridLayout->addWidget(checkAppQuitDontAsk, 8, 1, 1, 1);
 
         cmbDisks = new QComboBox(SettingsPage);
-        cmbDisks->setObjectName(QStringLiteral("cmbDisks"));
+        cmbDisks->setObjectName(QString::fromUtf8("cmbDisks"));
         sizePolicy1.setHeightForWidth(cmbDisks->sizePolicy().hasHeightForWidth());
         cmbDisks->setSizePolicy(sizePolicy1);
         cmbDisks->setMinimumSize(QSize(150, 0));
@@ -218,21 +215,21 @@ public:
         gridLayout->addWidget(cmbDisks, 1, 1, 1, 1);
 
         lblDisks = new QLabel(SettingsPage);
-        lblDisks->setObjectName(QStringLiteral("lblDisks"));
+        lblDisks->setObjectName(QString::fromUtf8("lblDisks"));
         sizePolicy2.setHeightForWidth(lblDisks->sizePolicy().hasHeightForWidth());
         lblDisks->setSizePolicy(sizePolicy2);
 
         gridLayout->addWidget(lblDisks, 0, 1, 1, 1);
 
         lblHomepage = new QLabel(SettingsPage);
-        lblHomepage->setObjectName(QStringLiteral("lblHomepage"));
+        lblHomepage->setObjectName(QString::fromUtf8("lblHomepage"));
         sizePolicy2.setHeightForWidth(lblHomepage->sizePolicy().hasHeightForWidth());
         lblHomepage->setSizePolicy(sizePolicy2);
 
         gridLayout->addWidget(lblHomepage, 0, 2, 1, 1);
 
         cmbStartPage = new QComboBox(SettingsPage);
-        cmbStartPage->setObjectName(QStringLiteral("cmbStartPage"));
+        cmbStartPage->setObjectName(QString::fromUtf8("cmbStartPage"));
         sizePolicy1.setHeightForWidth(cmbStartPage->sizePolicy().hasHeightForWidth());
         cmbStartPage->setSizePolicy(sizePolicy1);
         cmbStartPage->setMinimumSize(QSize(150, 0));
@@ -253,18 +250,18 @@ public:
 
     void retranslateUi(QWidget *SettingsPage)
     {
-        SettingsPage->setWindowTitle(QApplication::translate("SettingsPage", "Settings", Q_NULLPTR));
+        SettingsPage->setWindowTitle(QApplication::translate("SettingsPage", "Settings", nullptr));
         checkAutostart->setText(QString());
-        lblMemoryPercent->setText(QApplication::translate("SettingsPage", "Memory Percent", Q_NULLPTR));
-        lblDiskPercent->setText(QApplication::translate("SettingsPage", "Disk Percent", Q_NULLPTR));
-        lblLanguage->setText(QApplication::translate("SettingsPage", "Language", Q_NULLPTR));
-        lblStartOnBoot->setText(QApplication::translate("SettingsPage", "Autostart Stacer", Q_NULLPTR));
-        lblCpuPercent->setText(QApplication::translate("SettingsPage", "CPU Percent", Q_NULLPTR));
-        lblAlertMessages->setText(QApplication::translate("SettingsPage", "Alert messages (Show a warning after the specified percentage)", Q_NULLPTR));
-        label->setText(QApplication::translate("SettingsPage", "App Quit Don't Ask", Q_NULLPTR));
+        lblMemoryPercent->setText(QApplication::translate("SettingsPage", "Memory Percent", nullptr));
+        lblDiskPercent->setText(QApplication::translate("SettingsPage", "Disk Percent", nullptr));
+        lblLanguage->setText(QApplication::translate("SettingsPage", "Language", nullptr));
+        lblStartOnBoot->setText(QApplication::translate("SettingsPage", "Autostart Stacer", nullptr));
+        lblCpuPercent->setText(QApplication::translate("SettingsPage", "CPU Percent", nullptr));
+        lblAlertMessages->setText(QApplication::translate("SettingsPage", "Alert messages (Show a warning after the specified percentage)", nullptr));
+        label->setText(QApplication::translate("SettingsPage", "App Quit Don't Ask", nullptr));
         checkAppQuitDontAsk->setText(QString());
-        lblDisks->setText(QApplication::translate("SettingsPage", "Disks", Q_NULLPTR));
-        lblHomepage->setText(QApplication::translate("SettingsPage", "Start Page", Q_NULLPTR));
+        lblDisks->setText(QApplication::translate("SettingsPage", "Disks", nullptr));
+        lblHomepage->setText(QApplication::translate("SettingsPage", "Start Page", nullptr));
     } // retranslateUi
 
 };

@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'services_page.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.5
+** Created by: Qt User Interface Compiler version 5.12.8
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,13 +10,10 @@
 #define UI_SERVICES_PAGE_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QHBoxLayout>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QListWidget>
 #include <QtWidgets/QSpacerItem>
@@ -45,29 +42,28 @@ public:
     void setupUi(QWidget *ServicesPage)
     {
         if (ServicesPage->objectName().isEmpty())
-            ServicesPage->setObjectName(QStringLiteral("ServicesPage"));
+            ServicesPage->setObjectName(QString::fromUtf8("ServicesPage"));
         ServicesPage->resize(882, 549);
         gridLayout = new QGridLayout(ServicesPage);
         gridLayout->setSpacing(0);
-        gridLayout->setObjectName(QStringLiteral("gridLayout"));
+        gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         gridLayout->setContentsMargins(30, 0, 30, 25);
         titlesLayout = new QHBoxLayout();
         titlesLayout->setSpacing(20);
-        titlesLayout->setObjectName(QStringLiteral("titlesLayout"));
+        titlesLayout->setObjectName(QString::fromUtf8("titlesLayout"));
         titlesLayout->setContentsMargins(15, 5, 45, 5);
         lblServicesTitle = new QLabel(ServicesPage);
-        lblServicesTitle->setObjectName(QStringLiteral("lblServicesTitle"));
+        lblServicesTitle->setObjectName(QString::fromUtf8("lblServicesTitle"));
         QFont font;
-        font.setFamily(QStringLiteral("Ubuntu"));
-        font.setPointSize(11);
+        font.setPointSize(10);
         lblServicesTitle->setFont(font);
-        lblServicesTitle->setStyleSheet(QStringLiteral(""));
-        lblServicesTitle->setText(QStringLiteral("System Services"));
+        lblServicesTitle->setStyleSheet(QString::fromUtf8(""));
+        lblServicesTitle->setText(QString::fromUtf8("System Services"));
 
         titlesLayout->addWidget(lblServicesTitle, 0, Qt::AlignLeft|Qt::AlignVCenter);
 
         cmbStartupStatus = new QComboBox(ServicesPage);
-        cmbStartupStatus->setObjectName(QStringLiteral("cmbStartupStatus"));
+        cmbStartupStatus->setObjectName(QString::fromUtf8("cmbStartupStatus"));
         cmbStartupStatus->setMinimumSize(QSize(120, 0));
         cmbStartupStatus->setSizeAdjustPolicy(QComboBox::AdjustToMinimumContentsLength);
         cmbStartupStatus->setFrame(false);
@@ -75,7 +71,7 @@ public:
         titlesLayout->addWidget(cmbStartupStatus);
 
         cmbRunningStatus = new QComboBox(ServicesPage);
-        cmbRunningStatus->setObjectName(QStringLiteral("cmbRunningStatus"));
+        cmbRunningStatus->setObjectName(QString::fromUtf8("cmbRunningStatus"));
         cmbRunningStatus->setMinimumSize(QSize(120, 0));
         cmbRunningStatus->setSizeAdjustPolicy(QComboBox::AdjustToMinimumContentsLength);
         cmbRunningStatus->setFrame(false);
@@ -87,7 +83,7 @@ public:
         titlesLayout->addItem(horizontalSpacer);
 
         lblServiceStartupImg = new QLabel(ServicesPage);
-        lblServiceStartupImg->setObjectName(QStringLiteral("lblServiceStartupImg"));
+        lblServiceStartupImg->setObjectName(QString::fromUtf8("lblServiceStartupImg"));
         QSizePolicy sizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
@@ -95,11 +91,8 @@ public:
         lblServiceStartupImg->setSizePolicy(sizePolicy);
         lblServiceStartupImg->setMinimumSize(QSize(20, 20));
         lblServiceStartupImg->setMaximumSize(QSize(80, 16777215));
-        QFont font1;
-        font1.setFamily(QStringLiteral("Ubuntu"));
-        font1.setPointSize(10);
-        lblServiceStartupImg->setFont(font1);
-        lblServiceStartupImg->setStyleSheet(QStringLiteral(""));
+        lblServiceStartupImg->setFont(font);
+        lblServiceStartupImg->setStyleSheet(QString::fromUtf8(""));
 
         titlesLayout->addWidget(lblServiceStartupImg, 0, Qt::AlignLeft);
 
@@ -108,13 +101,13 @@ public:
         titlesLayout->addItem(horizontalSpacer_2);
 
         lblSystemRunningImg = new QLabel(ServicesPage);
-        lblSystemRunningImg->setObjectName(QStringLiteral("lblSystemRunningImg"));
+        lblSystemRunningImg->setObjectName(QString::fromUtf8("lblSystemRunningImg"));
         sizePolicy.setHeightForWidth(lblSystemRunningImg->sizePolicy().hasHeightForWidth());
         lblSystemRunningImg->setSizePolicy(sizePolicy);
         lblSystemRunningImg->setMinimumSize(QSize(20, 20));
         lblSystemRunningImg->setMaximumSize(QSize(100, 16777215));
-        lblSystemRunningImg->setFont(font1);
-        lblSystemRunningImg->setStyleSheet(QStringLiteral(""));
+        lblSystemRunningImg->setFont(font);
+        lblSystemRunningImg->setStyleSheet(QString::fromUtf8(""));
 
         titlesLayout->addWidget(lblSystemRunningImg, 0, Qt::AlignRight);
 
@@ -122,7 +115,7 @@ public:
         gridLayout->addLayout(titlesLayout, 0, 0, 1, 1);
 
         notFoundWidget = new QWidget(ServicesPage);
-        notFoundWidget->setObjectName(QStringLiteral("notFoundWidget"));
+        notFoundWidget->setObjectName(QString::fromUtf8("notFoundWidget"));
         QSizePolicy sizePolicy1(QSizePolicy::Preferred, QSizePolicy::Expanding);
         sizePolicy1.setHorizontalStretch(0);
         sizePolicy1.setVerticalStretch(0);
@@ -130,13 +123,13 @@ public:
         notFoundWidget->setSizePolicy(sizePolicy1);
         notFoundWidget->setMinimumSize(QSize(0, 200));
         notFoundWidget->setMaximumSize(QSize(16777215, 9999999));
-        notFoundWidget->setStyleSheet(QStringLiteral(""));
+        notFoundWidget->setStyleSheet(QString::fromUtf8(""));
         notFoundLayout = new QVBoxLayout(notFoundWidget);
         notFoundLayout->setSpacing(0);
-        notFoundLayout->setObjectName(QStringLiteral("notFoundLayout"));
+        notFoundLayout->setObjectName(QString::fromUtf8("notFoundLayout"));
         notFoundLayout->setContentsMargins(0, 0, 0, 0);
         lblNotFound = new QLabel(notFoundWidget);
-        lblNotFound->setObjectName(QStringLiteral("lblNotFound"));
+        lblNotFound->setObjectName(QString::fromUtf8("lblNotFound"));
 
         notFoundLayout->addWidget(lblNotFound, 0, Qt::AlignHCenter|Qt::AlignBottom);
 
@@ -144,7 +137,7 @@ public:
         gridLayout->addWidget(notFoundWidget, 1, 0, 1, 1, Qt::AlignVCenter);
 
         listWidgetServices = new QListWidget(ServicesPage);
-        listWidgetServices->setObjectName(QStringLiteral("listWidgetServices"));
+        listWidgetServices->setObjectName(QString::fromUtf8("listWidgetServices"));
         listWidgetServices->setFocusPolicy(Qt::NoFocus);
         listWidgetServices->setFrameShape(QFrame::NoFrame);
         listWidgetServices->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
@@ -166,16 +159,16 @@ public:
 
     void retranslateUi(QWidget *ServicesPage)
     {
-        ServicesPage->setWindowTitle(QApplication::translate("ServicesPage", "Services", Q_NULLPTR));
+        ServicesPage->setWindowTitle(QApplication::translate("ServicesPage", "Services", nullptr));
 #ifndef QT_NO_TOOLTIP
-        lblServiceStartupImg->setToolTip(QApplication::translate("ServicesPage", "Startup at boot ?", Q_NULLPTR));
+        lblServiceStartupImg->setToolTip(QApplication::translate("ServicesPage", "Startup at boot ?", nullptr));
 #endif // QT_NO_TOOLTIP
         lblServiceStartupImg->setText(QString());
 #ifndef QT_NO_TOOLTIP
-        lblSystemRunningImg->setToolTip(QApplication::translate("ServicesPage", "Running Now ?", Q_NULLPTR));
+        lblSystemRunningImg->setToolTip(QApplication::translate("ServicesPage", "Running Now ?", nullptr));
 #endif // QT_NO_TOOLTIP
         lblSystemRunningImg->setText(QString());
-        lblNotFound->setText(QApplication::translate("ServicesPage", "Not Found System Service", Q_NULLPTR));
+        lblNotFound->setText(QApplication::translate("ServicesPage", "Not Found System Service", nullptr));
     } // retranslateUi
 
 };

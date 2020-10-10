@@ -1,19 +1,19 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'search_page.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.5)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.12.8)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../../stacer/Pages/Search/search_page.h"
+#include "Pages/Search/search_page.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #include <QtCore/QList>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'search_page.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.9.5. It"
+#error "This file was generated using the moc from 5.12.8. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_SearchPage_t {
-    QByteArrayData data[21];
-    char stringdata0[393];
+    QByteArrayData data[22];
+    char stringdata0[405];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -52,7 +52,8 @@ QT_MOC_LITERAL(16, 311, 9), // "createRow"
 QT_MOC_LITERAL(17, 321, 21), // "QList<QStandardItem*>"
 QT_MOC_LITERAL(18, 343, 8), // "filepath"
 QT_MOC_LITERAL(19, 352, 34), // "on_tableFoundResults_doubleCl..."
-QT_MOC_LITERAL(20, 387, 5) // "index"
+QT_MOC_LITERAL(20, 387, 11), // "QModelIndex"
+QT_MOC_LITERAL(21, 399, 5) // "index"
 
     },
     "SearchPage\0init\0\0on_btnBrowseSearchDir_clicked\0"
@@ -65,14 +66,14 @@ QT_MOC_LITERAL(20, 387, 5) // "index"
     "loadDataToTable\0QList<QString>\0results\0"
     "searching\0createRow\0QList<QStandardItem*>\0"
     "filepath\0on_tableFoundResults_doubleClicked\0"
-    "index"
+    "QModelIndex\0index"
 };
 #undef QT_MOC_LITERAL
 
 static const uint qt_meta_data_SearchPage[] = {
 
  // content:
-       7,       // revision
+       8,       // revision
        0,       // classname
        0,    0, // classinfo
       13,   14, // methods
@@ -110,7 +111,7 @@ static const uint qt_meta_data_SearchPage[] = {
     QMetaType::Void, 0x80000000 | 13,   14,
     QMetaType::Void,
     0x80000000 | 17, QMetaType::QString,   18,
-    QMetaType::Void, QMetaType::QModelIndex,   20,
+    QMetaType::Void, 0x80000000 | 20,   21,
 
        0        // eod
 };
@@ -118,7 +119,7 @@ static const uint qt_meta_data_SearchPage[] = {
 void SearchPage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
-        SearchPage *_t = static_cast<SearchPage *>(_o);
+        auto *_t = static_cast<SearchPage *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->init(); break;
@@ -151,10 +152,14 @@ void SearchPage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
     }
 }
 
-const QMetaObject SearchPage::staticMetaObject = {
-    { &QWidget::staticMetaObject, qt_meta_stringdata_SearchPage.data,
-      qt_meta_data_SearchPage,  qt_static_metacall, nullptr, nullptr}
-};
+QT_INIT_METAOBJECT const QMetaObject SearchPage::staticMetaObject = { {
+    &QWidget::staticMetaObject,
+    qt_meta_stringdata_SearchPage.data,
+    qt_meta_data_SearchPage,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
 
 
 const QMetaObject *SearchPage::metaObject() const

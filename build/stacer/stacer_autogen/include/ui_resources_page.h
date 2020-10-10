@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'resources_page.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.5
+** Created by: Qt User Interface Compiler version 5.12.8
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,10 +10,7 @@
 #define UI_RESOURCES_PAGE_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QScrollArea>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
@@ -31,17 +28,17 @@ public:
     void setupUi(QWidget *ResourcesPage)
     {
         if (ResourcesPage->objectName().isEmpty())
-            ResourcesPage->setObjectName(QStringLiteral("ResourcesPage"));
+            ResourcesPage->setObjectName(QString::fromUtf8("ResourcesPage"));
         ResourcesPage->resize(890, 537);
         verticalLayout = new QVBoxLayout(ResourcesPage);
         verticalLayout->setSpacing(0);
-        verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
+        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         verticalLayout->setContentsMargins(10, 0, 10, 10);
         scrollAreaResource = new QScrollArea(ResourcesPage);
-        scrollAreaResource->setObjectName(QStringLiteral("scrollAreaResource"));
+        scrollAreaResource->setObjectName(QString::fromUtf8("scrollAreaResource"));
         scrollAreaResource->setWidgetResizable(true);
         charts = new QWidget();
-        charts->setObjectName(QStringLiteral("charts"));
+        charts->setObjectName(QString::fromUtf8("charts"));
         charts->setGeometry(QRect(0, 0, 868, 525));
         QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Expanding);
         sizePolicy.setHorizontalStretch(0);
@@ -50,7 +47,7 @@ public:
         charts->setSizePolicy(sizePolicy);
         chartsLayout = new QVBoxLayout(charts);
         chartsLayout->setSpacing(10);
-        chartsLayout->setObjectName(QStringLiteral("chartsLayout"));
+        chartsLayout->setObjectName(QString::fromUtf8("chartsLayout"));
         chartsLayout->setContentsMargins(10, 5, 10, 5);
         scrollAreaResource->setWidget(charts);
 
@@ -64,7 +61,7 @@ public:
 
     void retranslateUi(QWidget *ResourcesPage)
     {
-        ResourcesPage->setWindowTitle(QApplication::translate("ResourcesPage", "Resources", Q_NULLPTR));
+        ResourcesPage->setWindowTitle(QApplication::translate("ResourcesPage", "Resources", nullptr));
     } // retranslateUi
 
 };

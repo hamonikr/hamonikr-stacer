@@ -400,8 +400,7 @@
        <widget class="QLabel" name="lblAptSourceTitle">
         <property name="font">
          <font>
-          <family>NanumGothic</family>
-          <pointsize>11</pointsize>
+          <pointsize>10</pointsize>
           <italic>false</italic>
          </font>
         </property>

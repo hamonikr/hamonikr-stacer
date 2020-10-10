@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'linebar.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.5
+** Created by: Qt User Interface Compiler version 5.12.8
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,11 +10,8 @@
 #define UI_LINEBAR_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QGridLayout>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QProgressBar>
 #include <QtWidgets/QVBoxLayout>
@@ -36,45 +33,45 @@ public:
     void setupUi(QWidget *LineBar)
     {
         if (LineBar->objectName().isEmpty())
-            LineBar->setObjectName(QStringLiteral("LineBar"));
+            LineBar->setObjectName(QString::fromUtf8("LineBar"));
         LineBar->resize(474, 114);
-        LineBar->setWindowTitle(QStringLiteral(""));
+        LineBar->setWindowTitle(QString::fromUtf8(""));
         verticalLayout_2 = new QVBoxLayout(LineBar);
         verticalLayout_2->setSpacing(0);
-        verticalLayout_2->setObjectName(QStringLiteral("verticalLayout_2"));
+        verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
         verticalLayout_2->setContentsMargins(0, 0, 0, 0);
         lineChartWidget = new QWidget(LineBar);
-        lineChartWidget->setObjectName(QStringLiteral("lineChartWidget"));
+        lineChartWidget->setObjectName(QString::fromUtf8("lineChartWidget"));
         gridLayout_2 = new QGridLayout(lineChartWidget);
-        gridLayout_2->setObjectName(QStringLiteral("gridLayout_2"));
+        gridLayout_2->setObjectName(QString::fromUtf8("gridLayout_2"));
         gridLayout_2->setHorizontalSpacing(0);
         gridLayout_2->setVerticalSpacing(15);
         gridLayout_2->setContentsMargins(25, 15, 25, 15);
         lblLineChartTotal = new QLabel(lineChartWidget);
-        lblLineChartTotal->setObjectName(QStringLiteral("lblLineChartTotal"));
-        lblLineChartTotal->setText(QStringLiteral("Total"));
+        lblLineChartTotal->setObjectName(QString::fromUtf8("lblLineChartTotal"));
+        lblLineChartTotal->setText(QString::fromUtf8("Total"));
 
         gridLayout_2->addWidget(lblLineChartTotal, 3, 0, 1, 1, Qt::AlignLeft|Qt::AlignBottom);
 
         lineChartProgress = new QProgressBar(lineChartWidget);
-        lineChartProgress->setObjectName(QStringLiteral("lineChartProgress"));
+        lineChartProgress->setObjectName(QString::fromUtf8("lineChartProgress"));
         lineChartProgress->setMinimumSize(QSize(0, 20));
         lineChartProgress->setMaximumSize(QSize(16777215, 20));
-        lineChartProgress->setStyleSheet(QStringLiteral(""));
+        lineChartProgress->setStyleSheet(QString::fromUtf8(""));
         lineChartProgress->setValue(0);
         lineChartProgress->setTextVisible(false);
 
         gridLayout_2->addWidget(lineChartProgress, 2, 0, 1, 2, Qt::AlignVCenter);
 
         lblLineChartValue = new QLabel(lineChartWidget);
-        lblLineChartValue->setObjectName(QStringLiteral("lblLineChartValue"));
-        lblLineChartValue->setText(QStringLiteral("Value"));
+        lblLineChartValue->setObjectName(QString::fromUtf8("lblLineChartValue"));
+        lblLineChartValue->setText(QString::fromUtf8("Value"));
 
         gridLayout_2->addWidget(lblLineChartValue, 3, 1, 1, 1, Qt::AlignRight|Qt::AlignBottom);
 
         lblLineChartTitle = new QLabel(lineChartWidget);
-        lblLineChartTitle->setObjectName(QStringLiteral("lblLineChartTitle"));
-        lblLineChartTitle->setText(QStringLiteral("Title"));
+        lblLineChartTitle->setObjectName(QString::fromUtf8("lblLineChartTitle"));
+        lblLineChartTitle->setText(QString::fromUtf8("Title"));
 
         gridLayout_2->addWidget(lblLineChartTitle, 1, 0, 1, 2, Qt::AlignTop);
 
