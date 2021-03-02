@@ -1,3 +1,30 @@
+stacer (1.1.0hamonikr6) stable; urgency=medium
+
+  * bug fix in prerm
+  * update applications/stacer.desktop
+
+ -- HamoniKR <pkg@hamonikr.org>  Tue, 02 Mar 2021 16:52:51 +0900
+
+stacer (1.1.0hamonikr5) stable; urgency=medium
+
+  * bug fix in maintainer postrm script
+   - change to prerm script 
+
+ -- HamoniKR <pkg@hamonikr.org>  Tue, 02 Mar 2021 16:36:46 +0900
+
+stacer (1.1.0hamonikr4) stable; urgency=medium
+
+  * fix error in postrm
+
+ -- HamoniKR <pkg@hamonikr.org>  Tue, 02 Mar 2021 16:27:28 +0900
+
+stacer (1.1.0hamonikr3) jin; urgency=medium
+
+  * rebuild for hamonikr server 2.0
+    - Update translations/stacer_ko.ts
+
+ -- HamoniKR <pkg@hamonikr.org>  Tue, 02 Mar 2021 16:11:59 +0900
+
 stacer (1.1.0hamonikr2) jin; urgency=medium
 
   * rebuild for hamonikr 4.0

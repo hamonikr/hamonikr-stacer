@@ -198,7 +198,7 @@
     <message>
         <location filename="../stacer/app.cpp" line="102"/>
         <source>Continue</source>
-        <translation type="unfinished">계속 실행</translation>
+        <translation type="unfinished">실행</translation>
     </message>
     <message>
         <location filename="../stacer/app.cpp" line="108"/>

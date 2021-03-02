@@ -1,5 +1,5 @@
 #!/bin/bash
-VERSION=1.1.0hamonikr2
+VERSION=1.1.0hamonikr6
 RELEASE=Release
 DIR=stacer-$VERSION
 QTDIR="/usr/lib/x86_64-linux-gnu/qt5"
@@ -38,6 +38,7 @@ if [ "$1" = "deb" ]
 then
     cd $RELEASE/$DIR
     dh_make --createorig -i -c gpl3
-    dpkg-buildpackage
+    # dpkg-buildpackage
+    dpkg-buildpackage --sign-key=9FA298A1E42665B8
     # debuild --no-lintian -us -uc
 fi

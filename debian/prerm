@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [ -f "/usr/bin/stacer" ] ; then
+    unlink /usr/bin/stacer
+fi
+
+exit 0 

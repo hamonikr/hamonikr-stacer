@@ -1,8 +1,0 @@
-#!/bin/sh
-
-if [[ -f "/usr/bin/stacer" ]] ; then
-    unlink /usr/bin/stacer
-fi
-rm -rf /usr/share/stacer
-
-exit 0 

@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Stacer
-Exec=stacer
+Exec=/usr/share/stacer/stacer
 Comment=System Optimizer and Monitoring
 Name[ko]=시스템 관리 도구 Stacer
 Comment[ko]=시스템 최적화 및 서비스 관리

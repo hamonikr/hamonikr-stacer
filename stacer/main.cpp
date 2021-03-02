@@ -55,7 +55,7 @@ int main(int argc, char *argv[])
 
     qApp->setApplicationName("stacer");
     qApp->setApplicationDisplayName("시스템 및 서비스 관리");
-    qApp->setApplicationVersion("1.1.0hamonikr1");
+    qApp->setApplicationVersion("1.1.0hamonikr6");
     qApp->setWindowIcon(QIcon(":/static/logo.png"));
 
     {
