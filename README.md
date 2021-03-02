@@ -1,6 +1,8 @@
 # HamoniKR Stacer
 
-[Stacer] (https://github.com/oguzhaninan/Stacer/) 프로젝트를 하모니카 3.0 에서 사용할 수 있도록 수정해서 배포한 프로그램
+[Stacer] (https://github.com/oguzhaninan/Stacer/) 프로젝트를 하모니카 에서 사용할 수 있도록 수정해서 배포한 프로그램
+
+* 지원 OS : HamoniKR-Server (>= 1.0)
 
 ## 수정사항
 
@@ -14,6 +16,22 @@
 <p align="center">
     <img src="screenshots/stacer.png" width="700">
 </p>
+
+### 소스코드 수정 후 패키지 버전 업그레이드 방법
+
+1. debian/changelog 파일에서 버전과 수정 내용 입력
+2. stacer/main.cpp 파일에서 프로그램 버전 수정
+3. release.sh 파일에서 데비안 패키지 버전 수정
+4. ./release.sh deb 명령으로 빌드 및 deb 패키지 생성
+5. Release 폴더 안에 생성된 deb 파일과 소스 패키지를 이용하여 설치
+
+### 이전 버전에서 패키지 업그레이드를 하는 경우에는 재설치 필요
+패키지 배포 방식이 변경되었으므로 기존에 사용 중이던 stacer 패키지가 있는 경우에는 
+아래처럼 패키지를 제거하고 재 설치해야 함.
+```
+sudo apt purge stacer -y
+sudo apt install stacer -y
+```
 
 # Install 
 
@@ -46,9 +64,10 @@ sudo apt-get install stacer -y
 4. make -j $(nproc)
 5. output/bin/stacer
 
-### Build from APT source Repository (HamoniKR 3.0)
+### Build from APT source Repository (HamoniKR 3.0 이상)
 1. apt source stacer
 2. cd stacer-1.1.0hamonikr1
 3. edit sometings...
 4. sudo apt-get build-dep stacer
 5. dpkg-buildpackage -rfakeroot -uc -b
+
