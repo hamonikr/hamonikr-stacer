@@ -1,3 +1,10 @@
+stacer (1.1.0hamonikr7) stable; urgency=medium
+
+  * bug fix in release.sh (build script)
+  * bug fix stacer Cpu Speed not found stacer-core/info/system_info.cpp
+
+ -- HamoniKR <pkg@hamonikr.org>  Fri, 17 Dec 2021 15:42:51 +0900
+
 stacer (1.1.0hamonikr6) stable; urgency=medium
 
   * bug fix in prerm
