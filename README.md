@@ -40,9 +40,11 @@ sudo apt-get install stacer -y
 
 ### Build from source with CMake (ubuntu 22.04)
 ```
-cd Stacer
 sudo mk-build-deps --install --root-cmd sudo --remove
 sudo apt install -y qtcreator qtbase5-dev qt5-qmake cmake libqt5charts5-dev libqt5svg5-dev qttools5-dev ccache
+sudo add-apt-repository universe
+sudo apt install libfuse2
+
 mkdir build && cd build
 cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=/usr/lib/x86_64-linux-gnu/qt5/bin ..
 make -j $(nproc)
