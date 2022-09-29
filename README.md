@@ -38,6 +38,18 @@ sudo apt-get install stacer -y
 2. Run `sudo dpkg -i stacer*.deb` on the downloaded package.
 3. Launch Stacer using the installed `stacer` command.
 
+### Build from source with CMake (ubuntu 22.04)
+```
+cd Stacer
+sudo mk-build-deps --install --root-cmd sudo --remove
+sudo apt install libqt5charts5-dev libqt5svg5-dev qttools5-dev ccache
+mkdir build && cd build
+cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=/usr/lib/x86_64-linux-gnu/qt5/bin ..
+make -j $(nproc)
+output/bin/stacer
+```
+##
+
 ### Build from source with CMake (HamoniKR 3.0, HamoniKR 4.0)
 
 1. sudo apt install build-essential cmake dh-make qt5-default libqt5charts5-dev libqt5svg5-dev qttools5-dev ccache
