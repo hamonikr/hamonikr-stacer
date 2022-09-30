@@ -8,14 +8,13 @@ QList<Disk*> DiskInfo::getDisks() const
 
 void DiskInfo::updateDiskInfo()
 {
-    qDeleteAll(disks);
     disks.clear();
 
     QList<QStorageInfo> storageInfoList = QStorageInfo::mountedVolumes();
 
     for(const QStorageInfo &info: storageInfoList) {
         if (info.isValid()) {
-            Disk *disk = new Disk();
+            Disk *disk = new Disk;
             disk->name = info.displayName();
             disk->device = info.device();
             disk->size = info.bytesTotal();
@@ -36,11 +35,6 @@ QList<QString> DiskInfo::devices()
     }
 
     return set.toList();
-}
-
-DiskInfo::~DiskInfo()
-{
-    qDeleteAll(disks);
 }
 
 QList<QString> DiskInfo::fileSystemTypes()

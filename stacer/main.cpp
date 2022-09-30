@@ -1,4 +1,3 @@
-
 #include <QApplication>
 #include <QSplashScreen>
 #include <QDebug>
@@ -30,7 +29,7 @@ void messageHandler(QtMsgType type, const QMessageLogContext &context, const QSt
     if (type != QtWarningMsg) {
 
         QString text = QString("[%1] [%2] %3")
-                                .arg(QDateTime::currentDateTime().toString("yyyy-MM-dd hh:mm:ss"))
+                                .arg(QDateTime::currentDateTime().toString("dd-MM-yyyy hh:mm:ss"))
                                 .arg(level)
                                 .arg(message);
 
@@ -54,18 +53,11 @@ int main(int argc, char *argv[])
     QApplication app(argc, argv);
 
     qApp->setApplicationName("stacer");
-    qApp->setApplicationDisplayName("시스템 및 서비스 관리");
-    qApp->setApplicationVersion("1.1.0hamonikr1");
+    qApp->setApplicationDisplayName("Stacer");
+    qApp->setApplicationVersion("1.1.0");
     qApp->setWindowIcon(QIcon(":/static/logo.png"));
 
-    {
-        QCommandLineParser parser;
-        parser.addVersionOption();
-        parser.addHelpOption();
-        parser.process(app);
-    }
-
-    QFontDatabase::addApplicationFont(":/static/font/NanumGothic.ttf");
+    QFontDatabase::addApplicationFont(":/static/font/Ubuntu-R.ttf");
 
     QPixmap pixSplash(":/static/splashscreen.png");
 

@@ -1,3 +1,12 @@
+stacer (1.1.0-hamonikr8) jammy; urgency=medium
+
+  * Release for Ununtu 22.04 
+  * Fixed wrong cpu speed
+  * Rebuild from origin e99485e2
+  * Update Korean translation
+
+ -- HamoniKR <pkg@hamonikr.org>  Fri, 30 Sep 2022 14:05:15 +0900
+
 stacer (1.1.0hamonikr2) jin; urgency=medium
 
   * rebuild for hamonikr 4.0
@@ -5,13 +14,11 @@ stacer (1.1.0hamonikr2) jin; urgency=medium
 
  -- HamoniKR <pkg@hamonikr.org>  Sat, 10 Oct 2020 11:01:55 +0900
 
-stacer (1.1.0hamonikr1) stable; urgency=medium
+stacer (1.1.0-1) stable; urgency=medium
 
-  * removed feedback
-  * removed search page
-  * change link url to hamonikr team
-  * add korean language translation
-  * changed release script
-  * changed default font
+  * Snap package uninstaller.
+  * Advanced file search.
+  * Disk chart.
+  * Host manager.
 
- -- HamoniKR Team <hamonikr-packages@googlegroups.com>  Sat, 22 Aug 2020 12:29:08 +0900
+ -- Oguzhan Inan <oguzhan3488@gmail.com>  Sun, 13 May 2018 00:50:10 +0300

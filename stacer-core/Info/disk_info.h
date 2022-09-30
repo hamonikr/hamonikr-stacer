@@ -20,13 +20,13 @@ public:
     QString getDiskName() const;
     QList<QString> fileSystemTypes();
     QList<QString> devices();
-    ~DiskInfo();
 
 private:
     QList<Disk*> disks;
 };
 
-struct Disk {
+class Disk {
+public:
     QString name;
     QString device;
     QString fileSystemType;

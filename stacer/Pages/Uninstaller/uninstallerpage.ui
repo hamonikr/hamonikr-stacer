@@ -119,6 +119,7 @@
         <widget class="QListWidget" name="listWidgetPackages">
          <property name="font">
           <font>
+           <family>Ubuntu</family>
            <pointsize>10</pointsize>
           </font>
          </property>
@@ -241,6 +242,7 @@
         <widget class="QListWidget" name="listWidgetSnapPackages">
          <property name="font">
           <font>
+           <family>Ubuntu</family>
            <pointsize>10</pointsize>
           </font>
          </property>
@@ -319,7 +321,7 @@
      </property>
      <property name="font">
       <font>
-       <family>NanumGothic</family>
+       <family>Ubuntu</family>
       </font>
      </property>
      <property name="cursor">

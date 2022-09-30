@@ -21,12 +21,12 @@
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="55"/>
         <source>Options</source>
-        <translation type="unfinished">الخيارات</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="71"/>
         <source>Cancel</source>
-        <translation type="unfinished">إلغاء</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="87"/>
@@ -46,17 +46,17 @@
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="133"/>
         <source>Distribution</source>
-        <translation type="unfinished">التوزيعة</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="152"/>
         <source>Source</source>
-        <translation type="unfinished">المصدر</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="177"/>
         <source>Binary</source>
-        <translation type="unfinished">الحزمة</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -69,7 +69,7 @@
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="226"/>
         <source>Edit</source>
-        <translation type="unfinished">تعديل</translation>
+        <translation type="unfinished">تحرير</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="14"/>
@@ -79,7 +79,7 @@
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="125"/>
         <source>Not Found APT Repositories</source>
-        <translation type="unfinished">لم يتم العثور على مستودعات الAPT.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="269"/>
@@ -95,17 +95,17 @@
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="338"/>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="86"/>
         <source>Add Repository</source>
-        <translation type="unfinished">إضافة مستودع</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="371"/>
         <source>Cancel</source>
-        <translation type="unfinished">إلغاء</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="418"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="419"/>
         <source>Select to delete or edit.</source>
-        <translation type="unfinished">حدد للحذف أو التعديل.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="25"/>
@@ -136,12 +136,12 @@
     <message>
         <location filename="../stacer/app.ui" line="101"/>
         <source>Dashboard</source>
-        <translation>لوحة التحكم</translation>
+        <translation>الرئيسية</translation>
     </message>
     <message>
         <location filename="../stacer/app.ui" line="135"/>
         <source>Startup Apps</source>
-        <translation type="unfinished">تطبيقات بدء التشغيل</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/app.ui" line="163"/>
@@ -149,51 +149,61 @@
         <translation>منظف النظام</translation>
     </message>
     <message>
-        <location filename="../stacer/app.ui" line="334"/>
+        <location filename="../stacer/app.ui" line="362"/>
         <source>APT Repository Manager</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/app.ui" line="250"/>
+        <location filename="../stacer/app.ui" line="278"/>
         <source>Uninstaller</source>
         <translation>ملغي التثبيتات</translation>
     </message>
     <message>
-        <location filename="../stacer/app.ui" line="278"/>
+        <location filename="../stacer/app.ui" line="306"/>
         <source>Resources</source>
         <translation>الموارد</translation>
     </message>
     <message>
-        <location filename="../stacer/app.ui" line="222"/>
+        <location filename="../stacer/app.ui" line="250"/>
         <source>Processes</source>
         <translation>العمليات</translation>
     </message>
     <message>
         <location filename="../stacer/app.ui" line="194"/>
-        <source>Services</source>
-        <translation type="unfinished">الخدمات</translation>
+        <source>Search</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/app.ui" line="306"/>
+        <location filename="../stacer/app.ui" line="222"/>
+        <source>Services</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../stacer/app.ui" line="334"/>
         <source>Helpers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/app.ui" line="362"/>
+        <location filename="../stacer/app.ui" line="390"/>
         <source>Gnome Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/app.ui" line="390"/>
+        <location filename="../stacer/app.ui" line="418"/>
         <source>Settings</source>
         <translation>الإعدادات</translation>
+    </message>
+    <message>
+        <location filename="../stacer/app.ui" line="459"/>
+        <source>Feedback</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/app.cpp" line="100"/>
         <location filename="../stacer/app.cpp" line="107"/>
         <location filename="../stacer/app.cpp" line="155"/>
         <source>Quit</source>
-        <translation type="unfinished">خروج</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/app.cpp" line="102"/>
@@ -211,7 +221,7 @@
     <message>
         <location filename="../stacer/Pages/GnomeSettings/appearance_settings.ui" line="44"/>
         <source>Screen Applications</source>
-        <translation type="unfinished">التطبيقات</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/Pages/GnomeSettings/appearance_settings.ui" line="74"/>
@@ -241,7 +251,7 @@
     <message>
         <location filename="../stacer/Pages/GnomeSettings/appearance_settings.ui" line="252"/>
         <source>Icons</source>
-        <translation type="unfinished">الأيقونات</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/Pages/GnomeSettings/appearance_settings.ui" line="282"/>
@@ -271,7 +281,7 @@
     <message>
         <location filename="../stacer/Pages/GnomeSettings/appearance_settings.cpp" line="71"/>
         <source>None</source>
-        <translation type="unfinished">لا شيء</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/Pages/GnomeSettings/appearance_settings.cpp" line="71"/>
@@ -309,7 +319,7 @@
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.ui" line="20"/>
         <source>Dashboard</source>
-        <translation type="unfinished">&gt;لوحة التحكم</translation>
+        <translation type="unfinished">الرئيسية</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.ui" line="156"/>
@@ -327,98 +337,98 @@
         <translation>تنزيل</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="18"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="14"/>
         <source>CPU</source>
         <translation>المعالج</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="19"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="15"/>
         <source>MEMORY</source>
         <translation>الذاكرة</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="20"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="16"/>
         <source>DISK</source>
         <translation>القرص</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="21"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="17"/>
         <source>DOWNLOAD</source>
-        <translation>تحميل</translation>
+        <translation>تنزيل</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="22"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="18"/>
         <source>UPLOAD</source>
         <translation>رفع</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="114"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="111"/>
         <source>Hostname: %1</source>
         <translation>اسم المضيف: %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="115"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="112"/>
         <source>Platform: %1</source>
         <translation>نظام التشغيل: %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="116"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="113"/>
         <source>Distribution: %1</source>
         <translation>التوزيعة: %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="117"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="114"/>
         <source>Kernel Release: %1</source>
         <translation>إصدار النواة: %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="118"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="115"/>
         <source>CPU Model: %1</source>
         <translation>طراز المعالج: %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="120"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="117"/>
         <source>CPU Speed: %1</source>
         <translation>سرعة المعالج: %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="119"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="116"/>
         <source>CPU Core: %1</source>
         <translation>نواة المعالج: %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="138"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="133"/>
         <source>High CPU Usage</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="139"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="134"/>
         <source>The amount of CPU used is over %1%.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="167"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="162"/>
         <source>High Memory Usage</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="168"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="163"/>
         <source>The amount of memory used is over %1%.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="211"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="206"/>
         <source>High Disk Usage</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="212"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="207"/>
         <source>The amount of disk used is over %1%.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="250"/>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="254"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="245"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="249"/>
         <source>Total: %1</source>
         <translation>المجموع: %1</translation>
     </message>
@@ -428,7 +438,7 @@
     <message>
         <location filename="../stacer/feedback.ui" line="14"/>
         <source>Feedback</source>
-        <translation type="unfinished">المراجعة</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/feedback.ui" line="61"/>
@@ -438,12 +448,12 @@
     <message>
         <location filename="../stacer/feedback.ui" line="68"/>
         <source>Email Address</source>
-        <translation type="unfinished">عنوان البريد الإلكتروني</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/feedback.ui" line="97"/>
         <source>Send</source>
-        <translation type="unfinished">إرسال</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/feedback.ui" line="117"/>
@@ -458,38 +468,38 @@
     <message>
         <location filename="../stacer/feedback.ui" line="54"/>
         <source>Message</source>
-        <translation type="unfinished">الرسالة</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/feedback.ui" line="78"/>
         <source>Send a Feedback</source>
-        <translation type="unfinished">إرسال المراجعة</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/feedback.cpp" line="46"/>
         <source>Email address is not valid !</source>
-        <translation type="unfinished"> البريد الإلكتروني غير صالح!</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/feedback.cpp" line="51"/>
         <source>Your message must be at least 5 characters !</source>
-        <translation type="unfinished">يجب أن تتكون رسالتك من 25 حرفًا على الأقل! {5 ?}</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/feedback.cpp" line="61"/>
         <source>Sending..</source>
-        <translation type="unfinished">إرسال..</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/feedback.cpp" line="79"/>
         <source>&lt;font color=&apos;#2ecc71&apos;&gt;Your Feedback has been successfully sended.&lt;/font&gt;</source>
-        <translation type="unfinished">&lt;font color=&apos;#2ecc71&apos;&gt;تم إرسال مراجعتك بنجاح.&lt;/font&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/feedback.cpp" line="81"/>
         <location filename="../stacer/feedback.cpp" line="86"/>
         <source>Something went wrong, try again !</source>
-        <translation type="unfinished">حدث خطأ ما حاول مرة أخرى !</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/feedback.cpp" line="89"/>
@@ -499,7 +509,7 @@
     <message>
         <location filename="../stacer/feedback.cpp" line="94"/>
         <source>Fields cannot be left blank !</source>
-        <translation type="unfinished">الحقول لا يمكن تركها فارغة !</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -590,7 +600,7 @@
     <message>
         <location filename="../stacer/Pages/Helpers/host_manage.ui" line="192"/>
         <source>Cancel</source>
-        <translation type="unfinished">إلغاء</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="24"/>
@@ -611,7 +621,7 @@
     <message>
         <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="135"/>
         <source>Edit</source>
-        <translation type="unfinished">تعديل</translation>
+        <translation type="unfinished">تحرير</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="139"/>
@@ -703,12 +713,12 @@
         <translation>العملية</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="118"/>
+        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="116"/>
         <source>Processes (%1)</source>
         <translation>عمليات (%1)</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="209"/>
+        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="207"/>
         <source>Refresh (%1)</source>
         <translation>إنعاش (%1)</translation>
     </message>
@@ -718,7 +728,7 @@
     <message>
         <location filename="../stacer/Managers/setting_manager.cpp" line="61"/>
         <source>Dashboard</source>
-        <translation type="unfinished">لوحة التحكم</translation>
+        <translation type="unfinished">الرئيسية</translation>
     </message>
 </context>
 <context>
@@ -775,7 +785,7 @@
     </message>
     <message>
         <location filename="../stacer/Pages/Resources/resources_page.cpp" line="257"/>
-        <source>%1 Minute Average: %2</source>
+        <source>%1 Minute Avarage: %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -975,93 +985,93 @@
         <translation type="unfinished">حذف</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="122"/>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="125"/>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="133"/>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="142"/>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="120"/>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="123"/>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="131"/>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="140"/>
         <source>Choose</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="128"/>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="126"/>
         <source>All</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="129"/>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="127"/>
         <source>File</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="130"/>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="128"/>
         <source>Directory</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="131"/>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="129"/>
         <source>Symbolic Link</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="134"/>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="132"/>
         <source>Access</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="135"/>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="133"/>
         <source>Modify</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="136"/>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="134"/>
         <source>Change</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="136"/>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="141"/>
+        <source>Smaller (&lt;)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="137"/>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="142"/>
+        <source>Equal (=)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Search/search_page.cpp" line="138"/>
         <location filename="../stacer/Pages/Search/search_page.cpp" line="143"/>
-        <source>Smaller (&lt;)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="139"/>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="144"/>
-        <source>Equal (=)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="140"/>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="145"/>
         <source>Greater (&gt;)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="155"/>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="153"/>
         <source>Select Directory</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="161"/>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="159"/>
         <source>Directory: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="170"/>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="168"/>
         <source>Advanced Search %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="183"/>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="181"/>
         <source>Select the search directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="281"/>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="279"/>
         <source>Somethings went wrong, try again.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="297"/>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="295"/>
         <source>%1 files found. Showing %2 of them.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1071,20 +1081,20 @@
     <message>
         <location filename="../stacer/Pages/Services/services_page.ui" line="14"/>
         <source>Services</source>
-        <translation type="unfinished">الخدمات</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.ui" line="135"/>
+        <location filename="../stacer/Pages/Services/services_page.ui" line="137"/>
         <source>Startup at boot ?</source>
         <translation>بدء التشغيل عند الإقلاع ؟</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.ui" line="187"/>
+        <location filename="../stacer/Pages/Services/services_page.ui" line="190"/>
         <source>Running Now ?</source>
         <translation>جاري التشغيل الآن ؟</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.ui" line="241"/>
+        <location filename="../stacer/Pages/Services/services_page.ui" line="244"/>
         <source>Not Found System Service</source>
         <translation>خدمة نظام غير موجودة</translation>
     </message>
@@ -1177,14 +1187,19 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../stacer/Pages/Settings/settings_page.ui" line="267"/>
+        <source>Donate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../stacer/Pages/Settings/settings_page.cpp" line="82"/>
         <source>Dashboard</source>
-        <translation type="unfinished">لوحة التحكم</translation>
+        <translation type="unfinished">الرئيسية</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.cpp" line="82"/>
         <source>Startup Apps</source>
-        <translation type="unfinished">تطبيقات بدء التشغيل</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.cpp" line="82"/>
@@ -1199,7 +1214,7 @@
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
         <source>Services</source>
-        <translation type="unfinished">الخدمات</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.cpp" line="83"/>
@@ -1278,7 +1293,7 @@
     <message>
         <location filename="../stacer/Pages/StartupApps/startup_apps_page.ui" line="14"/>
         <source>Startup Apps</source>
-        <translation type="unfinished">تطبيقات بدء التشغيل</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/Pages/StartupApps/startup_apps_page.ui" line="101"/>
@@ -1286,7 +1301,7 @@
         <translation>إضافة تطبيق بدء التشغيل</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/StartupApps/startup_apps_page.ui" line="200"/>
+        <location filename="../stacer/Pages/StartupApps/startup_apps_page.ui" line="201"/>
         <source>Not Found Startup Apps</source>
         <translation>لا توجد تطبيقات بدء التشغيل</translation>
     </message>
@@ -1335,51 +1350,33 @@
     </message>
     <message>
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="493"/>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="638"/>
+        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="694"/>
         <source>Select All</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="574"/>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="635"/>
-        <source>circle</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="651"/>
+        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="552"/>
         <source> Back</source>
         <translation> للخلف</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="759"/>
-        <source>Sort by: </source>
+        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="651"/>
+        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="691"/>
+        <source>circle</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="773"/>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="782"/>
-        <source>Name</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="33"/>
+        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="32"/>
         <source>File Name</source>
         <translation>اسم الملف</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="181"/>
-        <source>Total size: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="791"/>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="800"/>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="33"/>
+        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="32"/>
         <source>Size</source>
         <translation>الحجم</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="294"/>
+        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="283"/>
         <source>%1 size files cleaned.</source>
         <translation>%1 حجم الملفات التي تم تنظيفها.</translation>
     </message>
@@ -1387,13 +1384,13 @@
 <context>
     <name>UninstallerPage</name>
     <message>
-        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="338"/>
+        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="340"/>
         <source>Uninstall Selected</source>
         <translation>إلغاء تثبيت المحدّد</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="108"/>
-        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="230"/>
+        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="231"/>
         <source>Not Found Installed Packages</source>
         <translation>لا توجد حزم مثبتة</translation>
     </message>
@@ -1404,22 +1401,22 @@
     </message>
     <message>
         <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="78"/>
-        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="200"/>
+        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="201"/>
         <source>notFoundWidget</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="369"/>
+        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="371"/>
         <source>System Packages</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="391"/>
+        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="393"/>
         <source>Snap Packages</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="440"/>
+        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="442"/>
         <source>Search...</source>
         <translation>بحث...</translation>
     </message>
@@ -1622,7 +1619,7 @@
     <message>
         <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="971"/>
         <source>Show my name</source>
-        <translation type="unfinished">أظهر إسمي</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1760,7 +1757,7 @@
     <message>
         <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="82"/>
         <source>None</source>
-        <translation type="unfinished">لا شيء</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="82"/>

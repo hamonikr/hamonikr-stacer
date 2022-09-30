@@ -323,7 +323,7 @@ QHeaderView::down-arrow {
 *******************/
 
 QMainWindow * {
-    font-family: "NanumGothic";
+    font-family: "Ubuntu";
 }
 
 QLineEdit,

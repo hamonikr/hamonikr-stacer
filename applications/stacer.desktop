@@ -1,11 +1,13 @@
 [Desktop Entry]
 Name=Stacer
-Exec=stacer
-Comment=System Optimizer and Monitoring
 Name[ko]=시스템 관리 도구 Stacer
-Comment[ko]=시스템 최적화 및 서비스 관리
+Exec=stacer
+Comment=Linux System Optimizer and Monitoring
+Comment[ko]=시스템 모니터링 및 서비스 관리
 Icon=stacer
 Type=Application
 Terminal=false
+Encoding=UTF-8
 Categories=Utility;
-Keywords=stacer;system;시스템;서비스;service
+Keywords=stacer;system;service;
+Keywords[ko]=stacer;system;시스템;서비스;service;

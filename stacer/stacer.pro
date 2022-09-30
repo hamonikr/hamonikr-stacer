@@ -22,7 +22,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    main.cpp \
+        main.cpp \
     app.cpp \
     Pages/Dashboard/circlebar.cpp \
     Pages/Dashboard/linebar.cpp \
@@ -35,7 +35,6 @@ SOURCES += \
     Managers/info_manager.cpp \
     Pages/Resources/history_chart.cpp \
     Pages/SystemCleaner/system_cleaner_page.cpp \
-    Pages/SystemCleaner/byte_tree_widget.cpp \
     Pages/Uninstaller/uninstaller_page.cpp \
     Pages/Services/services_page.cpp \
     Pages/Resources/resources_page.cpp \
@@ -70,7 +69,6 @@ HEADERS += \
     Managers/info_manager.h \
     Pages/Resources/history_chart.h \
     Pages/SystemCleaner/system_cleaner_page.h \
-    Pages/SystemCleaner/byte_tree_widget.h \
     Pages/Uninstaller/uninstaller_page.h \
     Pages/Resources/resources_page.h \
     Pages/Processes/processes_page.h \
@@ -128,17 +126,15 @@ TRANSLATIONS += \
     ../translations/stacer_en.ts \
     ../translations/stacer_es.ts \
     ../translations/stacer_fr.ts \
-    ../translations/stacer_gl.ts \    
     ../translations/stacer_hi.ts \
     ../translations/stacer_it.ts \
     ../translations/stacer_kn.ts \
-    ../translations/stacer_ko.ts \    
+    ../translations/stacer_ko.ts \
     ../translations/stacer_ml.ts \
     ../translations/stacer_nl.ts \
     ../translations/stacer_oc.ts \
     ../translations/stacer_pl.ts \
     ../translations/stacer_pt.ts \
-    ../translations/stacer_ro.ts \    
     ../translations/stacer_ru.ts \
     ../translations/stacer_sv.ts \
     ../translations/stacer_tr.ts \

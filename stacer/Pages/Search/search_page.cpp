@@ -94,17 +94,15 @@ void SearchPage::loadTableRowMenu()
 void SearchPage::loadHeaderMenu()
 {
     int i = 0;
-    QList<QAction*> actionList;
-    actionList.reserve(mTableHeaders.size());
-
     for (const QString &header : mTableHeaders) {
-        QAction *action = new QAction(header,&mHeaderMenu);
+        QAction *action = new QAction(header);
         action->setCheckable(true);
         action->setChecked(true);
         action->setData(i++);
-        actionList.push_back(action);
+
+        mHeaderMenu.addAction(action);
     }
-    mHeaderMenu.addActions(actionList);
+
     // exclude headers
     QList<int> hiddenHeaders = { 4, 6, 7, 8 };
 
@@ -335,9 +333,9 @@ QList<QStandardItem*> SearchPage::createRow(const QString &filepath)
     i_lastModify->setData(fileInfo->lastModified().toString(mSearchResultDateFormat), rowRole);
     i_lastModify->setData(fileInfo->lastModified().toString(mSearchResultDateFormat), Qt::ToolTipRole);
 
-    QStandardItem *i_lastChange = new QStandardItem(fileInfo->lastModified().toString(mSearchResultDateFormat));
-    i_lastChange->setData(fileInfo->lastModified().toString(mSearchResultDateFormat), rowRole);
-    i_lastChange->setData(fileInfo->lastModified().toString(mSearchResultDateFormat), Qt::ToolTipRole);
+    QStandardItem *i_lastChange = new QStandardItem(fileInfo->metadataChangeTime().toString(mSearchResultDateFormat));
+    i_lastChange->setData(fileInfo->metadataChangeTime().toString(mSearchResultDateFormat), rowRole);
+    i_lastChange->setData(fileInfo->metadataChangeTime().toString(mSearchResultDateFormat), Qt::ToolTipRole);
 
     delete fileInfo;
 

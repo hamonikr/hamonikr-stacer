@@ -82,7 +82,7 @@
         </property>
         <property name="font">
          <font>
-          <family>NanumGothic</family>
+          <family>Ubuntu</family>
          </font>
         </property>
         <property name="cursor">
@@ -106,7 +106,8 @@
        <widget class="QLabel" name="lblStartupAppsTitle">
         <property name="font">
          <font>
-          <pointsize>10</pointsize>
+          <family>Ubuntu</family>
+          <pointsize>11</pointsize>
           <italic>false</italic>
          </font>
         </property>
