@@ -10,7 +10,7 @@
 #define PROC_LOADAVG "/proc/loadavg"
 #define PROC_STAT    "/proc/stat"
 #define LSCPU_COMMAND "LANG=nl_NL.UTF-8 lscpu"
-#define CPU_SPEED_COMMAND "LANG=nl_NL.UTF-8 journalctl --boot | grep 'kernel: tsc: Detected' -i | awk '{print $8}'"
+#define CPU_SPEED_COMMAND "LANG=nl_NL.UTF-8 journalctl --boot | grep 'kernel: tsc: Detected' -i | awk '{print $8}' | tail -1"
 #define CPU_CORE_COUNT "LANG=nl_NL.UTF-8 lscpu | grep -E '^Core' | awk '{print $4}'"
 #define CPU_THREAD_COUNT "LANG=nl_NL.UTF-8 lscpu | grep -E '^CPU\\(' | awk '{print $2}'"
 
