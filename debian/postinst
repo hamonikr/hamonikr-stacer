@@ -3,4 +3,6 @@
 # Copyright HamoniKR Team. All rights reserved.
 # See LICENSE.md in the project root for license information.
 
-ln -sf "/usr/share/stacer" "/usr/bin/stacer"
+if [ -f /usr/share/stacer/stacer ] ; then
+    ln -sf /usr/share/stacer/stacer /usr/bin/stacer
+fi
