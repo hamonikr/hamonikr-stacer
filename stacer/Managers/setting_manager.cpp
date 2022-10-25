@@ -28,7 +28,7 @@ void SettingManager::setLanguage(const QString &value)
 
 QString SettingManager::getLanguage() const
 {
-    return mSettings->value(SettingKeys::Language, "en").toString();
+    return mSettings->value(SettingKeys::Language, "ko").toString();
 }
 
 void SettingManager::setThemeName(const QString &value)

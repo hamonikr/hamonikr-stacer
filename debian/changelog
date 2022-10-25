@@ -1,3 +1,9 @@
+stacer (1.1.0-99hamonikr3) taebaek; urgency=medium
+
+  * First boot default language is Korean
+
+ -- HamoniKR <pkg@hamonikr.org>  Tue, 25 Oct 2022 11:17:00 +0900
+
 stacer (1.1.0-99hamonikr2) taebaek; urgency=medium
 
   * Changed desktop file
