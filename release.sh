@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo apt install -y qtcreator qtbase5-dev qt5-qmake cmake libqt5charts5-dev libqt5svg5-dev qttools5-dev ccache libfuse2
 
 VERSION=1.1.0
 RELEASE=Release
@@ -27,7 +28,7 @@ fi
 
 chmod +x lqt
 unset QTDIR; unset QT_PLUGIN_PATH; unset LD_LIBRARY_PATH
-./lqt $RELEASE/$DIR/stacer/stacer -bundle-non-qt-libs -no-translations -unsupported-allow-new-glibc
+./lqt $RELEASE/$DIR/stacer/stacer -bundle-non-qt-libs -no-translations  -unsupported-allow-new-glibc
 # rm lqt 
 
 # if [ $1 = "deb" ]; then

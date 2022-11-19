@@ -50,6 +50,7 @@ void messageHandler(QtMsgType type, const QMessageLogContext &context, const QSt
 
 int main(int argc, char *argv[])
 {
+    qputenv("QT_ENABLE_HIGHDPI_SCALING", QByteArray("1"));
     QApplication app(argc, argv);
 
     qApp->setApplicationName("stacer");

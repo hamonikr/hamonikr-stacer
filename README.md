@@ -72,4 +72,9 @@ make -j $(nproc)
 output/stacer
 ```
 
+## Build debian package
+```
+./release.sh deb
+```
+
 보다 자세한 내용은 [빌드하기 문서](docs/BUILD)를 참고하세요.

@@ -1,3 +1,10 @@
+stacer (1.1.0-99hamonikr4) taebaek; urgency=medium
+
+  * Add scale setting
+   - https://github.com/oguzhaninan/Stacer/pull/418/files
+
+ -- HamoniKR <pkg@hamonikr.org>  Sat, 19 Nov 2022 17:57:09 +0900
+
 stacer (1.1.0-99hamonikr3) taebaek; urgency=medium
 
   * First boot default language is Korean
