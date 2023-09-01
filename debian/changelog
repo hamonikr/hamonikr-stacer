@@ -1,3 +1,10 @@
+stacer (1.1.0+z1hamonikr) stable; urgency=medium
+
+  * Changed version for Ubuntu env
+   - Make high apt-cache policy priority
+
+ -- HamoniKR <pkg@hamonikr.org>  Fri, 01 Sep 2023 14:15:24 +0900
+
 stacer (1.1.0-99hamonikr4) taebaek; urgency=medium
 
   * Add scale setting
