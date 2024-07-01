@@ -4,7 +4,6 @@ project(stacer)
 
 set(MANAGERS_DIR  "${CMAKE_CURRENT_SOURCE_DIR}/Managers")
 set(PAGES_DIR     "${CMAKE_CURRENT_SOURCE_DIR}/Pages")
-set(CMAKE_PREFIX_PATH "/usr/lib/x86_64-linux-gnu/cmake/Qt5" ${CMAKE_PREFIX_PATH})
 
 include_directories(
   "${PROJECT_ROOT}/stacer-core"
