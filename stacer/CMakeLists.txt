@@ -1,9 +1,10 @@
 
-cmake_minimum_required(VERSION 3.1 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
 project(stacer)
 
 set(MANAGERS_DIR  "${CMAKE_CURRENT_SOURCE_DIR}/Managers")
 set(PAGES_DIR     "${CMAKE_CURRENT_SOURCE_DIR}/Pages")
+set(CMAKE_PREFIX_PATH "/usr/lib/x86_64-linux-gnu/cmake/Qt5" ${CMAKE_PREFIX_PATH})
 
 include_directories(
   "${PROJECT_ROOT}/stacer-core"
@@ -43,9 +44,11 @@ target_link_libraries(${PROJECT_NAME}
 )
 
 # Running LTO in Release builds, if the C++ compiler is GNU GCC
-if("${CMAKE_BUILD_TYPE}" STREQUAL "Release"  AND  "${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU")
-  target_compile_options(${PROJECT_NAME}  PRIVATE  "-flto")
-  list(APPEND CMAKE_EXE_LINKER_FLAGS "-flto")
+if("${CMAKE_BUILD_TYPE}" STREQUAL "Release" AND "${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU")
+  target_compile_options(${PROJECT_NAME} PRIVATE "-flto")
+  set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -flto -Wl,-z,relro")
+else()
+  set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-z,relro")
 endif()
 
 install(
