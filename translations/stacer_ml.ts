@@ -199,19 +199,19 @@
         <translation>പ്രതികരണം</translation>
     </message>
     <message>
-        <location filename="../stacer/app.cpp" line="100"/>
-        <location filename="../stacer/app.cpp" line="107"/>
-        <location filename="../stacer/app.cpp" line="155"/>
+        <location filename="../stacer/app.cpp" line="103"/>
+        <location filename="../stacer/app.cpp" line="110"/>
+        <location filename="../stacer/app.cpp" line="158"/>
         <source>Quit</source>
         <translation>പുറത്ത് കടക്കുക</translation>
     </message>
     <message>
-        <location filename="../stacer/app.cpp" line="102"/>
+        <location filename="../stacer/app.cpp" line="105"/>
         <source>Continue</source>
         <translation>തുടരുക</translation>
     </message>
     <message>
-        <location filename="../stacer/app.cpp" line="108"/>
+        <location filename="../stacer/app.cpp" line="111"/>
         <source>Will the program continue to work in the system tray?</source>
         <translation>സിസ്റ്റം ട്രേയിൽ പ്രോഗ്രാം തുടർന്നും പ്രവർത്തിക്കണോ?</translation>
     </message>
