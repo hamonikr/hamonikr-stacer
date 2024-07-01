@@ -3,6 +3,7 @@ Section: utils
 Priority: optional
 Maintainer: Oguzhan INAN <oguzhan3488@gmail.com>
 Build-Depends: debhelper (>=9),
+               ccache,
                libqt5charts5-dev,
                qt5-qmake,
                qttools5-dev,
@@ -18,6 +19,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends},
          libqt5core5a, 
          libqt5gui5, 
          libqt5charts5, 
-         libqt5svg5
+         libqt5svg5,
+         libfuse2 | libfuse2t64
 Recommends: systemd, curl
 Description: Linux System Optimizer and Monitoring

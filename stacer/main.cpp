@@ -63,7 +63,7 @@ int main(int argc, char *argv[])
     qApp->setApplicationVersion("1.1.0");
     qApp->setWindowIcon(QIcon(":/static/logo.png"));
 
-    QFontDatabase::addApplicationFont(":/static/font/Ubuntu-R.ttf");
+    QFontDatabase::addApplicationFont(":/static/font/Pretendard-Regular.ttf");
 
     QPixmap pixSplash(":/static/splashscreen.png");
 

@@ -110,7 +110,7 @@ QMenu::indicator:non-exclusive:checked {
 
 QRadioButton {
     color: @color12;
-    font-size: 11pt;
+    font-size: 10pt;
 }
 
 QRadioButton::indicator {
@@ -235,7 +235,7 @@ QComboBox {
     border-radius: 2;
     background-color: @color01;
     padding: 4 0 4 10;
-    font-size: 11pt;
+    font-size: 10pt;
     color: @color05;
     min-width: 100;
 }
@@ -270,7 +270,7 @@ QComboBox QAbstractItemView {
 ***************/
 
 QGroupBox::title {
-    font-size: 11pt;
+    font-size: 10pt;
     font-weight: bold;
     color: @color06;
 }
@@ -289,7 +289,7 @@ QTableView {
 }
 
 QTableView::item {
-    font-size: 11pt;
+    font-size: 10pt;
     color: @color05;
     padding: 6 0 6 -10;
     background-color: @color01;
@@ -304,7 +304,7 @@ QHeaderView::section {
     border-width: 1 1 1 0;
     border-style: solid;
     border-color: @color08;
-    font-size: 11pt;
+    font-size: 10pt;
     color: @color16;
     padding-left:10;
 }
@@ -322,7 +322,7 @@ QHeaderView::down-arrow {
 *******************/
 
 QMainWindow * {
-    font-family: "Ubuntu";
+    font-family: "Pretendard";
 }
 
 QLineEdit,
@@ -337,7 +337,7 @@ QSpinBox {
 
 QPushButton {
     border-radius: 2;
-    font-size: 11pt;
+    font-size: 10pt;
 }
 
 QPushButton[accessibleName="danger"] {
@@ -362,7 +362,7 @@ QPushButton[accessibleName="primary"]:hover {
 
 QLabel[accessibleName="dialog-title"] {
     color: @color06;
-    font-size: 11pt;
+    font-size: 10pt;
     padding-bottom: 8;
     border: 0;
     border-bottom: 1 solid @color06;
@@ -477,7 +477,7 @@ QLabel[accessibleName="dialog-title"] {
 #lblCircleChartTitle,
 #lblCircleChartValue {
     color: @color05;
-    font-size: 13pt;
+    font-size: 11pt;
     margin: 0;
 }
 
@@ -490,17 +490,17 @@ QLabel[accessibleName="dialog-title"] {
 
 #lblLineChartTitle {
     color: @color05;
-    font-size: 13pt;
+    font-size: 11pt;
 }
 
 #lblLineChartValue {
     color: @color05;
-    font-size: 13pt;
+    font-size: 11pt;
 }
 
 #lblLineChartTotal {
     color: @color06;
-    font-size: 11pt;
+    font-size: 10pt;
 }
 
 #lineChartProgress {
@@ -517,14 +517,14 @@ QLabel[accessibleName="dialog-title"] {
 
 #lblSystemInfoTitle {
     color: @color05;
-    font-size: 13pt;
+    font-size: 11pt;
     padding-left: 5;
 }
 
 #listViewSystemInfo {
     border: 0;
     background-color: transparent;
-    font-size: 12pt;
+    font-size: 10pt;
     color: @color06;
 }
 
@@ -539,7 +539,7 @@ QLabel[accessibleName="dialog-title"] {
 
 #cleanerCategories QLabel,
 #checkSelectAllSystemScan {
-    font-size: 11pt;
+    font-size: 10pt;
     color: @color05;
 }
 
@@ -569,7 +569,7 @@ QLabel[accessibleName="dialog-title"] {
 
 #btnBackToCategories {
     border: 0;
-    font-size: 11pt;
+    font-size: 10pt;
     color: @color03;
 }
 
@@ -586,7 +586,7 @@ QLabel[accessibleName="dialog-title"] {
 #treeWidgetScanResult::item {
     border-bottom: 1 solid @color14;
     padding: 7 3;
-    font-size: 11pt;
+    font-size: 10pt;
     color: @color11;
 }
 
@@ -622,7 +622,7 @@ QLabel[accessibleName="dialog-title"] {
 }
 
 #lblRemovedTotalSize {
-    font-size: 11pt;
+    font-size: 10pt;
     color: @color15;
 }
 
@@ -654,7 +654,7 @@ QLabel[accessibleName="dialog-title"] {
 }
 
 #widgetStartupApp #lblStartupAppName {
-    font-size: 11pt;
+    font-size: 10pt;
     color: @color05;
 }
 
@@ -688,7 +688,7 @@ QLabel[accessibleName="dialog-title"] {
 }
 
 #lblServicesTitle {
-    font-size: 11pt;
+    font-size: 10pt;
     color: @color11;
     padding: 10 0;
 }
@@ -709,7 +709,7 @@ QLabel[accessibleName="dialog-title"] {
 }
 
 #ServiceItem #lblServiceName {
-    font-size: 11pt;
+    font-size: 10pt;
     color: @color05;
 }
 
@@ -733,7 +733,7 @@ QLabel[accessibleName="dialog-title"] {
 #lblProcessTitle {
     color: @color11;
     padding: 10 0;
-    font-size: 11pt;
+    font-size: 10pt;
 }
 
 #checkAllProcesses {
@@ -785,7 +785,7 @@ QLabel[accessibleName="dialog-title"] {
 #lblPackagesTitle {
     color: @color11;
     padding: 10 0;
-    font-size: 11pt;
+    font-size: 10pt;
 }
 
 #txtPackageSearch,
@@ -800,7 +800,7 @@ QLabel[accessibleName="dialog-title"] {
 #listWidgetPackages, #listWidgetSnapPackages {
     border: 0;
     background-color: transparent;
-    font-size: 11pt;
+    font-size: 10pt;
 }
 
 #listWidgetPackages::indicator, #listWidgetSnapPackages::indicator {
@@ -845,7 +845,7 @@ QLabel[accessibleName="dialog-title"] {
 }
 
 #lblHistoryTitle {
-    font-size: 11pt;
+    font-size: 10pt;
     margin: 6 0 10 0;
     color: @color12;
 }
@@ -868,7 +868,7 @@ QLabel[accessibleName="dialog-title"] {
 ****************/
 
 #SettingsPage QLabel {
-    font-size: 11pt;
+    font-size: 10pt;
     color: @color12;
 }
 
@@ -946,7 +946,7 @@ QLabel[accessibleName="dialog-title"] {
 }
 
 #lblAptSourceName {
-    font-size: 11pt;
+    font-size: 10pt;
     color: @color05;
 }
 
@@ -964,7 +964,7 @@ QLabel[accessibleName="dialog-title"] {
     GNOME SETTINGS PAGE
 ***************************/
 #GnomeSettingsPage QLabel {
-    font-size: 11pt;
+    font-size: 10pt;
     color: @color12;
 }
 
@@ -982,7 +982,7 @@ QLabel[accessibleName="dialog-title"] {
 }
 
 #GnomeSettingsPage QLabel[accessibleName="title"] {
-    font-size: 11pt;
+    font-size: 10pt;
     font-weight: bold;
     color: @color06;
     border: 0;
@@ -993,7 +993,7 @@ QLabel[accessibleName="dialog-title"] {
 #GnomeSettingsPage QPushButton {
     border-radius: 3;
     padding: 7 25;
-    font-size: 11pt;
+    font-size: 10pt;
     background-color: @circleChartBackgroundColor;
     color: @color07;
 }
@@ -1066,7 +1066,7 @@ SEARCH
 }
 
 #lblHostTitle {
-    font-size: 11pt;
+    font-size: 10pt;
     color: @color12;
 }
 
