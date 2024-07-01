@@ -2,6 +2,11 @@
 #include <QSplashScreen>
 #include <QDebug>
 #include <QFontDatabase>
+#include <QStandardPaths>
+#include <QDateTime>
+#include <QFile>
+#include <QTextStream>
+#include <QScreen>
 
 #include "app.h"
 
@@ -23,7 +28,7 @@ void messageHandler(QtMsgType type, const QMessageLogContext &context, const QSt
     case QtFatalMsg:
         level = "FATAL"; break;
     default:
-        level = "UNDEFIEND"; break;
+        level = "UNDEFINED"; break;
     }
 
     if (type != QtWarningMsg) {
@@ -41,7 +46,7 @@ void messageHandler(QtMsgType type, const QMessageLogContext &context, const QSt
 
         if (file.open(QIODevice::WriteOnly | openMode)) {
             QTextStream stream(&file);
-            stream << text << endl;
+            stream << text << Qt::endl;  // Use Qt::endl instead of endl
 
             file.close();
         }

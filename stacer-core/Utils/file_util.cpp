@@ -1,4 +1,5 @@
 #include "file_util.h"
+#include <QtCore/QtGlobal>
 
 FileUtil::FileUtil()
 {
@@ -35,7 +36,7 @@ bool FileUtil::writeFile(const QString &path, const QString &content, const QIOD
     if(file.open(mode))
     {
         QTextStream stream(&file);
-        stream << content.toUtf8() << endl;
+        stream << content.toUtf8() << Qt::endl;
 
         file.close();
 
@@ -80,5 +81,3 @@ quint64 FileUtil::getFileSize(const QString &path)
 
     return totalSize;
 }
-
-

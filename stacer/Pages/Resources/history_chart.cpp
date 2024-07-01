@@ -22,7 +22,8 @@ HistoryChart::HistoryChart(const QString &title, const int &seriesCount, QCatego
         mAxisY = categoriAxisY;
         mAxisY->setLabelsPosition(QCategoryAxis::AxisLabelsPositionOnValue);
         for (int i = 0; i < seriesCount; ++i) {
-            mChart->setAxisY(mAxisY, mSeriesList.at(i));
+            mChart->addAxis(mAxisY, Qt::AlignLeft);
+            mSeriesList.at(i)->attachAxis(mAxisY);
         }
     }
 }
@@ -53,8 +54,13 @@ void HistoryChart::init()
     // Chart Settings
     mChart->createDefaultAxes();
 
-    mChart->axisX()->setRange(0, 60);
-    mChart->axisX()->setReverse(true);
+    QValueAxis *axisX = new QValueAxis;
+    axisX->setRange(0, 60);
+    axisX->setReverse(true);
+    mChart->addAxis(axisX, Qt::AlignBottom);
+    for (int i = 0; i < mSeriesList.count(); ++i) {
+        mSeriesList.at(i)->attachAxis(axisX);
+    }
 
     mChart->setContentsMargins(-11, -11, -11, -11);
     mChart->setMargins(QMargins(20, 0, 10, 10));
@@ -66,11 +72,11 @@ void HistoryChart::init()
         QString chartGridColor = AppManager::ins()->getStyleValues()->value("@chartGridColor").toString();
         QString historyChartBackground = AppManager::ins()->getStyleValues()->value("@historyChartBackgroundColor").toString();
 
-        mChart->axisX()->setLabelsColor(chartLabelColor);
-        mChart->axisX()->setGridLineColor(chartGridColor);
+        axisX->setLabelsColor(chartLabelColor);
+        axisX->setGridLineColor(chartGridColor);
 
-        mChart->axisY()->setLabelsColor(chartLabelColor);
-        mChart->axisY()->setGridLineColor(chartGridColor);
+        mAxisY->setLabelsColor(chartLabelColor);
+        mAxisY->setGridLineColor(chartGridColor);
 
         mChart->setBackgroundBrush(QColor(historyChartBackground));
         mChart->legend()->setLabelColor(chartLabelColor);
@@ -79,7 +85,7 @@ void HistoryChart::init()
 
 void HistoryChart::setYMax(const int &value)
 {
-    mChart->axisY()->setRange(0, value);
+    mAxisY->setRange(0, value);
 }
 
 QCategoryAxis *HistoryChart::getAxisY()

@@ -3,6 +3,8 @@
 #include "utilities.h"
 #include <QDebug>
 #include <QStyle>
+#include <QGuiApplication>
+#include <QScreen>
 
 StartupAppEdit::~StartupAppEdit()
 {
@@ -29,9 +31,10 @@ StartupAppEdit::StartupAppEdit(QWidget *parent) :
 
 void StartupAppEdit::init()
 {
+    QRect availableGeometry = QGuiApplication::primaryScreen()->availableGeometry();
     setGeometry(
         QStyle::alignedRect(Qt::LeftToRight, Qt::AlignCenter,
-            size(), qApp->desktop()->availableGeometry())
+            size(), availableGeometry)
     );
 
     mAutostartPath = QStandardPaths::writableLocation(QStandardPaths::ConfigLocation) + "/autostart";
