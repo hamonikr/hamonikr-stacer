@@ -2,13 +2,24 @@ Source: stacer
 Section: utils
 Priority: optional
 Maintainer: Oguzhan INAN <oguzhan3488@gmail.com>
-Build-Depends: debhelper (>=9)
+Build-Depends: debhelper (>=9),
+               ccache,
+               libqt5charts5-dev,
+               qt5-qmake,
+               qttools5-dev,
+               qttools5-dev-tools
 Standards-Version: 3.9.6
 Homepage: https://github.com/oguzhaninan/Stacer
 Vcs-Browser: https://github.com/oguzhaninan/Stacer.git
 
 Package: stacer
-Architecture: all
-Depends: ${misc:Depends}
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+         libqt5widgets5, 
+         libqt5core5a, 
+         libqt5gui5, 
+         libqt5charts5, 
+         libqt5svg5,
+         libfuse2 | libfuse2t64
 Recommends: systemd, curl
 Description: Linux System Optimizer and Monitoring

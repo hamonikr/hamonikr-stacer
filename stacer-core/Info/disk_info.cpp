@@ -34,7 +34,7 @@ QList<QString> DiskInfo::devices()
         if (info.isValid()) set.insert(info.device());
     }
 
-    return set.toList();
+    return set.values();
 }
 
 QList<QString> DiskInfo::fileSystemTypes()
@@ -44,7 +44,7 @@ QList<QString> DiskInfo::fileSystemTypes()
         if (info.isValid()) set.insert(info.fileSystemType());
     }
 
-    return set.toList();
+    return set.values();
 }
 
 QList<quint64> DiskInfo::getDiskIO() const

@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-# 
-# Copyright HamoniKR Team. All rights reserved.
-# See LICENSE.md in the project root for license information.
-
-if [ -f /usr/share/stacer/stacer ] ; then
-    ln -sf /usr/share/stacer/stacer /usr/bin/stacer
-fi

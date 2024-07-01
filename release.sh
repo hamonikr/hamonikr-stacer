@@ -22,13 +22,13 @@ mkdir $RELEASE/$DIR/stacer/translations
 mv translations/*.qm $RELEASE/$DIR/stacer/translations
 
 # linuxdeployqt
-if [ ! -f "lqt" ] ; then
-    wget -cO lqt "https://github.com/probonopd/linuxdeployqt/releases/download/continuous/linuxdeployqt-continuous-x86_64.AppImage"
-fi
+# if [ ! -f "lqt" ] ; then
+#     wget -cO lqt "https://github.com/probonopd/linuxdeployqt/releases/download/continuous/linuxdeployqt-continuous-x86_64.AppImage"
+# fi
 
-chmod +x lqt
-unset QTDIR; unset QT_PLUGIN_PATH; unset LD_LIBRARY_PATH
-./lqt $RELEASE/$DIR/stacer/stacer -bundle-non-qt-libs -no-translations  -unsupported-allow-new-glibc
+# chmod +x lqt
+# unset QTDIR; unset QT_PLUGIN_PATH; unset LD_LIBRARY_PATH
+# ./lqt $RELEASE/$DIR/stacer/stacer -bundle-non-qt-libs -no-translations  -unsupported-allow-new-glibc
 # rm lqt 
 
 # if [ $1 = "deb" ]; then
@@ -40,6 +40,6 @@ if [ "$1" = "deb" ]
 then
     cd $RELEASE/$DIR
     dh_make --createorig -i -c gpl3
-    dpkg-buildpackage -k9FA298A1E42665B8
+    dpkg-buildpackage -k9EFBD28CA3E3ACE510C591F09FA298A1E42665B8
     # debuild --no-lintian -us -uc
 fi
