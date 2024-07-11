@@ -1,3 +1,10 @@
+stacer (1.1.1+hamonikr2) stable; urgency=medium
+
+  * Release for bookworm arm64
+   - No change
+
+ -- HamoniKR <pkg@hamonikr.org>  Fri, 12 Jul 2024 02:36:17 +0900
+
 stacer (1.1.1+hamonikr1) stable; urgency=medium
 
   * Release for ubuntu 24.04
