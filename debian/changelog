@@ -1,7 +1,7 @@
-hamonikr-stacer (1.1.1hamonikr1) noble; urgency=high
+hamonikr-stacer (1.2.0) noble; urgency=high
 
   * Release on HamoniKR 8
-   - Merge from noble version source
+   - Merge from noble repo with upstream 1.1.0 version 
    - Fix translation problem
    - Adjust font size
    - Fix CPU Speed 
