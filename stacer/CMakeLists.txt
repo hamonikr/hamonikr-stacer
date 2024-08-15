@@ -1,4 +1,5 @@
-cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
+
+cmake_minimum_required(VERSION 3.1 FATAL_ERROR)
 project(stacer)
 
 set(MANAGERS_DIR  "${CMAKE_CURRENT_SOURCE_DIR}/Managers")
@@ -47,6 +48,7 @@ set(CMAKE_AUTORCC ON)
 add_executable(${PROJECT_NAME}
   ${${PROJECT_NAME}_srcs}
   "${CMAKE_CURRENT_SOURCE_DIR}/static.qrc"
+  ${QM_FILES}
 )
 
 add_dependencies(${PROJECT_NAME} translations)
@@ -66,7 +68,7 @@ endif()
 install(
   TARGETS  ${PROJECT_NAME}
   CONFIGURATIONS Release RelWithDebInfo MinSizeRel # Not allowing to install an unoptimized build
-  RUNTIME  DESTINATION  share/stacer
+  RUNTIME  DESTINATION  bin
 )
 
 install(

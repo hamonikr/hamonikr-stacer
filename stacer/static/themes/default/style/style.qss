@@ -524,7 +524,7 @@ QLabel[accessibleName="dialog-title"] {
 #listViewSystemInfo {
     border: 0;
     background-color: transparent;
-    font-size: 10pt;
+    font-size: 11pt;
     color: @color06;
 }
 

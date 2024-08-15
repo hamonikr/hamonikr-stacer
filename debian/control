@@ -1,25 +1,21 @@
-Source: stacer
+Source: hamonikr-stacer
 Section: utils
 Priority: optional
-Maintainer: Oguzhan INAN <oguzhan3488@gmail.com>
-Build-Depends: debhelper (>=9),
-               ccache,
-               libqt5charts5-dev,
-               qt5-qmake,
-               qttools5-dev,
-               qttools5-dev-tools
-Standards-Version: 3.9.6
-Homepage: https://github.com/oguzhaninan/Stacer
-Vcs-Browser: https://github.com/oguzhaninan/Stacer.git
+Maintainer: Kevin Kim <chaeya@gmail.com>
+XSBC-Original-Maintainer: Kevin Kim <chaeya@gmail.com>
+Build-Depends: debhelper-compat (= 13), cmake, libqt5charts5-dev, libqt5svg5-dev, qttools5-dev, fonts-league-spartan
+Standards-Version: 4.6.0
+Rules-Requires-Root: no
+Vcs-Browser: https://github.com/hamonikr/hamonikr-stacer
+Vcs-Git: https://github.com/hamonikr/hamonikr-stacer.git
+Homepage: https://github.com/hamonikr/hamonikr-stacer
 
-Package: stacer
+Package: hamonikr-stacer
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, 
-         libqt5widgets5, 
-         libqt5core5a, 
-         libqt5gui5, 
-         libqt5charts5, 
-         libqt5svg5,
-         libfuse2 | libfuse2t64
-Recommends: systemd, curl
-Description: Linux System Optimizer and Monitoring
+Depends: ${shlibs:Depends}, ${misc:Depends}, fonts-league-spartan
+Replaces: stacer
+Conflicts: stacer
+Description: Linux system optimizer and monitoring
+ Monitor your system (CPU, memory, disk) in a graphical application (qt).
+ Change and monitor your services. Summarizes basic system information and
+ can show network download/upload speeds/totals.

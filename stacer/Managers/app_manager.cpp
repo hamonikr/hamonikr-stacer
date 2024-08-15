@@ -22,9 +22,28 @@ AppManager::AppManager()
 
 //    loadThemeList();
 
-    if (mTranslator.load(QString("stacer_%1").arg(mSettingManager->getLanguage()), qApp->applicationDirPath() + "/translations")) {
+    // 디버깅: 현재 언어 및 번역 파일 경로 출력
+    QString language = mSettingManager->getLanguage();
+    QString translationFilePath = "/usr/share/stacer/translations";
+    // qDebug() << "Current Language:" << language;
+    // qDebug() << "Translation File Path:" << translationFilePath;
+
+    // 번역 파일 로드 여부 확인
+    if (mTranslator.load(QString("stacer_%1").arg(language), translationFilePath)) {
         qApp->installTranslator(&mTranslator);
-        (mSettingManager->getLanguage() == "ar") ? qApp->setLayoutDirection(Qt::RightToLeft) : qApp->setLayoutDirection(Qt::LeftToRight);
+        // qDebug() << "Translation file loaded successfully.";
+
+        // 언어에 따른 레이아웃 방향 설정
+        if (language == "ar") {
+            qApp->setLayoutDirection(Qt::RightToLeft);
+            // qDebug() << "Layout direction set to RightToLeft.";
+        } else {
+            qApp->setLayoutDirection(Qt::LeftToRight);
+            // qDebug() << "Layout direction set to LeftToRight.";
+        }
+    } else {
+        // 번역 파일 로드 실패 시 에러 메시지 출력
+        qDebug() << "Failed to load translation file for language:" << language;
     }
 }
 

@@ -1,3 +1,4 @@
-stacer/* usr/share/stacer/
+obj-*-*/output/stacer usr/bin
 applications/* usr/share/applications/
 icons/* usr/share/icons/
+translations/*.qm usr/share/stacer/translations/

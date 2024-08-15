@@ -1,64 +1,11 @@
-stacer (1.1.1+hamonikr1) stable; urgency=medium
+hamonikr-stacer (1.1.1hamonikr1) noble; urgency=high
 
-  * Release for ubuntu 24.04
+  * Release on HamoniKR 8
+   - Merge from noble version source
+   - Fix translation problem
+   - Adjust font size
+   - Fix CPU Speed 
+   - Add Korean language
+   - Update desktop file for HamoniKR OS
 
- -- HamoniKR <pkg@hamonikr.org>  Mon, 01 Jul 2024 14:09:13 +0900
-
-stacer (1.1.0+z1hamonikr) stable; urgency=medium
-
-  * Changed version for Ubuntu env
-   - Make high apt-cache policy priority
-
- -- HamoniKR <pkg@hamonikr.org>  Fri, 01 Sep 2023 14:15:24 +0900
-
-stacer (1.1.0-99hamonikr4) taebaek; urgency=medium
-
-  * Add scale setting
-   - https://github.com/oguzhaninan/Stacer/pull/418/files
-
- -- HamoniKR <pkg@hamonikr.org>  Sat, 19 Nov 2022 17:57:09 +0900
-
-stacer (1.1.0-99hamonikr3) taebaek; urgency=medium
-
-  * First boot default language is Korean
-
- -- HamoniKR <pkg@hamonikr.org>  Tue, 25 Oct 2022 11:17:00 +0900
-
-stacer (1.1.0-99hamonikr2) taebaek; urgency=medium
-
-  * Changed desktop file
-   - Update Korean name
-
- -- HamoniKR <pkg@hamonikr.org>  Sun, 23 Oct 2022 18:57:07 +0900
-
-stacer (1.1.0-99hamonikr1) taebaek; urgency=medium
-
-  * Release for HamoniKR 6.0
-   - Fixed wrong link
-
- -- HamoniKR <pkg@hamonikr.org>  Fri, 07 Oct 2022 14:04:37 +0900
- 
-stacer (1.1.0-hamonikr8) jammy; urgency=medium
-
-  * Release for Ununtu 22.04 
-  * Fixed wrong cpu speed
-  * Rebuild from origin e99485e2
-  * Update Korean translation
-
- -- HamoniKR <pkg@hamonikr.org>  Fri, 30 Sep 2022 14:05:15 +0900
-
-stacer (1.1.0hamonikr2) jin; urgency=medium
-
-  * rebuild for hamonikr 4.0
-  * changed stacer.desktop file
-
- -- HamoniKR <pkg@hamonikr.org>  Sat, 10 Oct 2020 11:01:55 +0900
-
-stacer (1.1.0-1) stable; urgency=medium
-
-  * Snap package uninstaller.
-  * Advanced file search.
-  * Disk chart.
-  * Host manager.
-
- -- Oguzhan Inan <oguzhan3488@gmail.com>  Sun, 13 May 2018 00:50:10 +0300
+ -- HamoniKR <pkg@hamonikr.org>  Thu, 15 Aug 2024 13:19:10 +0900

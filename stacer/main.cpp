@@ -2,11 +2,6 @@
 #include <QSplashScreen>
 #include <QDebug>
 #include <QFontDatabase>
-#include <QStandardPaths>
-#include <QDateTime>
-#include <QFile>
-#include <QTextStream>
-#include <QScreen>
 
 #include "app.h"
 
@@ -46,7 +41,7 @@ void messageHandler(QtMsgType type, const QMessageLogContext &context, const QSt
 
         if (file.open(QIODevice::WriteOnly | openMode)) {
             QTextStream stream(&file);
-            stream << text << Qt::endl;  // Use Qt::endl instead of endl
+            stream << text << endl;
 
             file.close();
         }
@@ -63,7 +58,7 @@ int main(int argc, char *argv[])
     qApp->setApplicationVersion("1.1.0");
     qApp->setWindowIcon(QIcon(":/static/logo.png"));
 
-    QFontDatabase::addApplicationFont(":/static/font/Pretendard-Regular.ttf");
+    QFontDatabase::addApplicationFont(":/static/font/Ubuntu-R.ttf");
 
     QPixmap pixSplash(":/static/splashscreen.png");
 

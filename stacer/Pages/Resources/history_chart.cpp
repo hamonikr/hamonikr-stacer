@@ -21,9 +21,8 @@ HistoryChart::HistoryChart(const QString &title, const int &seriesCount, QCatego
     if (categoriAxisY) {
         mAxisY = categoriAxisY;
         mAxisY->setLabelsPosition(QCategoryAxis::AxisLabelsPositionOnValue);
-        mChart->addAxis(mAxisY, Qt::AlignLeft);
         for (int i = 0; i < seriesCount; ++i) {
-            mSeriesList.at(i)->attachAxis(mAxisY);
+            mChart->setAxisY(mAxisY, mSeriesList.at(i));
         }
     }
 }
@@ -52,14 +51,10 @@ void HistoryChart::init()
     }
 
     // Chart Settings
-    QValueAxis *axisX = new QValueAxis;
-    axisX->setRange(0, 60);
-    axisX->setReverse(true);
-    mChart->addAxis(axisX, Qt::AlignBottom);
+    mChart->createDefaultAxes();
 
-    for (int i = 0; i < mSeriesCount; ++i) {
-        mSeriesList.at(i)->attachAxis(axisX);
-    }
+    mChart->axisX()->setRange(0, 60);
+    mChart->axisX()->setReverse(true);
 
     mChart->setContentsMargins(-11, -11, -11, -11);
     mChart->setMargins(QMargins(20, 0, 10, 10));
@@ -71,13 +66,11 @@ void HistoryChart::init()
         QString chartGridColor = AppManager::ins()->getStyleValues()->value("@chartGridColor").toString();
         QString historyChartBackground = AppManager::ins()->getStyleValues()->value("@historyChartBackgroundColor").toString();
 
-        axisX->setLabelsColor(chartLabelColor);
-        axisX->setGridLineColor(chartGridColor);
+        mChart->axisX()->setLabelsColor(chartLabelColor);
+        mChart->axisX()->setGridLineColor(chartGridColor);
 
-        if (mAxisY) {
-            mAxisY->setLabelsColor(chartLabelColor);
-            mAxisY->setGridLineColor(chartGridColor);
-        }
+        mChart->axisY()->setLabelsColor(chartLabelColor);
+        mChart->axisY()->setGridLineColor(chartGridColor);
 
         mChart->setBackgroundBrush(QColor(historyChartBackground));
         mChart->legend()->setLabelColor(chartLabelColor);
@@ -86,9 +79,7 @@ void HistoryChart::init()
 
 void HistoryChart::setYMax(const int &value)
 {
-    if (mAxisY) {
-        mAxisY->setRange(0, value);
-    }
+    mChart->axisY()->setRange(0, value);
 }
 
 QCategoryAxis *HistoryChart::getAxisY()
@@ -99,12 +90,12 @@ QCategoryAxis *HistoryChart::getAxisY()
 void HistoryChart::setCategoryAxisYLabels()
 {
     if (mAxisY) {
-        for (const QString &label : mAxisY->categoriesLabels()) {
+        for (const QString &label : mAxisY->categoriesLabels()){
             mAxisY->remove(label);
         }
 
         for (int i = 1; i < 5; ++i) {
-            mAxisY->append(FormatUtil::formatBytes((mAxisY->max() / 4) * i), (mAxisY->max() / 4) * i);
+            mAxisY->append(FormatUtil::formatBytes((mAxisY->max()/4)*i), (mAxisY->max()/4)*i);
         }
     }
 }
@@ -128,7 +119,7 @@ void HistoryChart::on_checkHistoryTitle_clicked(bool checked)
     QLayout *charts = topLevelWidget()->findChild<QWidget*>("charts")->layout();
 
     for (int i = 0; i < charts->count(); ++i) {
-        charts->itemAt(i)->widget()->setVisible(!checked);
+        charts->itemAt(i)->widget()->setVisible(! checked);
     }
 
     show();

@@ -199,19 +199,19 @@
         <translation>Comentaris</translation>
     </message>
     <message>
-        <location filename="../stacer/app.cpp" line="103"/>
-        <location filename="../stacer/app.cpp" line="110"/>
-        <location filename="../stacer/app.cpp" line="158"/>
+        <location filename="../stacer/app.cpp" line="100"/>
+        <location filename="../stacer/app.cpp" line="107"/>
+        <location filename="../stacer/app.cpp" line="155"/>
         <source>Quit</source>
         <translation>Surt</translation>
     </message>
     <message>
-        <location filename="../stacer/app.cpp" line="105"/>
+        <location filename="../stacer/app.cpp" line="102"/>
         <source>Continue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/app.cpp" line="111"/>
+        <location filename="../stacer/app.cpp" line="108"/>
         <source>Will the program continue to work in the system tray?</source>
         <translation type="unfinished"></translation>
     </message>

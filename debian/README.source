@@ -1,0 +1,9 @@
+stacer for Debian
+-----------------
+
+Repackaged dropping debian/
+
+stacer/static/font/Ubuntu-R.ttf: Replaced non-free Ubuntu font with something free.
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Fri, 06 Dec 2019 08:03:45 +0100
+

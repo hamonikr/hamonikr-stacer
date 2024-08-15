@@ -7,15 +7,9 @@ SystemInfo::SystemInfo()
     QString unknown(QObject::tr("Unknown"));
     QString model = nullptr;
     QString speed = nullptr;
-    QString cpuspeed_tsc = nullptr;
-    QString cpu_core_count = nullptr;
-    QString cpu_thread_count = nullptr;
-    
+
     try{
         QStringList lines = CommandUtil::exec("bash",{"-c", LSCPU_COMMAND}).split('\n');  //run command in English language (guaratee same behaviour across languages)
-        // CPU Speed from kernel log with tsc
-        //  ref : https://stackoverflow.com/questions/51919219/determine-tsc-frequency-on-linux
-        QString cpuspeed_tsc = CommandUtil::exec("bash",{"-c", CPU_SPEED_COMMAND});
 
         QRegExp regexp("\\s+");
         QString space(" ");
@@ -29,22 +23,16 @@ SystemInfo::SystemInfo()
             // fallback to CPU MHz
             filterSpeed = lines.filter(QRegExp("^CPU MHz"));
             speedLine = filterSpeed.isEmpty() ? speedLine : filterSpeed.first();
+        } else {
+            speedLine = filterSpeed.isEmpty() ? speedLine : filterSpeed.first();
         }
 
         model = modelLine.split(":").last();
         speed = speedLine.split(":").last();
 
         model = model.contains('@') ? model.split("@").first() : model; // intel : AMD
+        speed = QString::number(speed.toDouble()/1000.0) + "GHz";
 
-        if (cpuspeed_tsc.isEmpty()) 
-        {
-            speed = QString::number(speed.toDouble()/1000.0) + " GHz";
-        }
-        else 
-        {
-            speed = QString::number(cpuspeed_tsc.toDouble()/1000.0, 'f', 2) + " GHz";            
-        }
-        
         this->cpuModel = model.trimmed().replace(regexp, space);
         this->cpuSpeed = speed.trimmed().replace(regexp, space);
     } catch(QString &ex) {
@@ -53,19 +41,8 @@ SystemInfo::SystemInfo()
     }
 
     CpuInfo ci;
-    // Get real cpu core info from lscpu
-    cpu_core_count = CommandUtil::exec("bash",{"-c", CPU_CORE_COUNT});    
-    cpu_thread_count = CommandUtil::exec("bash",{"-c", CPU_THREAD_COUNT});
+    this->cpuCore = QString::number(ci.getCpuCoreCount());
 
-    if (! cpu_thread_count.isEmpty()) 
-    {
-        this->cpuCore = cpu_core_count + " (" + cpu_thread_count + " Thread)";
-    } 
-    else 
-    {
-        this->cpuCore = QString::number(ci.getCpuCoreCount());
-    }
-    
     // get username
     QString name = qgetenv("USER");
 

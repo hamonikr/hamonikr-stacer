@@ -3,8 +3,6 @@
 #include "utilities.h"
 #include <QStyle>
 #include <QDebug>
-#include <QGuiApplication>
-#include <QScreen>
 
 App::~App()
 {
@@ -25,10 +23,9 @@ App::App(QWidget *parent) :
 
 void App::init()
 {
-    QRect availableGeometry = QGuiApplication::primaryScreen()->availableGeometry();
     setGeometry(
         QStyle::alignedRect(Qt::LeftToRight, Qt::AlignCenter,
-            size(), availableGeometry)
+            size(), qApp->desktop()->availableGeometry())
     );
 
     // form settings

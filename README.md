@@ -1,8 +1,8 @@
-![ubuntu-jammy](https://img.shields.io/badge/ubuntu-22.04-red)
-![hamonikr-hanla](https://img.shields.io/badge/hamonikr-hanla-purple)
-![hamonikr-taebaek](https://img.shields.io/badge/hamonikr-taeback-green)
+![ubuntu](https://img.shields.io/badge/ubuntu->=22.04-red)
+![hamonikr](https://img.shields.io/badge/hamonikr->=5.0-purple)
 
-우분투 기반 시스템의 모니터링 및 시스템 관리를 할 수 있는 프로그램 입니다.
+
+시스템의 모니터링 및 시스템 서비스를 관리를 할 수 있는 프로그램 입니다.
 
 [업스트림 프로젝트](https://github.com/oguzhaninan/Stacer)를 포크하여 하모니카OS 환경에서 사용할 수 있도록 배포하고 있습니다.
 
@@ -28,22 +28,8 @@
 ```
 wget -qO- https://repo.hamonikr.org/hamonikr-app.apt | sudo -E bash -
 
-sudo apt install stacer=1.1.0-hamonikr8  
+sudo apt install hamonikr-stacer
 ```
-
-만약 다른 저장소(universe)에 있는 stacer 가 우선 순위가 높아서, 설치되지 않는 경우에는 다음과 같이 설치해주세요.
-```
-sudo apt install stacer=1.1.0-hamonikr8  
-```
-
-
-다른 환경에서 사용을 원하시면 아래 정보를 참고하세요.
-
-### Fedora x64
-
-1. Download `stacer_1.1.0_amd64.rpm` from the [Stacer releases page](https://github.com/oguzhaninan/Stacer/releases).
-2. Run `sudo rpm --install stacer*.rpm --nodeps --force` on the downloaded package.
-3. Launch Stacer using the installed `stacer` command.
 
 
 ## Screenshots
@@ -52,10 +38,7 @@ sudo apt install stacer=1.1.0-hamonikr8
 ![stacer-2](docs/stacer2.png)
 ![stacer-3](docs/stacer3.png)
 ![stacer-4](docs/stacer4.png)
-![stacer-5](docs/stacer5.png)
-![stacer-6](docs/stacer6.png)
-![stacer-7](docs/stacer7.png)
-![stacer-8](docs/stacer8.png)
+
 
 ## Build from source
 

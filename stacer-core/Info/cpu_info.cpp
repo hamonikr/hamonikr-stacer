@@ -9,7 +9,6 @@ quint8 CpuInfo::getCpuCoreCount() const
 
         if (! cpuinfo.isEmpty())
             count = cpuinfo.filter(QRegExp("^processor")).count();
-
     }
 
     return count;
